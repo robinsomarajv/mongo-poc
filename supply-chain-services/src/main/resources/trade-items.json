@@ -21,6 +21,18 @@
   "totalQuantityOfNextLowerLevelTradeItem":72,
   "palletTiQty":12,
   "palletHiQty":6,
-  "parent": [],
-  "children" : []
+  "parent": [{
+    "tradeItemGtin": "97350053850043",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  }],
+  "children" : [{
+    "tradeItemGtin": "64052009890521",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  }]
 }]
