@@ -1,0 +1,2495 @@
+{
+	"attributes": {
+		"Required": {
+			"isConsumableInd": {
+				"metadata": {
+					"id": "isConsumableInd",
+					"name": "Is Consumable",
+					"label": "Consumable",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isConsumableInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"false"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemDescription": {
+				"metadata": {
+					"id": "tradeItemDescription",
+					"name": "Trade Item Description",
+					"label": "Trade Item Description",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 200,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "tradeItemDescription",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": []
+				},
+				"errors": null
+			},
+			"batteryTypeCode": {
+				"metadata": {
+					"id": "batteryTypeCode",
+					"name": "Battery Type",
+					"label": "Battery Technology Type",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "select",
+					"type": null,
+					"attributeKey": "batteryTypeCode",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "1",
+							"value": "1 - does not contain a battery"
+						},
+						{
+							"id": "2",
+							"value": "2 - alkaline"
+						},
+						{
+							"id": "3",
+							"value": "3 - carbon zinc"
+						},
+						{
+							"id": "4",
+							"value": "4 - lead acid"
+						},
+						{
+							"id": "5",
+							"value": "5 - lead \nacid (non-spillable)"
+						},
+						{
+							"id": "6",
+							"value": "6 - lithium primary"
+						},
+						{
+							"id": "7",
+							"value": "7 - lithium \nion"
+						},
+						{
+							"id": "8",
+							"value": "8 - magnesium"
+						},
+						{
+							"id": "9",
+							"value": "9 - mercury"
+						},
+						{
+							"id": "10",
+							"value": "10 - nickel cadmium"
+						},
+						{
+							"id": "11",
+							"value": "11 - nickel metal \nhydride"
+						},
+						{
+							"id": "12",
+							"value": "12 - silver"
+						},
+						{
+							"id": "13",
+							"value": "13 - thermal"
+						},
+						{
+							"id": "14",
+							"value": "14 - other"
+						},
+						{
+							"id": "15",
+							"value": "15 - multiple types"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"1"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemWeightUomCode": {
+				"metadata": {
+					"id": "tradeItemWeightUomCode",
+					"name": "Trade Item Weight Uom",
+					"label": "Weight UOM",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "tradeItemWeightUomCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"crushFactorCode": {
+				"metadata": {
+					"id": "crushFactorCode",
+					"name": "Crush Factor Code",
+					"label": "Crush Factor",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "select",
+					"type": null,
+					"attributeKey": "crushFactorCode",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "1",
+							"value": "1 - Strongest"
+						},
+						{
+							"id": "2",
+							"value": "2 - Less Strong"
+						},
+						{
+							"id": "3",
+							"value": "3 - Least Strong"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemWeightQty": {
+				"metadata": {
+					"id": "tradeItemWeightQty",
+					"name": "Trade Item Weight",
+					"label": "Weight",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 15,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "tradeItemWeightQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 4,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"recipientGln": {
+				"metadata": {
+					"id": "recipientGln",
+					"name": "Recipient GLN",
+					"label": "Recipient GLN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 13,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "recipientGln",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"0078742000008"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemDimensionsUomCode": {
+				"metadata": {
+					"id": "tradeItemDimensionsUomCode",
+					"name": "Trade Item Dimensions Uom",
+					"label": "Dimension UOM",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "tradeItemDimensionsUomCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"IN"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemPackTypeCode": {
+				"metadata": {
+					"id": "tradeItemPackTypeCode",
+					"name": "Trade Item Pack Type",
+					"label": "Pack Type",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": 2,
+					"maxLength": 2,
+					"field": "select",
+					"type": null,
+					"attributeKey": "tradeItemPackTypeCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "PL",
+							"value": "PL - Pallet"
+						},
+						{
+							"id": "CA",
+							"value": "CA - Case"
+						},
+						{
+							"id": "EA",
+							"value": "EA - Each"
+						},
+						{
+							"id": "DS",
+							"value": "DS - Display Shipper"
+						},
+						{
+							"id": "PK",
+							"value": "PK - Package"
+						},
+						{
+							"id": "MX",
+							"value": "MX - Mixed Module"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"CA"
+					]
+				},
+				"errors": null
+			},
+			"informationProviderId": {
+				"metadata": {
+					"id": "informationProviderId",
+					"name": "Information Provider ID",
+					"label": "Information Provider ID",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 25,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "informationProviderId",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"409003"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemCubeQty": {
+				"metadata": {
+					"id": "tradeItemCubeQty",
+					"name": "Trade Item Cube",
+					"label": "Cube",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 12,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "tradeItemCubeQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 3,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemGtin": {
+				"metadata": {
+					"id": "tradeItemGtin",
+					"name": "Trade Item GTIN",
+					"label": "GTIN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 14,
+					"field": "select",
+					"type": null,
+					"attributeKey": "tradeItemGtin",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"00000456123759"
+					]
+				},
+				"errors": null
+			},
+			"isConveyableInd": {
+				"metadata": {
+					"id": "isConveyableInd",
+					"name": "Is Conveyable",
+					"label": "Conveyable",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isConveyableInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"true"
+					]
+				},
+				"errors": null
+			},
+			"informationProviderTypeCode": {
+				"metadata": {
+					"id": "informationProviderTypeCode",
+					"name": "Information Provider Type",
+					"label": "Information Provider Type",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 25,
+					"field": "select",
+					"type": null,
+					"attributeKey": "informationProviderTypeCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "GLN",
+							"value": "GLN - GLOBAL LOCATION NUMBER"
+						},
+						{
+							"id": "SUPPLIER_NUMBER",
+							"value": "SUPPLIER_NUMBER - SUPPLIER NUMBER"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"SUPPLIER_NUMBER"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemDimensionsWidthQty": {
+				"metadata": {
+					"id": "tradeItemDimensionsWidthQty",
+					"name": "Trade Item Dimensions Width",
+					"label": "Width",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 12,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "tradeItemDimensionsWidthQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 3,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"4.205"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemDimensionsDepthQty": {
+				"metadata": {
+					"id": "tradeItemDimensionsDepthQty",
+					"name": "Trade Item Dimensions Depth",
+					"label": "Depth",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 12,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "tradeItemDimensionsDepthQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 3,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"4.205"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemDimensionsHeightQty": {
+				"metadata": {
+					"id": "tradeItemDimensionsHeightQty",
+					"name": "Trade Item Dimensions Height",
+					"label": "Height",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 12,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "tradeItemDimensionsHeightQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 3,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"4.205"
+					]
+				},
+				"errors": null
+			},
+			"isOrderableInd": {
+				"metadata": {
+					"id": "isOrderableInd",
+					"name": "Is Orderable",
+					"label": "Orderable",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isOrderableInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"true"
+					]
+				},
+				"errors": null
+			},
+			"targetMarketCode": {
+				"metadata": {
+					"id": "targetMarketCode",
+					"name": "Target Market Code",
+					"label": "Target Market",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "targetMarketCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"US"
+					]
+				},
+				"errors": null
+			},
+			"tradeItemCubeUomCode": {
+				"metadata": {
+					"id": "tradeItemCubeUomCode",
+					"name": "Trade Item Cube Uom",
+					"label": "Cube UOM",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "tradeItemCubeUomCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemWeightFormatTypeCode": {
+				"metadata": {
+					"id": "tradeItemWeightFormatTypeCode",
+					"name": "Trade Item Weight Format Type",
+					"label": "Orderable Weight Format",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 1,
+					"field": "select",
+					"type": null,
+					"attributeKey": "tradeItemWeightFormatTypeCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "F",
+							"value": "F - Fixed"
+						},
+						{
+							"id": "V",
+							"value": "V - Variable"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"compositeWoodCertificationCode": {
+				"metadata": {
+					"id": "compositeWoodCertificationCode",
+					"name": "Composite Wood Certification Code",
+					"label": "Composite Wood Level",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "select",
+					"type": null,
+					"attributeKey": "compositeWoodCertificationCode",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "1",
+							"value": "1 - Does Not Contain Composite Wood"
+						},
+						{
+							"id": "7",
+							"value": "7 - Not CARB Compliant - Can't Be Sold in CA"
+						},
+						{
+							"id": "8",
+							"value": "8 - CARB Compliant - Can Be Sold in CA"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"1"
+					]
+				},
+				"errors": null
+			},
+			"GTIN": {
+				"metadata": {
+					"id": "GTIN",
+					"name": "GTIN",
+					"label": "GTIN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 14,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "GTIN",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemGtinFormatCode": {
+				"metadata": {
+					"id": "tradeItemGtinFormatCode",
+					"name": "Trade Item GTIN Format",
+					"label": "GTIN Format",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": 6,
+					"maxLength": 7,
+					"field": "select",
+					"type": null,
+					"attributeKey": "tradeItemGtinFormatCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"totalQuantityOfNextLowerLevelTradeItem": {
+				"metadata": {
+					"id": "totalQuantityOfNextLowerLevelTradeItem",
+					"name": "Quantity of Next Lower Level",
+					"label": "Quantity of Next Lower Level",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "select",
+					"type": null,
+					"attributeKey": "totalQuantityOfNextLowerLevelTradeItem",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": true,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			}
+		},
+		"Optional": {
+			"tradeItemDiscontinuedDate": {
+				"metadata": {
+					"id": "tradeItemDiscontinuedDate",
+					"name": "Trade Item Discontinued Date",
+					"label": "Discontinue Date",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "date",
+					"type": null,
+					"attributeKey": "tradeItemDiscontinuedDate",
+					"attributeDataType": "Date",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"gtinNbr": {
+				"metadata": {
+					"id": "gtinNbr",
+					"name": "GTIN Number",
+					"label": "Trade Item GTIN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 14,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "gtinNbr",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"isCatchWeightInd": {
+				"metadata": {
+					"id": "isCatchWeightInd",
+					"name": "Is Catch Weight",
+					"label": "Catch Weight",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isCatchWeightInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"specialItemCode": {
+				"metadata": {
+					"id": "specialItemCode",
+					"name": "Special Item Code",
+					"label": "Special item code",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 50,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "specialItemCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"supplierFirstShippableDate": {
+				"metadata": {
+					"id": "supplierFirstShippableDate",
+					"name": "Supplier First Shippable Date",
+					"label": "First Ship Date",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "date",
+					"type": null,
+					"attributeKey": "supplierFirstShippableDate",
+					"attributeDataType": "Date",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"primaryDistributorId": {
+				"metadata": {
+					"id": "primaryDistributorId",
+					"name": "Primary Distributor ID",
+					"label": "Primary Distributor ID",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 38,
+					"field": "select",
+					"type": null,
+					"attributeKey": "primaryDistributorId",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"9719"
+					]
+				},
+				"errors": null
+			},
+			"msdsInd": {
+				"metadata": {
+					"id": "msdsInd",
+					"name": "Material Safety Data Sheet Indicator",
+					"label": "SDS",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "msdsInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"qualityControlTypeCode": {
+				"metadata": {
+					"id": "qualityControlTypeCode",
+					"name": "Quality Control Type",
+					"label": "Quality Control Hold",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "select",
+					"type": null,
+					"attributeKey": "qualityControlTypeCode",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "1",
+							"value": "1 - Safety Hazard"
+						},
+						{
+							"id": "2",
+							"value": "2 - Quality / Poor Production"
+						},
+						{
+							"id": "3",
+							"value": "3 - Not as Orderable"
+						},
+						{
+							"id": "4",
+							"value": "4 - Passed Quality"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"sanitaryRegistrationNbr": {
+				"metadata": {
+					"id": "sanitaryRegistrationNbr",
+					"name": "Sanitary Registration Number",
+					"label": "Sanitary Registration Number",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 25,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "sanitaryRegistrationNbr",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"isMasterCartonInd": {
+				"metadata": {
+					"id": "isMasterCartonInd",
+					"name": "Is Master Carton",
+					"label": "Master Carton",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isMasterCartonInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"false"
+					]
+				},
+				"errors": null
+			},
+			"supplierLastShippableDate": {
+				"metadata": {
+					"id": "supplierLastShippableDate",
+					"name": "Supplier Last Shippable Date",
+					"label": "Last Shippable Date",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "select",
+					"type": null,
+					"attributeKey": "supplierLastShippableDate",
+					"attributeDataType": "Date",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"palletTiQty": {
+				"metadata": {
+					"id": "palletTiQty",
+					"name": "Pallet Ti",
+					"label": "Pallet Ti",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "numeric",
+					"type": null,
+					"attributeKey": "palletTiQty",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"palletHiQty": {
+				"metadata": {
+					"id": "palletHiQty",
+					"name": "Pallet Hi",
+					"label": "Pallet Hi",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "numeric",
+					"type": null,
+					"attributeKey": "palletHiQty",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"isDisplayAvailableInd": {
+				"metadata": {
+					"id": "isDisplayAvailableInd",
+					"name": "Is Display Available",
+					"label": "Display Available",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isDisplayAvailableInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemNetWeightQty": {
+				"metadata": {
+					"id": "tradeItemNetWeightQty",
+					"name": "Trade Item Net Weight",
+					"label": "Net Weight",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 15,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "tradeItemNetWeightQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 4,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"0.4"
+					]
+				},
+				"errors": null
+			},
+			"isVocCarbCompliantInd": {
+				"metadata": {
+					"id": "isVocCarbCompliantInd",
+					"name": "Is VOC CARB Compliant",
+					"label": "VOC CARB Compliant",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isVocCarbCompliantInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"storeMinimumLifeRemainingToReceiveQty": {
+				"metadata": {
+					"id": "storeMinimumLifeRemainingToReceiveQty",
+					"name": "Store Minimum Life Remaining To Receive",
+					"label": "Minimum Store Receive Days",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 7,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "storeMinimumLifeRemainingToReceiveQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 2,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"fireHealthSafetyDCSlotCode": {
+				"metadata": {
+					"id": "fireHealthSafetyDCSlotCode",
+					"name": "Fire Health Safety DC Slot Code",
+					"label": "FHS DC Slot Code",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 6,
+					"field": "select",
+					"type": null,
+					"attributeKey": "fireHealthSafetyDCSlotCode",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "1",
+							"value": "1 - Gen Strong"
+						},
+						{
+							"id": "2",
+							"value": "2 - Aerosol Rm"
+						},
+						{
+							"id": "3",
+							"value": "3 - Baf Gen St"
+						},
+						{
+							"id": "4",
+							"value": "4 - Baf Gen St"
+						},
+						{
+							"id": "5",
+							"value": "5 - Baf Aerosl"
+						},
+						{
+							"id": "6",
+							"value": "6 - Aer If Avl"
+						},
+						{
+							"id": "7",
+							"value": "7 - Baf Aerosl"
+						},
+						{
+							"id": "8",
+							"value": "8 - Aerosol Rm"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"msdsNbr": {
+				"metadata": {
+					"id": "msdsNbr",
+					"name": "Material Safety Data Sheet Number",
+					"label": "SDS Number",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 20,
+					"field": "select",
+					"type": null,
+					"attributeKey": "msdsNbr",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"consumerGtin": {
+				"metadata": {
+					"id": "consumerGtin",
+					"name": "Consumer GTIN",
+					"label": "Scannable GTIN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 14,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "consumerGtin",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"palletSizeTypeCode": {
+				"metadata": {
+					"id": "palletSizeTypeCode",
+					"name": "Pallet Size Type",
+					"label": "Pallet Size",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 1,
+					"field": "select",
+					"type": null,
+					"attributeKey": "palletSizeTypeCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "L",
+							"value": "L - Large"
+						},
+						{
+							"id": "S",
+							"value": "S - Small"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"supplierMinimumOrderQty": {
+				"metadata": {
+					"id": "supplierMinimumOrderQty",
+					"name": "Supplier Minimum Order Quantity",
+					"label": "Supplier Min Order Qty",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "numeric",
+					"type": null,
+					"attributeKey": "supplierMinimumOrderQty",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemChildQtyUomCode": {
+				"metadata": {
+					"id": "tradeItemChildQtyUomCode",
+					"name": "Trade Item Child Quantity Uom",
+					"label": "Trade Item Child Quantity UOM",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "tradeItemChildQtyUomCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemChildQty": {
+				"metadata": {
+					"id": "tradeItemChildQty",
+					"name": "Trade Item Child Quantity",
+					"label": "Link Qty",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 6,
+					"field": "numeric",
+					"type": null,
+					"attributeKey": "tradeItemChildQty",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"6"
+					]
+				},
+				"errors": null
+			},
+			"parentTradeItemGtin": {
+				"metadata": {
+					"id": "parentTradeItemGtin",
+					"name": "Parent Trade Item GTIN",
+					"label": "Trade Item Parent GTIN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 14,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "parentTradeItemGtin",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": true,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"pluNbr": {
+				"metadata": {
+					"id": "pluNbr",
+					"name": "PLU",
+					"label": "PLU",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "numeric",
+					"type": null,
+					"attributeKey": "pluNbr",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"childTradeItemsGtin": {
+				"metadata": {
+					"id": "childTradeItemsGtin",
+					"name": "Child Trade Items GTIN",
+					"label": "Child Item GTIN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 14,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "childTradeItemsGtin",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"projectedYearlySalesQty": {
+				"metadata": {
+					"id": "projectedYearlySalesQty",
+					"name": "Projected Yearly Sales",
+					"label": "Projected Yearly Sales",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "numeric",
+					"type": null,
+					"attributeKey": "projectedYearlySalesQty",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"isCARBCompliant": {
+				"metadata": {
+					"id": "isCARBCompliant",
+					"name": "Is CARB Compliant",
+					"label": "Is CARB Compliant",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 400,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "isCARBCompliant",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemVolumeQty": {
+				"metadata": {
+					"id": "tradeItemVolumeQty",
+					"name": "Trade Item Volume",
+					"label": "Liquid Volume",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 12,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "tradeItemVolumeQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 3,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"walmartPrePriceAmt": {
+				"metadata": {
+					"id": "walmartPrePriceAmt",
+					"name": "Walmart PrePrice Amount",
+					"label": "PrePrice Amt",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 13,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "walmartPrePriceAmt",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 2,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"orderSizingFactorQty": {
+				"metadata": {
+					"id": "orderSizingFactorQty",
+					"name": "Order Sizing Factor Quantity",
+					"label": "Order Sizing Factor",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 12,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "orderSizingFactorQty",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 3,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"modelNbr": {
+				"metadata": {
+					"id": "modelNbr",
+					"name": "Model Number",
+					"label": "Model Number",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 60,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "modelNbr",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"manufacturer": {
+				"metadata": {
+					"id": "manufacturer",
+					"name": "Manufacturer",
+					"label": "Manufacturer",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 4000,
+					"field": "select",
+					"type": null,
+					"attributeKey": "manufacturer",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemSyncStatusCode": {
+				"metadata": {
+					"id": "tradeItemSyncStatusCode",
+					"name": "Trade Item Sync Status Code",
+					"label": "Item Sync Status",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "select",
+					"type": null,
+					"attributeKey": "tradeItemSyncStatusCode",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": "1001",
+							"value": "1001 - Cancelled"
+						},
+						{
+							"id": "1002",
+							"value": "1002 - Pending Cancellation"
+						},
+						{
+							"id": "1003",
+							"value": "1003 - Synchronized"
+						},
+						{
+							"id": "1004",
+							"value": "1004 - Not Synchronized"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"orderSizingFactorUomCode": {
+				"metadata": {
+					"id": "orderSizingFactorUomCode",
+					"name": "Order Sizing Factor Uom",
+					"label": "Order Sizing Factor UOM",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "orderSizingFactorUomCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"ownerGln": {
+				"metadata": {
+					"id": "ownerGln",
+					"name": "Owner GLN",
+					"label": "Brand Owner GLN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 13,
+					"field": "select",
+					"type": null,
+					"attributeKey": "ownerGln",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemNetWeightUomCode": {
+				"metadata": {
+					"id": "tradeItemNetWeightUomCode",
+					"name": "Trade Item Net Weight Uom",
+					"label": "Net Weight UOM",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "tradeItemNetWeightUomCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"LB"
+					]
+				},
+				"errors": null
+			},
+			"supplierFirstOrderableDate": {
+				"metadata": {
+					"id": "supplierFirstOrderableDate",
+					"name": "Supplier First Orderable Date",
+					"label": "First Orderable Date",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "date",
+					"type": null,
+					"attributeKey": "supplierFirstOrderableDate",
+					"attributeDataType": "Date",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"consumerItemNbr": {
+				"metadata": {
+					"id": "consumerItemNbr",
+					"name": "Consumer Item Number",
+					"label": "Shelf number",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 11,
+					"field": "numeric",
+					"type": null,
+					"attributeKey": "consumerItemNbr",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"isDeaReportedInd": {
+				"metadata": {
+					"id": "isDeaReportedInd",
+					"name": "Is DEA Reported",
+					"label": "Report DEA",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isDeaReportedInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"false"
+					]
+				},
+				"errors": null
+			},
+			"supplierMinimumOrderUomCode": {
+				"metadata": {
+					"id": "supplierMinimumOrderUomCode",
+					"name": "Supplier Minimum Order Uom",
+					"label": "Supplier Min Order Quantity UOM",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "supplierMinimumOrderUomCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"manufacturerId": {
+				"metadata": {
+					"id": "manufacturerId",
+					"name": "Manufacturer ID",
+					"label": "Manufacturer GLN",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "numeric",
+					"type": null,
+					"attributeKey": "manufacturerId",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"25926"
+					]
+				},
+				"errors": null
+			},
+			"isGuaranteedSalesInd": {
+				"metadata": {
+					"id": "isGuaranteedSalesInd",
+					"name": "Is Guaranteed Sales",
+					"label": "Guaranteed Sales",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isGuaranteedSalesInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"isVocScaqmdCompliantInd": {
+				"metadata": {
+					"id": "isVocScaqmdCompliantInd",
+					"name": "Is VOC SCAQMD Compliant",
+					"label": "VOC SCAQMD Compliant",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "isVocScaqmdCompliantInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"alternateChannelSourceInd": {
+				"metadata": {
+					"id": "alternateChannelSourceInd",
+					"name": "Alternate Channel Source",
+					"label": "Alt Channel Source",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "boolean",
+					"type": null,
+					"attributeKey": "alternateChannelSourceInd",
+					"attributeDataType": "Boolean",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [
+						{
+							"id": true,
+							"value": "Yes"
+						},
+						{
+							"id": false,
+							"value": "No"
+						}
+					],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"supplierFirstAvailableDate": {
+				"metadata": {
+					"id": "supplierFirstAvailableDate",
+					"name": "Supplier First Available Date",
+					"label": "First Available Date",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": null,
+					"field": "select",
+					"type": null,
+					"attributeKey": "supplierFirstAvailableDate",
+					"attributeDataType": "Date",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"gpcBrickNbr": {
+				"metadata": {
+					"id": "gpcBrickNbr",
+					"name": "GPC Brick",
+					"label": "GPC",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 11,
+					"field": "select",
+					"type": null,
+					"attributeKey": "gpcBrickNbr",
+					"attributeDataType": "Integer",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": {
+					"valuesList": [
+						"0"
+					]
+				},
+				"errors": null
+			},
+			"consumerGtinFormatCode": {
+				"metadata": {
+					"id": "consumerGtinFormatCode",
+					"name": "Consumer GTIN Format",
+					"label": "GTIN Format",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 7,
+					"field": "select",
+					"type": null,
+					"attributeKey": "consumerGtinFormatCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": [],
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"tradeItemVolumeUomCode": {
+				"metadata": {
+					"id": "tradeItemVolumeUomCode",
+					"name": "Trade Item Volume Uom",
+					"label": "Liquid Volume UOM",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 2,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "tradeItemVolumeUomCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"specialHandlingInstructionCode": {
+				"metadata": {
+					"id": "specialHandlingInstructionCode",
+					"name": "Special Handling Instruction",
+					"label": "Special Handling Instructions",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 1000,
+					"field": "textbox",
+					"type": null,
+					"attributeKey": "specialHandlingInstructionCode",
+					"attributeDataType": "Alphanumeric",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": null,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			},
+			"msrpAmt": {
+				"metadata": {
+					"id": "msrpAmt",
+					"name": "MSRP Amount",
+					"label": "MSRP",
+					"displayLocation": null,
+					"displayed": true,
+					"minLength": null,
+					"maxLength": 23,
+					"field": "decimal",
+					"type": null,
+					"attributeKey": "msrpAmt",
+					"attributeDataType": "Decimal",
+					"editable": true,
+					"multiValue": false,
+					"required": false,
+					"code": null,
+					"classification": null,
+					"attributeGroup": null,
+					"precision": 15,
+					"specification": "TRADE_ITEM",
+					"validValues": null,
+					"iconValue": null
+				},
+				"values": null,
+				"errors": null
+			}
+		}
+	}
+}

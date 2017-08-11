@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "tradeItemGtin": "00000456123759",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  },
+  "tradeItemPackTypeCode": "CA",
+  "isConsumableInd": false,
+  "isOrderableInd": true,
+  "tradeItemDescription": "Clairol Perfect 10 by Nice n Easy Hair Color 1 Kit",
+  "batteryTypeCode": 1,
+  "tradeItemWeightUomCode": "Kg",
+  "tradeItemWeightQty": 30.9,
+  "tradeItemDimensionsUomCode": "IN",
+  "tradeItemDimensionsWidthQty": 88.9,
+  "tradeItemDimensionsDepthQty": 200.9,
+  "tradeItemDimensionsHeightQty": 77.56,
+  "isConveyableInd": true,
+  "totalQuantityOfNextLowerLevelTradeItem":72,
+  "palletTiQty":12,
+  "palletHiQty":6,
+  "parent": [],
+  "children" : []
+}]
