@@ -13,7 +13,7 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.ust.item.mdm.model.TradeItem;
+import com.ust.item.mdm.model.GlobalTradeItem;
 import com.ust.supplychain.dao.apis.TradeItemDAO;
 
 public class TradeItemMongoDAO extends MongoDao implements TradeItemDAO {
@@ -22,8 +22,8 @@ public class TradeItemMongoDAO extends MongoDao implements TradeItemDAO {
 	protected Jongo jongo;
 	
 	@Override
-	public TradeItem getTradeItemById(String id) {
-		TradeItem tradeItem = null;
+	public GlobalTradeItem getTradeItemById(String id) {
+		GlobalTradeItem tradeItem = null;
 		try (MongoClient client = getClient()) {
 			MongoDatabase database = client.getDatabase("catalog");
 			MongoCollection<Document> table = database.getCollection("items");
@@ -41,14 +41,14 @@ public class TradeItemMongoDAO extends MongoDao implements TradeItemDAO {
 	
 	
 	@Override
-	public List<TradeItem> getTradeItemByAnyAttr(String attr, String attrVal, String attrType) {
-		Iterable<TradeItem> iterables = jongo.getCollection(collectionName)
-				.find(createQuery(attr, attrType), convertToJongoType(attrVal, attrType)).as(TradeItem.class);
+	public List<GlobalTradeItem> getTradeItemByAnyAttr(String attr, String attrVal, String attrType) {
+		Iterable<GlobalTradeItem> iterables = jongo.getCollection(collectionName)
+				.find(createQuery(attr, attrType), convertToJongoType(attrVal, attrType)).as(GlobalTradeItem.class);
 		return Lists.newArrayList(iterables);
 	}
 
 	@Override
-	public void saveTradeItem(TradeItem li) {
+	public void saveTradeItem(GlobalTradeItem li) {
 		// TODO Auto-generated method stub
 
 	}

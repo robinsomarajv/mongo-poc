@@ -9,7 +9,7 @@
   "tradeItemPackTypeCode": "CA",
   "isConsumableInd": false,
   "isOrderableInd": true,
-  "tradeItemDescription": "Clairol Perfect 10 by Nice n Easy Hair Color 1 Kit",
+  "tradeItemDescription": "Apple iPhone 7 smartphone case",
   "batteryTypeCode": 1,
   "tradeItemWeightUomCode": "Kg",
   "tradeItemWeightQty": 30.9,
@@ -18,9 +18,100 @@
   "tradeItemDimensionsDepthQty": 200.9,
   "tradeItemDimensionsHeightQty": 77.56,
   "isConveyableInd": true,
+  "totalQuantityOfNextLowerLevelTradeItem":12,
+  "palletTiQty":12,
+  "palletHiQty":6,
+  "parent": [{
+    "tradeItemGtin": "97350053850043",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  }],
+  "children" : [{
+    "tradeItemGtin": "64052009890521",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  }]
+},
+{
+  "_id": {
+    "tradeItemGtin": "97350053850043",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  },
+  "tradeItemPackTypeCode": "PL",
+  "isConsumableInd": false,
+  "isOrderableInd": true,
+  "tradeItemDescription": "Apple iPhone 7 smartphone pallet",
+  "batteryTypeCode": 1,
+  "tradeItemWeightUomCode": "Kg",
+  "tradeItemWeightQty": 360,
+  "tradeItemDimensionsUomCode": "IN",
+  "tradeItemDimensionsWidthQty": 1026.9,
+  "tradeItemDimensionsDepthQty": 568.9,
+  "tradeItemDimensionsHeightQty": 200.56,
+  "isConveyableInd": true,
   "totalQuantityOfNextLowerLevelTradeItem":72,
   "palletTiQty":12,
   "palletHiQty":6,
   "parent": [],
+  "children" : [{
+    "tradeItemGtin": "64052009890521",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  },
+  {
+    "tradeItemGtin": "00000456123759",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  }]
+},
+{
+  "_id": {
+    "tradeItemGtin": "64052009890521",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  },
+  "tradeItemPackTypeCode": "EA",
+  "isConsumableInd": false,
+  "isOrderableInd": true,
+  "tradeItemDescription": "Apple iPhone 7 smartphone",
+  "batteryTypeCode": 1,
+  "tradeItemWeightUomCode": "Kg",
+  "tradeItemWeightQty": 0.45,
+  "tradeItemDimensionsUomCode": "IN",
+  "tradeItemDimensionsWidthQty": 8.95,
+  "tradeItemDimensionsDepthQty": 1.95,
+  "tradeItemDimensionsHeightQty": 20.95,
+  "isConveyableInd": true,
+  "totalQuantityOfNextLowerLevelTradeItem":0,
+  "palletTiQty":12,
+  "palletHiQty":6,
+  "parent": [{
+    "tradeItemGtin": "97350053850043",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  },
+  {
+    "tradeItemGtin": "00000456123759",
+    "informationProviderId": "6666999922221",
+    "informationProviderTypeCode": "GLN",
+    "recipientGln": "0078742000008",
+    "targetMarketCode": "US"
+  }],
   "children" : []
-}]
+}
+]

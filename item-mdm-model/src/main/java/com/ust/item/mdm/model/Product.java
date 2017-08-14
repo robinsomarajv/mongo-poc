@@ -9,16 +9,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 public class Product implements Serializable {
 
+	@Id
 	private String _id;
 	private String product_id;
-	public String get_id() {
-		return _id;
-	}
-
-	public void set_id(String _id) {
-		this._id = _id;
-	}
-
 	private List<String> consumable_gtins = null;
 	private String product_name;
 	private String assembled_product_height_unitOfMeasure;
@@ -47,6 +40,14 @@ public class Product implements Serializable {
 	private Float price_per_unit_quantity;
 	private Date product_launch_date;
 	private final static long serialVersionUID = -4870314168196637166L;
+
+	public String get_id() {
+		return _id;
+	}
+
+	public void set_id(String _id) {
+		this._id = _id;
+	}
 
 	public List<String> getConsumable_gtins() {
 		return consumable_gtins;

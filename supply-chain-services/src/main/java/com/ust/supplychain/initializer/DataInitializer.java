@@ -18,9 +18,9 @@ import com.google.inject.Inject;
 import com.google.inject.Injector;
 import com.google.inject.name.Named;
 import com.ust.item.mdm.dto.Metadata;
+import com.ust.item.mdm.model.GlobalTradeItem;
 import com.ust.item.mdm.model.LogisticalItem;
 import com.ust.item.mdm.model.Product;
-import com.ust.item.mdm.model.TradeItem;
 import com.ust.supplychain.services.servlet.modules.BootstrapPropertiesModule;
 
 public class DataInitializer {
@@ -43,8 +43,8 @@ public class DataInitializer {
 //		intializer.loadProdMetadata();
 //		intializer.loadTIMetadata();
 //		intializer.loadLogisticalItems();
-//		intializer.loadTradeItems();
-		intializer.loadProducts();
+		intializer.loadTradeItems();
+//		intializer.loadProducts();
 	}
 
 	private void loadTIMetadata() throws JSONException, IOException {
@@ -93,10 +93,10 @@ public class DataInitializer {
 
 	private void loadTradeItems() throws JsonParseException, JsonMappingException, IOException, JSONException {
 		JSONArray tItems = new JSONArray(Resources.toString(Resources.getResource("trade-items.json"), Charsets.UTF_8));
-
+		jongo.getCollection("tradeitems").drop();
 		for (int i = 0; i < tItems.length(); i++) {
 
-			TradeItem item = mapper.readValue(tItems.getJSONObject(i).toString(), TradeItem.class);
+			GlobalTradeItem item = mapper.readValue(tItems.getJSONObject(i).toString(), GlobalTradeItem.class);
 			jongo.getCollection("tradeitems").save(item);
 		}
 	}

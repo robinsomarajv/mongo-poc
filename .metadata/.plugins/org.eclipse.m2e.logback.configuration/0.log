@@ -1,0 +1,32 @@
+2017-08-11 16:52:48,794 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ust.itemfile:item-mdm-model:0.0.1-SNAPSHOT @ C:\Users\u17078\mongo-poc\item-mdm-model\pom.xml.
+2017-08-11 16:52:50,189 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ust.itemfile:product-item-api:0.0.1-SNAPSHOT @ C:\Users\u17078\mongo-poc\product-item-api\pom.xml.
+2017-08-11 16:52:50,782 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ust.supplychain:supply-chain-services:0.0.1-SNAPSHOT @ C:\Users\u17078\mongo-poc\supply-chain-services\pom.xml.
+2017-08-11 16:52:57,062 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /item-mdm-model/src/main/java
+2017-08-11 16:52:57,063 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /item-mdm-model/src/main/resources
+2017-08-11 16:52:57,069 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /item-mdm-model/src/main/resources
+2017-08-11 16:52:57,076 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /item-mdm-model/src/test/java
+2017-08-11 16:52:57,077 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /item-mdm-model/src/test/resources
+2017-08-11 16:52:58,114 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-item-api/src/main/java
+2017-08-11 16:52:58,115 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-item-api/src/main/resources
+2017-08-11 16:52:58,115 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-item-api/src/main/resources
+2017-08-11 16:52:58,116 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-item-api/src/test/java
+2017-08-11 16:52:58,117 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-item-api/src/test/resources
+2017-08-11 16:52:58,273 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /supply-chain-services/src/main/java
+2017-08-11 16:52:58,274 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /supply-chain-services/src/main/resources
+2017-08-11 16:52:58,275 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /supply-chain-services/src/test/java
+2017-08-11 16:53:00,678 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 18 sec
+2017-08-11 16:53:03,449 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-11 16:53:03,483 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-11 16:53:03,484 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-11 16:53:03,488 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-11 16:53:03,489 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-11 16:53:06,579 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-11 16:53:06,580 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-11 16:53:06,580 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-11 16:53:06,584 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-11 16:53:06,585 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-11 16:53:08,341 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2017-08-11 16:53:08,345 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-11 16:53:08,348 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-08-11 16:53:08,536 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-11 16:53:08,537 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\u17078\mongo-poc\supply-chain-services\src\test\resources
