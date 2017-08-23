@@ -1,4 +1,4 @@
-package com.ust.item.mdm.logistical_item.repo;
+package com.ust.item.mdm.item.repo;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

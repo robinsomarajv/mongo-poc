@@ -1,4 +1,4 @@
-package com.ust.item.mdm.logistical_item.repo;
+package com.ust.item.mdm.item.repo;
 
 import java.sql.Date;
 import java.util.Collection;
