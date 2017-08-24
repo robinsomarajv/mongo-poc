@@ -61,8 +61,11 @@ public class MongoProductService implements ProductService {
 					tradeItems.addAll(gtItemRepository.searchGlobalTradeItemByAnyAttribute("tradeItemGtin", gtin,
 							"Alphanumeric"));
 				}
-				Map<String, String> conceptCount = new HashMap<String, String>();
-				conceptCount.put("T", String.valueOf(tradeItems.size()));
+				List<Map> conceptCount = new ArrayList<>();
+				Map<String,String> concepts = new HashMap<>();
+				concepts.put("label","T");
+				concepts.put("value",String.valueOf(tradeItems.size()));
+				conceptCount.add(concepts );
 				itemSummary.setConceptCount(conceptCount);
 				itemsSummary.add(itemSummary);
 			}

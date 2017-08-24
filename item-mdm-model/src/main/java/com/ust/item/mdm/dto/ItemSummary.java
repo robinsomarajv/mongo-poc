@@ -1,11 +1,12 @@
 package com.ust.item.mdm.dto;
 
+import java.util.List;
 import java.util.Map;
 
 public class ItemSummary<T> {
 	
 	public T item;
-	public Map<String, String> conceptCount;
+	public List<Map> conceptCount;
 	
 	public T getItem() {
 		return item;
@@ -13,11 +14,11 @@ public class ItemSummary<T> {
 	public void setItem(T item) {
 		this.item = item;
 	}
-	public Map<String, String> getConceptCount() {
+	public List<Map> getConceptCount() {
 		return conceptCount;
 	}
-	public void setConceptCount(Map<String, String> conceptCount) {
-		this.conceptCount = conceptCount;
+	public void setConceptCount(List<Map> conceptCount2) {
+		this.conceptCount = conceptCount2;
 	}
 	
 	
