@@ -44,7 +44,7 @@ public class ProductItemResource {
 	}
 	
 	@RequestMapping(path = "/summary", method = RequestMethod.GET)
-	public @ResponseBody Collection<ItemSummary> getProductSummary(@RequestParam(name = "attrName") String attr,
+	public @ResponseBody Collection<ItemSummary<Product>> getProductSummary(@RequestParam(name = "attrName") String attr,
 			@RequestParam(name = "attrVal") String attrVal){
 		return mongoProductService.searchProductByAnyAttributeForSummary(attr, attrVal);
 	}

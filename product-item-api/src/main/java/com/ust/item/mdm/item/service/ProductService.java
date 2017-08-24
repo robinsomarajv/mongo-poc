@@ -12,7 +12,8 @@ public interface ProductService {
 
 	Collection<Attribute> getProductById(String pid) throws SecurityException, IllegalArgumentException, IllegalAccessException;
 
-	Collection<ItemSummary> searchProductByAnyAttributeForSummary(String attr, String attrVal);
+	Collection<ItemSummary<Product>> searchProductByAnyAttributeForSummary(String attr, String attrVal);
+
 	
 	
 }
