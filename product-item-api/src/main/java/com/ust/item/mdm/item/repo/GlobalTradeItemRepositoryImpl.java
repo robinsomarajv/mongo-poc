@@ -11,6 +11,7 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
 
 import com.ust.item.mdm.model.GlobalTradeItem;
+import com.ust.item.mdm.model.GlobalTradeItemId;
 import com.ust.item.mdm.model.Product;
 
 @Repository
@@ -45,10 +46,9 @@ public class GlobalTradeItemRepositoryImpl implements GlobalTradeItemRepositoryC
 	}
 
 	@Override
-	public GlobalTradeItem getGlobalTradeItemByPid(String pid) {
-
+	public GlobalTradeItem getGlobalTradeItemById(GlobalTradeItemId tId) {
 		Query query = new Query();
-		query.addCriteria(Criteria.where("product_id").is(pid));
+		query.addCriteria(Criteria.where("_id").is(tId));
 		return mongoTemplate.findOne(query, GlobalTradeItem.class, "tradeitems");
 
 	}
