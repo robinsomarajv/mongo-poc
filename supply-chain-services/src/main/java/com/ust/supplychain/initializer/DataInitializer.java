@@ -43,8 +43,26 @@ public class DataInitializer {
 //		intializer.loadProdMetadata();
 //		intializer.loadTIMetadata();
 //		intializer.loadLogisticalItems();
-		intializer.loadTradeItems();
+//		intializer.loadTradeItems();
 //		intializer.loadProducts();
+		intializer.loadLogisticalItemsMetadata();
+	}
+
+	private void loadLogisticalItemsMetadata() throws JSONException, IOException {
+		JSONObject prods = new JSONObject(Resources.toString(Resources.getResource("logistical-items-metadata.json"), Charsets.UTF_8));
+		JSONObject optAttrs = prods.getJSONObject("attributes").getJSONObject("Optional");
+		JSONObject reqAttrs = prods.getJSONObject("attributes").getJSONObject("Required");
+		Iterator<String> optKeys = optAttrs.keys();
+		Iterator<String> reqKeys = reqAttrs.keys();
+		while(optKeys.hasNext()){
+			JSONObject optMeta = optAttrs.getJSONObject(optKeys.next()).getJSONObject("metadata");
+			jongo.getCollection("metadata").save(mapper.readValue(optMeta.toString(), Metadata.class));
+		}
+		while(reqKeys.hasNext()){
+			JSONObject reqMeta = reqAttrs.getJSONObject(reqKeys.next()).getJSONObject("metadata");
+			jongo.getCollection("metadata").save(mapper.readValue(reqMeta.toString(), Metadata.class));
+		}
+		
 	}
 
 	private void loadTIMetadata() throws JSONException, IOException {

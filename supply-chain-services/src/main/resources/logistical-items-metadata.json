@@ -1,0 +1,5767 @@
+{
+  "attributes": {
+    "Optional": {
+      "warehouseMinOrderQty": {
+        "metadata": {
+          "id": "warehouseMinOrderQty",
+          "name": "Warehouse Minimum Order Quantity",
+          "label": "Whse Min Order Qty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 5,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "warehouseMinOrderQty",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "1"
+          ]
+        },
+        "errors": null
+      },
+      "replacedItemNbr": {
+        "metadata": {
+          "id": "replacedItemNbr",
+          "name": "Replaced Item Number",
+          "label": "Replaces Item",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "replacedItemNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "isCannedOrderInd": {
+        "metadata": {
+          "id": "isCannedOrderInd",
+          "name": "Is Canned Order",
+          "label": "Cancel When Out Indicator",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isCannedOrderInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "itemNbr": {
+        "metadata": {
+          "id": "itemNbr",
+          "name": "Item Number",
+          "label": "Item Number",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 11,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "itemNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "558646153"
+          ]
+        },
+        "errors": null
+      },
+      "palletRoundingPct": {
+        "metadata": {
+          "id": "palletRoundingPct",
+          "name": "Pallet Rounding Percent",
+          "label": "Pallet Rounding Percent",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "palletRoundingPct",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 2,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "giftCardFeePct": {
+        "metadata": {
+          "id": "giftCardFeePct",
+          "name": "Gift Card Fee Percent",
+          "label": "Gift Card Fee %",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 8,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": "giftCardFeePct",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 2,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "lastOrderDate": {
+        "metadata": {
+          "id": "lastOrderDate",
+          "name": "Last Order Date",
+          "label": "Last Order Date",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "date",
+          "type": null,
+          "attributeKey": "lastOrderDate",
+          "attributeDataType": "Date",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "warehouseMinLifeRemainingToReceiveQty": {
+        "metadata": {
+          "id": "warehouseMinLifeRemainingToReceiveQty",
+          "name": "Warehouse Min Life Remaining To Receive Quantity",
+          "label": "Minimum Warehouse Receive Days",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 6,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "warehouseMinLifeRemainingToReceiveQty",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "15"
+          ]
+        },
+        "errors": null
+      },
+      "omitTraitNbr": {
+        "metadata": {
+          "id": "omitTraitNbr",
+          "name": "Omit Trait Number",
+          "label": "Omit Traits",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 6,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "omitTraitNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "55741"
+          ]
+        },
+        "errors": null
+      },
+      "giftCardFeeAmt": {
+        "metadata": {
+          "id": "giftCardFeeAmt",
+          "name": "Gift Card Fee Amount",
+          "label": "Gift Card Fee Amount",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 11,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": "giftCardFeeAmt",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 2,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "warehouseMaxOrderUomCode": {
+        "metadata": {
+          "id": "warehouseMaxOrderUomCode",
+          "name": "Warehouse Maximum Order Uom",
+          "label": "Whse Max Order Quantity UOM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "warehouseMaxOrderUomCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "isCancelWhenOutInd": {
+        "metadata": {
+          "id": "isCancelWhenOutInd",
+          "name": "Is Cancel When Out",
+          "label": "Canned Order Indicator",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isCancelWhenOutInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "supplierLeadTimeQty": {
+        "metadata": {
+          "id": "supplierLeadTimeQty",
+          "name": "Supplier Lead Time",
+          "label": "Supplier Lead Time",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "supplierLeadTimeQty",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "1000"
+          ]
+        },
+        "errors": null
+      },
+      "isOfferedForSaleInd": {
+        "metadata": {
+          "id": "isOfferedForSaleInd",
+          "name": "Is Offered For Sale",
+          "label": "Item Scannable Indicator",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isOfferedForSaleInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "true"
+          ]
+        },
+        "errors": null
+      },
+      "warehouseAlignmentCode": {
+        "metadata": {
+          "id": "warehouseAlignmentCode",
+          "name": "Warehouse Alignment Code",
+          "label": "Whse Alignment",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 2,
+          "maxLength": 2,
+          "field": "select",
+          "type": null,
+          "attributeKey": "warehouseAlignmentCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "AB",
+              "value": "AB - Assembly Bulk"
+            },
+            {
+              "id": "AC",
+              "value": "AC - AIDCO Conversion"
+            },
+            {
+              "id": "AP",
+              "value": "AP - WPM Center"
+            },
+            {
+              "id": "AS",
+              "value": "AS - Assembly"
+            },
+            {
+              "id": "CI",
+              "value": "CI - Circular"
+            },
+            {
+              "id": "CW",
+              "value": "CW - Collectable"
+            },
+            {
+              "id": "DG",
+              "value": "DG - Dry Goods"
+            },
+            {
+              "id": "DI",
+              "value": "DI - Distribution Freight"
+            },
+            {
+              "id": "DS",
+              "value": "DS - Distribution Shoes"
+            },
+            {
+              "id": "FC",
+              "value": "FC - Freezer/Cooler"
+            },
+            {
+              "id": "F0",
+              "value": "F0 - HVDC Phase 1"
+            },
+            {
+              "id": "F1",
+              "value": "F1 - HVDC Phase II"
+            },
+            {
+              "id": "F5",
+              "value": "F5 - HVDC Phase VI"
+            },
+            {
+              "id": "GB",
+              "value": "GB - Bakery"
+            },
+            {
+              "id": "GC",
+              "value": "GC - Dairy"
+            },
+            {
+              "id": "GD",
+              "value": "GD - Dry Grocery"
+            },
+            {
+              "id": "GF",
+              "value": "GF - F"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "DI"
+          ]
+        },
+        "errors": null
+      },
+      "priceComparisionQtyUomCode": {
+        "metadata": {
+          "id": "priceComparisionQtyUomCode",
+          "name": "Price Comparison Quantity Uom",
+          "label": "Price Comparison Qty UOM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 2,
+          "field": "select",
+          "type": null,
+          "attributeKey": "priceComparisionQtyUomCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "EA",
+              "value": "EA - Each"
+            },
+            {
+              "id": "GR",
+              "value": "GR - Gram"
+            },
+            {
+              "id": "KG",
+              "value": "KG - Kilogram"
+            },
+            {
+              "id": "LT",
+              "value": "LT - Liter"
+            },
+            {
+              "id": "ML",
+              "value": "ML - Milliliter"
+            },
+            {
+              "id": "MR",
+              "value": "MR - Meter"
+            },
+            {
+              "id": "C3",
+              "value": "C3 - Centiliter"
+            },
+            {
+              "id": "SH",
+              "value": "SH - Sheets"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "supplyItemStatusChangeDate": {
+        "metadata": {
+          "id": "supplyItemStatusChangeDate",
+          "name": "Supply Item Status Change Date",
+          "label": "Status Change Date",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "date",
+          "type": null,
+          "attributeKey": "supplyItemStatusChangeDate",
+          "attributeDataType": "Date",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "isSoldByWeightInd": {
+        "metadata": {
+          "id": "isSoldByWeightInd",
+          "name": "Is Sold By Weight",
+          "label": "Scalable at Register",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isSoldByWeightInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "seasonCode": {
+        "metadata": {
+          "id": "seasonCode",
+          "name": "Season Code",
+          "label": "Season Code",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "seasonCode",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "0",
+              "value": "0 - Basic"
+            },
+            {
+              "id": "1",
+              "value": "1 - Spring"
+            },
+            {
+              "id": "2",
+              "value": "2 - Summer"
+            },
+            {
+              "id": "3",
+              "value": "3 - BTS/Fall"
+            },
+            {
+              "id": "4",
+              "value": "4 - Winter"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "1"
+          ]
+        },
+        "errors": null
+      },
+      "factoryId": {
+        "metadata": {
+          "id": "factoryId",
+          "name": "Factory Id",
+          "label": "Factory ID",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "listBox",
+          "type": null,
+          "attributeKey": "factoryId",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "28055690"
+          ]
+        },
+        "errors": null
+      },
+      "priceComparisionQty": {
+        "metadata": {
+          "id": "priceComparisionQty",
+          "name": "Price Comparision Quantity",
+          "label": "Price Comparison Qty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 13,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": "priceComparisionQty",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 4,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "publishedGtin": {
+        "metadata": {
+          "id": "publishedGtin",
+          "name": "Published GTIN",
+          "label": "Published GTIN",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 14,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "publishedGtin",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "00010512000122"
+          ]
+        },
+        "errors": null
+      },
+      "seasonYearNbr": {
+        "metadata": {
+          "id": "seasonYearNbr",
+          "name": "Season Year",
+          "label": "Season Year",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "seasonYearNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "2013"
+          ]
+        },
+        "errors": null
+      },
+      "warehousePackGtin": {
+        "metadata": {
+          "id": "warehousePackGtin",
+          "name": "Warehouse Pack GTIN",
+          "label": "Whse Pack GTIN",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 14,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "warehousePackGtin",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "00010512000122"
+          ]
+        },
+        "errors": null
+      },
+      "shelfLabel4Description": {
+        "metadata": {
+          "id": "shelfLabel4Description",
+          "name": "Shelf Label 4 Description",
+          "label": "Size",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 6,
+          "field": "select",
+          "type": null,
+          "attributeKey": "shelfLabel4Description",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "exclusiveSupplyDCNbr": {
+        "metadata": {
+          "id": "exclusiveSupplyDCNbr",
+          "name": "Exclusive Supply DC",
+          "label": "Exclusive Supply DC",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 11,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "exclusiveSupplyDCNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "itemChangeSendWalmartWeekNbr": {
+        "metadata": {
+          "id": "itemChangeSendWalmartWeekNbr",
+          "name": "Item Change Send Walmart Week Number",
+          "label": "Override WM Week",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "itemChangeSendWalmartWeekNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "33"
+          ]
+        },
+        "errors": null
+      },
+      "supplierLeadTimeUomCode": {
+        "metadata": {
+          "id": "supplierLeadTimeUomCode",
+          "name": "Supplier Lead Time Uom",
+          "label": "Lead Time UOM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "select",
+          "type": null,
+          "attributeKey": "supplierLeadTimeUomCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "DA"
+          ]
+        },
+        "errors": null
+      },
+      "hasRfidInd": {
+        "metadata": {
+          "id": "hasRfidInd",
+          "name": "Has RFID",
+          "label": "RFID Indicator",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "hasRfidInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "assembledOriginCountryCode": {
+        "metadata": {
+          "id": "assembledOriginCountryCode",
+          "name": "Assembled Country of Origin",
+          "label": "Assembled Country of Origin",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "listBox",
+          "type": null,
+          "attributeKey": "assembledOriginCountryCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "AD",
+              "value": "AD - Andorra"
+            },
+            {
+              "id": "AE",
+              "value": "AE - United Arab Emirates"
+            },
+            {
+              "id": "AF",
+              "value": "AF - Afghanistan"
+            },
+            {
+              "id": "AG",
+              "value": "AG - Antigua And Barbuda"
+            },
+            {
+              "id": "AI",
+              "value": "AI - Anguilla"
+            },
+            {
+              "id": "AL",
+              "value": "AL - Albania"
+            },
+            {
+              "id": "AM",
+              "value": "AM - Armenia"
+            },
+            {
+              "id": "AO",
+              "value": "AO - Angola"
+            },
+            {
+              "id": "AQ",
+              "value": "AQ - Antarctica"
+            },
+            {
+              "id": "AR",
+              "value": "AR - Argentina"
+            },
+            {
+              "id": "AS",
+              "value": "AS - American Samoa"
+            },
+            {
+              "id": "AT",
+              "value": "AT - Austria"
+            },
+            {
+              "id": "AU",
+              "value": "AU - Australia"
+            },
+            {
+              "id": "AW",
+              "value": "AW - Aruba"
+            },
+            {
+              "id": "AX",
+              "value": "AX - Åland Islands"
+            },
+            {
+              "id": "AZ",
+              "value": "AZ - Azerbaijan"
+            },
+            {
+              "id": "BA",
+              "value": "BA - Bosnia And Herzegovina"
+            },
+            {
+              "id": "BB",
+              "value": "BB - Barbados"
+            },
+            {
+              "id": "BD",
+              "value": "BD - Bangladesh"
+            },
+            {
+              "id": "BE",
+              "value": "BE - Belgium"
+            },
+            {
+              "id": "BF",
+              "value": "BF - Burkina Faso"
+            },
+            {
+              "id": "BG",
+              "value": "BG - Bulgaria"
+            },
+            {
+              "id": "BH",
+              "value": "BH - Bahrain"
+            },
+            {
+              "id": "BI",
+              "value": "BI - Burundi"
+            },
+            {
+              "id": "BJ",
+              "value": "BJ - Benin"
+            },
+            {
+              "id": "BL",
+              "value": "BL - Saint Barthélemy"
+            },
+            {
+              "id": "BM",
+              "value": "BM - Bermuda"
+            },
+            {
+              "id": "BN",
+              "value": "BN - Brunei Darussalam"
+            },
+            {
+              "id": "BO",
+              "value": "BO - Bolivia"
+            },
+            {
+              "id": "BQ",
+              "value": "BQ - Bonaire"
+            },
+            {
+              "id": "BR",
+              "value": "BR - Brazil"
+            },
+            {
+              "id": "BS",
+              "value": "BS - Bahamas"
+            },
+            {
+              "id": "BT",
+              "value": "BT - Bhutan"
+            },
+            {
+              "id": "BV",
+              "value": "BV - Bouvet Island"
+            },
+            {
+              "id": "BW",
+              "value": "BW - Botswana"
+            },
+            {
+              "id": "BY",
+              "value": "BY - Belarus"
+            },
+            {
+              "id": "BZ",
+              "value": "BZ - Belize"
+            },
+            {
+              "id": "CA",
+              "value": "CA - Canada"
+            },
+            {
+              "id": "CC",
+              "value": "CC - Cocos (Keeling) Islands"
+            },
+            {
+              "id": "CD",
+              "value": "CD - Congo"
+            },
+            {
+              "id": "CF",
+              "value": "CF - Central African Republic"
+            },
+            {
+              "id": "CG",
+              "value": "CG - Congo"
+            },
+            {
+              "id": "CH",
+              "value": "CH - Switzerland"
+            },
+            {
+              "id": "CI",
+              "value": "CI - Cote D'Ivoire"
+            },
+            {
+              "id": "CK",
+              "value": "CK - Cook Islands"
+            },
+            {
+              "id": "CL",
+              "value": "CL - Chile"
+            },
+            {
+              "id": "CM",
+              "value": "CM - Cameroon"
+            },
+            {
+              "id": "CN",
+              "value": "CN - China"
+            },
+            {
+              "id": "CO",
+              "value": "CO - Colombia"
+            },
+            {
+              "id": "CR",
+              "value": "CR - Costa Rica"
+            },
+            {
+              "id": "CU",
+              "value": "CU - Cuba"
+            },
+            {
+              "id": "CV",
+              "value": "CV - Cape Verde"
+            },
+            {
+              "id": "CW",
+              "value": "CW - Curaçao"
+            },
+            {
+              "id": "CX",
+              "value": "CX - Christmas Island"
+            },
+            {
+              "id": "CY",
+              "value": "CY - Cyprus"
+            },
+            {
+              "id": "CZ",
+              "value": "CZ - Czech Republic"
+            },
+            {
+              "id": "DE",
+              "value": "DE - Germany"
+            },
+            {
+              "id": "DJ",
+              "value": "DJ - Djibouti"
+            },
+            {
+              "id": "DK",
+              "value": "DK - Denmark"
+            },
+            {
+              "id": "DM",
+              "value": "DM - Dominica"
+            },
+            {
+              "id": "DO",
+              "value": "DO - Dominican Republic"
+            },
+            {
+              "id": "DZ",
+              "value": "DZ - Algeria"
+            },
+            {
+              "id": "EC",
+              "value": "EC - Ecuador"
+            },
+            {
+              "id": "EE",
+              "value": "EE - Estonia"
+            },
+            {
+              "id": "EG",
+              "value": "EG - Egypt"
+            },
+            {
+              "id": "EH",
+              "value": "EH - Western Sahara"
+            },
+            {
+              "id": "ER",
+              "value": "ER - Eritrea"
+            },
+            {
+              "id": "ES",
+              "value": "ES - Spain"
+            },
+            {
+              "id": "ET",
+              "value": "ET - Ethiopia"
+            },
+            {
+              "id": "FI",
+              "value": "FI - Finland"
+            },
+            {
+              "id": "FJ",
+              "value": "FJ - Fiji"
+            },
+            {
+              "id": "FK",
+              "value": "FK - Falkland Islands (Malvinas)"
+            },
+            {
+              "id": "FM",
+              "value": "FM - Micronesia"
+            },
+            {
+              "id": "FO",
+              "value": "FO - Faroe Islands"
+            },
+            {
+              "id": "FR",
+              "value": "FR - France"
+            },
+            {
+              "id": "GA",
+              "value": "GA - Gabon"
+            },
+            {
+              "id": "GB",
+              "value": "GB - United Kingdom"
+            },
+            {
+              "id": "GD",
+              "value": "GD - Grenada"
+            },
+            {
+              "id": "GE",
+              "value": "GE - Georgia"
+            },
+            {
+              "id": "GF",
+              "value": "GF - French Guiana"
+            },
+            {
+              "id": "GG",
+              "value": "GG - Guernsey"
+            },
+            {
+              "id": "GH",
+              "value": "GH - Ghana"
+            },
+            {
+              "id": "GI",
+              "value": "GI - Gibraltar"
+            },
+            {
+              "id": "GL",
+              "value": "GL - Greenland"
+            },
+            {
+              "id": "GM",
+              "value": "GM - Gambia"
+            },
+            {
+              "id": "GN",
+              "value": "GN - Guinea"
+            },
+            {
+              "id": "GP",
+              "value": "GP - Guadeloupe"
+            },
+            {
+              "id": "GQ",
+              "value": "GQ - Equatorial Guinea"
+            },
+            {
+              "id": "GR",
+              "value": "GR - Greece"
+            },
+            {
+              "id": "GS",
+              "value": "GS - South Georgia And The South Sandwich Islands"
+            },
+            {
+              "id": "GT",
+              "value": "GT - Guatemala"
+            },
+            {
+              "id": "GU",
+              "value": "GU - Guam"
+            },
+            {
+              "id": "GW",
+              "value": "GW - Guinea-Bissau"
+            },
+            {
+              "id": "GY",
+              "value": "GY - Guyana"
+            },
+            {
+              "id": "HK",
+              "value": "HK - Hong Kong"
+            },
+            {
+              "id": "HM",
+              "value": "HM - Heard And Mc Donald Islands"
+            },
+            {
+              "id": "HN",
+              "value": "HN - Honduras"
+            },
+            {
+              "id": "HR",
+              "value": "HR - Croatia"
+            },
+            {
+              "id": "HT",
+              "value": "HT - Haiti"
+            },
+            {
+              "id": "HU",
+              "value": "HU - Hungary"
+            },
+            {
+              "id": "ID",
+              "value": "ID - Indonesia"
+            },
+            {
+              "id": "IE",
+              "value": "IE - Ireland"
+            },
+            {
+              "id": "IL",
+              "value": "IL - Israel"
+            },
+            {
+              "id": "IM",
+              "value": "IM - Isle Of Man"
+            },
+            {
+              "id": "IN",
+              "value": "IN - India"
+            },
+            {
+              "id": "IO",
+              "value": "IO - British Indian Ocean Territory"
+            },
+            {
+              "id": "IQ",
+              "value": "IQ - Iraq"
+            },
+            {
+              "id": "IR",
+              "value": "IR - Iran (Islamic Republic Of)"
+            },
+            {
+              "id": "IS",
+              "value": "IS - Iceland"
+            },
+            {
+              "id": "IT",
+              "value": "IT - Italy"
+            },
+            {
+              "id": "JE",
+              "value": "JE - Jersey"
+            },
+            {
+              "id": "JM",
+              "value": "JM - Jamaica"
+            },
+            {
+              "id": "JO",
+              "value": "JO - Jordan"
+            },
+            {
+              "id": "JP",
+              "value": "JP - Japan"
+            },
+            {
+              "id": "KE",
+              "value": "KE - Kenya"
+            },
+            {
+              "id": "KG",
+              "value": "KG - Kyrgyzstan"
+            },
+            {
+              "id": "KH",
+              "value": "KH - Cambodia"
+            },
+            {
+              "id": "KI",
+              "value": "KI - Kiribati"
+            },
+            {
+              "id": "KM",
+              "value": "KM - Comoros"
+            },
+            {
+              "id": "KN",
+              "value": "KN - Saint Kitts And Nevis"
+            },
+            {
+              "id": "KP",
+              "value": "KP - Korea"
+            },
+            {
+              "id": "KR",
+              "value": "KR - Korea"
+            },
+            {
+              "id": "KW",
+              "value": "KW - Kuwait"
+            },
+            {
+              "id": "KY",
+              "value": "KY - Cayman Islands"
+            },
+            {
+              "id": "KZ",
+              "value": "KZ - Kazakhstan"
+            },
+            {
+              "id": "LA",
+              "value": "LA - Lao People'S Democratic Republic"
+            },
+            {
+              "id": "LB",
+              "value": "LB - Lebanon"
+            },
+            {
+              "id": "LC",
+              "value": "LC - Saint Lucia"
+            },
+            {
+              "id": "LI",
+              "value": "LI - Liechtenstein"
+            },
+            {
+              "id": "LK",
+              "value": "LK - Sri Lanka"
+            },
+            {
+              "id": "LR",
+              "value": "LR - Liberia"
+            },
+            {
+              "id": "LS",
+              "value": "LS - Lesotho"
+            },
+            {
+              "id": "LT",
+              "value": "LT - Lithuania"
+            },
+            {
+              "id": "LU",
+              "value": "LU - Luxembourg"
+            },
+            {
+              "id": "LV",
+              "value": "LV - Latvia"
+            },
+            {
+              "id": "LY",
+              "value": "LY - Libyan Arab Jamahiriya"
+            },
+            {
+              "id": "MA",
+              "value": "MA - Morocco"
+            },
+            {
+              "id": "MC",
+              "value": "MC - Monaco"
+            },
+            {
+              "id": "MD",
+              "value": "MD - Moldova"
+            },
+            {
+              "id": "ME",
+              "value": "ME - Montenegro"
+            },
+            {
+              "id": "MF",
+              "value": "MF - Saint Martin"
+            },
+            {
+              "id": "MG",
+              "value": "MG - Madagascar"
+            },
+            {
+              "id": "MH",
+              "value": "MH - Marshall Islands"
+            },
+            {
+              "id": "MK",
+              "value": "MK - Macedonia"
+            },
+            {
+              "id": "ML",
+              "value": "ML - Mali"
+            },
+            {
+              "id": "MM",
+              "value": "MM - Myanmar"
+            },
+            {
+              "id": "MN",
+              "value": "MN - Mongolia"
+            },
+            {
+              "id": "MO",
+              "value": "MO - Macao"
+            },
+            {
+              "id": "MP",
+              "value": "MP - Northern Mariana Islands"
+            },
+            {
+              "id": "MQ",
+              "value": "MQ - Martinique"
+            },
+            {
+              "id": "MR",
+              "value": "MR - Mauritania"
+            },
+            {
+              "id": "MS",
+              "value": "MS - Montserrat"
+            },
+            {
+              "id": "MT",
+              "value": "MT - Malta"
+            },
+            {
+              "id": "MU",
+              "value": "MU - Mauritius"
+            },
+            {
+              "id": "MV",
+              "value": "MV - Maldives"
+            },
+            {
+              "id": "MW",
+              "value": "MW - Malawi"
+            },
+            {
+              "id": "MX",
+              "value": "MX - Mexico"
+            },
+            {
+              "id": "MY",
+              "value": "MY - Malaysia"
+            },
+            {
+              "id": "MZ",
+              "value": "MZ - Mozambique"
+            },
+            {
+              "id": "NA",
+              "value": "NA - Namibia"
+            },
+            {
+              "id": "NC",
+              "value": "NC - New Caledonia"
+            },
+            {
+              "id": "NE",
+              "value": "NE - Niger"
+            },
+            {
+              "id": "NF",
+              "value": "NF - Norfolk Island"
+            },
+            {
+              "id": "NG",
+              "value": "NG - Nigeria"
+            },
+            {
+              "id": "NI",
+              "value": "NI - Nicaragua"
+            },
+            {
+              "id": "NL",
+              "value": "NL - Netherlands"
+            },
+            {
+              "id": "NO",
+              "value": "NO - Norway"
+            },
+            {
+              "id": "NP",
+              "value": "NP - Nepal"
+            },
+            {
+              "id": "NR",
+              "value": "NR - Nauru"
+            },
+            {
+              "id": "NU",
+              "value": "NU - Niue"
+            },
+            {
+              "id": "NZ",
+              "value": "NZ - New Zealand"
+            },
+            {
+              "id": "OM",
+              "value": "OM - Oman"
+            },
+            {
+              "id": "PA",
+              "value": "PA - Panama"
+            },
+            {
+              "id": "PE",
+              "value": "PE - Peru"
+            },
+            {
+              "id": "PF",
+              "value": "PF - French Polynesia"
+            },
+            {
+              "id": "PG",
+              "value": "PG - Papua New Guinea"
+            },
+            {
+              "id": "PH",
+              "value": "PH - Philippines"
+            },
+            {
+              "id": "PK",
+              "value": "PK - Pakistan"
+            },
+            {
+              "id": "PL",
+              "value": "PL - Poland"
+            },
+            {
+              "id": "PM",
+              "value": "PM - Saint Pierre And Miquelon"
+            },
+            {
+              "id": "PN",
+              "value": "PN - Pitcairn"
+            },
+            {
+              "id": "PR",
+              "value": "PR - Puerto Rico"
+            },
+            {
+              "id": "PS",
+              "value": "PS - Palestinian Territory"
+            },
+            {
+              "id": "PT",
+              "value": "PT - Portugal"
+            },
+            {
+              "id": "PW",
+              "value": "PW - Palau"
+            },
+            {
+              "id": "PY",
+              "value": "PY - Paraguay"
+            },
+            {
+              "id": "QA",
+              "value": "QA - Qatar"
+            },
+            {
+              "id": "RE",
+              "value": "RE - Reunion"
+            },
+            {
+              "id": "RO",
+              "value": "RO - Romania"
+            },
+            {
+              "id": "RS",
+              "value": "RS - Serbia"
+            },
+            {
+              "id": "RU",
+              "value": "RU - Russian Federation"
+            },
+            {
+              "id": "RW",
+              "value": "RW - Rwanda"
+            },
+            {
+              "id": "SA",
+              "value": "SA - Saudi Arabia"
+            },
+            {
+              "id": "SB",
+              "value": "SB - Solomon Islands"
+            },
+            {
+              "id": "SC",
+              "value": "SC - Seychelles"
+            },
+            {
+              "id": "SD",
+              "value": "SD - Sudan"
+            },
+            {
+              "id": "SE",
+              "value": "SE - Sweden"
+            },
+            {
+              "id": "SG",
+              "value": "SG - Singapore"
+            },
+            {
+              "id": "SH",
+              "value": "SH - Saint Helena"
+            },
+            {
+              "id": "SI",
+              "value": "SI - Slovenia"
+            },
+            {
+              "id": "SJ",
+              "value": "SJ - Svalbard And Jan Mayen Islands"
+            },
+            {
+              "id": "SK",
+              "value": "SK - Slovakia"
+            },
+            {
+              "id": "SL",
+              "value": "SL - Sierra Leone"
+            },
+            {
+              "id": "SM",
+              "value": "SM - San Marino"
+            },
+            {
+              "id": "SN",
+              "value": "SN - Senegal"
+            },
+            {
+              "id": "SO",
+              "value": "SO - Somalia"
+            },
+            {
+              "id": "SR",
+              "value": "SR - Suriname"
+            },
+            {
+              "id": "SS",
+              "value": "SS - South Sudan"
+            },
+            {
+              "id": "ST",
+              "value": "ST - Sao Tome And Principe"
+            },
+            {
+              "id": "SV",
+              "value": "SV - El Salvador"
+            },
+            {
+              "id": "SX",
+              "value": "SX - Sint Maarten"
+            },
+            {
+              "id": "SY",
+              "value": "SY - Syrian Arab Republic"
+            },
+            {
+              "id": "SZ",
+              "value": "SZ - Swaziland"
+            },
+            {
+              "id": "TC",
+              "value": "TC - Turks And Caicos Islands"
+            },
+            {
+              "id": "TD",
+              "value": "TD - Chad"
+            },
+            {
+              "id": "TF",
+              "value": "TF - French Southern Territories"
+            },
+            {
+              "id": "TG",
+              "value": "TG - Togo"
+            },
+            {
+              "id": "TH",
+              "value": "TH - Thailand"
+            },
+            {
+              "id": "TJ",
+              "value": "TJ - Tajikistan"
+            },
+            {
+              "id": "TK",
+              "value": "TK - Tokelau"
+            },
+            {
+              "id": "TL",
+              "value": "TL - Timor-Leste"
+            },
+            {
+              "id": "TM",
+              "value": "TM - Turkmenistan"
+            },
+            {
+              "id": "TN",
+              "value": "TN - Tunisia"
+            },
+            {
+              "id": "TO",
+              "value": "TO - Tonga"
+            },
+            {
+              "id": "TR",
+              "value": "TR - Turkey"
+            },
+            {
+              "id": "TT",
+              "value": "TT - Trinidad And Tobago"
+            },
+            {
+              "id": "TV",
+              "value": "TV - Tuvalu"
+            },
+            {
+              "id": "TW",
+              "value": "TW - Taiwan"
+            },
+            {
+              "id": "TZ",
+              "value": "TZ - Tanzania"
+            },
+            {
+              "id": "UA",
+              "value": "UA - Ukraine"
+            },
+            {
+              "id": "UG",
+              "value": "UG - Uganda"
+            },
+            {
+              "id": "UM",
+              "value": "UM - United States Minor Outlying Islands"
+            },
+            {
+              "id": "US",
+              "value": "US - United States"
+            },
+            {
+              "id": "UY",
+              "value": "UY - Uruguay"
+            },
+            {
+              "id": "UZ",
+              "value": "UZ - Uzbekistan"
+            },
+            {
+              "id": "VA",
+              "value": "VA - Holy See (Vatican City State)"
+            },
+            {
+              "id": "VC",
+              "value": "VC - Saint Vincent And The Grenadines"
+            },
+            {
+              "id": "VE",
+              "value": "VE - Venezuela"
+            },
+            {
+              "id": "VG",
+              "value": "VG - Virgin Islands (British)"
+            },
+            {
+              "id": "VI",
+              "value": "VI - Virgin Islands (U.S.)"
+            },
+            {
+              "id": "VN",
+              "value": "VN - Viet Nam"
+            },
+            {
+              "id": "VU",
+              "value": "VU - Vanuatu"
+            },
+            {
+              "id": "WF",
+              "value": "WF - Wallis And Futuna Islands"
+            },
+            {
+              "id": "WS",
+              "value": "WS - Samoa"
+            },
+            {
+              "id": "YE",
+              "value": "YE - Yemen"
+            },
+            {
+              "id": "YT",
+              "value": "YT - Mayotte"
+            },
+            {
+              "id": "ZA",
+              "value": "ZA - South Africa"
+            },
+            {
+              "id": "ZM",
+              "value": "ZM - Zambia"
+            },
+            {
+              "id": "ZW",
+              "value": "ZW - Zimbabwe"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "shelfLabel3Description": {
+        "metadata": {
+          "id": "shelfLabel3Description",
+          "name": "Shelf Label 3 Description",
+          "label": "Shelf 3",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 6,
+          "field": "select",
+          "type": null,
+          "attributeKey": "shelfLabel3Description",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "ABC"
+          ]
+        },
+        "errors": null
+      },
+      "isImportInd": {
+        "metadata": {
+          "id": "isImportInd",
+          "name": "Is Import",
+          "label": "Import Indicator",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isImportInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "orderablePackGtin": {
+        "metadata": {
+          "id": "orderablePackGtin",
+          "name": "Orderable Pack GTIN",
+          "label": "Orderable GTIN",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 14,
+          "maxLength": 14,
+          "field": "select",
+          "type": null,
+          "attributeKey": "orderablePackGtin",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "00010512000122"
+          ]
+        },
+        "errors": null
+      },
+      "warehouseAreaCode": {
+        "metadata": {
+          "id": "warehouseAreaCode",
+          "name": "Warehouse Area Code",
+          "label": "Whse Area ",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "warehouseAreaCode",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "1",
+              "value": "1 - Fresh Meat"
+            },
+            {
+              "id": "2",
+              "value": "2 - Fresh Deli"
+            },
+            {
+              "id": "3",
+              "value": "3 - Fresh Dairy"
+            },
+            {
+              "id": "4",
+              "value": "4 - Frozen"
+            },
+            {
+              "id": "5",
+              "value": "5 - Ice Cream"
+            },
+            {
+              "id": "6",
+              "value": "6 - Dry Grocery"
+            },
+            {
+              "id": "7",
+              "value": "7 - Wet Produce"
+            },
+            {
+              "id": "8",
+              "value": "8 - Dry Produce"
+            },
+            {
+              "id": "9",
+              "value": "9 - General Merchandise"
+            },
+            {
+              "id": "10",
+              "value": "10 - Shoes"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "3"
+          ]
+        },
+        "errors": null
+      },
+      "supplyItemSecondaryDescription": {
+        "metadata": {
+          "id": "supplyItemSecondaryDescription",
+          "name": "Supply Item Secondary Description",
+          "label": "Secondary Desc",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 20,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "supplyItemSecondaryDescription",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "PP2.98"
+          ]
+        },
+        "errors": null
+      },
+      "reserveMerchandiseTypeCode": {
+        "metadata": {
+          "id": "reserveMerchandiseTypeCode",
+          "name": "Reserve Merchandise Type",
+          "label": "Reserve Merchandise Code",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1,
+          "field": "select",
+          "type": null,
+          "attributeKey": "reserveMerchandiseTypeCode",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "0",
+              "value": "0 - None"
+            },
+            {
+              "id": "5",
+              "value": "5 - No Store Manual Orders"
+            },
+            {
+              "id": "9",
+              "value": "9 - Push Orders Only"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "0"
+          ]
+        },
+        "errors": null
+      },
+      "sendTraitNbr": {
+        "metadata": {
+          "id": "sendTraitNbr",
+          "name": "Send Trait Number",
+          "label": "Send Traits",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 6,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "sendTraitNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "storeComment": {
+        "metadata": {
+          "id": "storeComment",
+          "name": "Store Comment",
+          "label": "Comments for Store",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 70,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "storeComment",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "isShelfLabelRequiredInd": {
+        "metadata": {
+          "id": "isShelfLabelRequiredInd",
+          "name": "Is Shelf Label Required",
+          "label": "Shelf Label Required",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isShelfLabelRequiredInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "warehouseMinOrderUomCode": {
+        "metadata": {
+          "id": "warehouseMinOrderUomCode",
+          "name": "Warehouse Minimum Order Uom",
+          "label": "Whse Min Order Quantity UOM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "warehouseMinOrderUomCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "initialCostAmt": {
+        "metadata": {
+          "id": "initialCostAmt",
+          "name": "Initial Cost",
+          "label": "Initial Cost",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "initialCostAmt",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 2,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "markupPercent": {
+        "metadata": {
+          "id": "markupPercent",
+          "name": "Markup Percent",
+          "label": "Markup %",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": "markupPercent",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 4,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "merchandiseProgramId": {
+        "metadata": {
+          "id": "merchandiseProgramId",
+          "name": "Merchandise Program ID",
+          "label": "Space ID",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "merchandiseProgramId",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "639"
+          ]
+        },
+        "errors": null
+      },
+      "hasSecurityTagInd": {
+        "metadata": {
+          "id": "hasSecurityTagInd",
+          "name": "Has Security Tag",
+          "label": "Security Tag Indicator",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "hasSecurityTagInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "supplyItemChangeReasonCode": {
+        "metadata": {
+          "id": "supplyItemChangeReasonCode",
+          "name": "Supply Item Change Reason Code",
+          "label": "Change Reason Code",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "select",
+          "type": null,
+          "attributeKey": "supplyItemChangeReasonCode",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "2",
+              "value": "2 - New Item"
+            },
+            {
+              "id": "3",
+              "value": "3 - Convert to Assembly Type"
+            },
+            {
+              "id": "4",
+              "value": "4 - Convert to Warehouse Type"
+            },
+            {
+              "id": "5",
+              "value": "5 - New Pack Size"
+            },
+            {
+              "id": "6",
+              "value": "6 - New UPC"
+            },
+            {
+              "id": "7",
+              "value": "7 - General Information"
+            },
+            {
+              "id": "8",
+              "value": "8 - Other Actions"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "2"
+          ]
+        },
+        "errors": null
+      },
+      "allowedTimeInWarehouseUomCode": {
+        "metadata": {
+          "id": "allowedTimeInWarehouseUomCode",
+          "name": "Allowed Time in Warehouse Uom",
+          "label": "Allowed Time in Whse UOM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "allowedTimeInWarehouseUomCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "DA"
+          ]
+        },
+        "errors": null
+      },
+      "warehouseMaxOrderQty": {
+        "metadata": {
+          "id": "warehouseMaxOrderQty",
+          "name": "Warehouse Maximum Order Quantity",
+          "label": "Whse Max Order Quantity",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "warehouseMaxOrderQty",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "5"
+          ]
+        },
+        "errors": null
+      },
+      "destinationFormatCode": {
+        "metadata": {
+          "id": "destinationFormatCode",
+          "name": "Destination Format Code",
+          "label": "Destination",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 25,
+          "field": "listBox",
+          "type": null,
+          "attributeKey": "destinationFormatCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "WM",
+              "value": "WM - Walmart"
+            },
+            {
+              "id": "SC",
+              "value": "SC - Supercenter"
+            },
+            {
+              "id": "EC",
+              "value": "EC - eCommerce"
+            },
+            {
+              "id": "NM",
+              "value": "NM - Neighborhood Market/Amigo"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "EC",
+            "WM"
+          ]
+        },
+        "errors": null
+      },
+      "supplyItemChangeComment": {
+        "metadata": {
+          "id": "supplyItemChangeComment",
+          "name": "Supply Item Change Comment",
+          "label": "Supply Item Change Comment",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 4000,
+          "field": "select",
+          "type": null,
+          "attributeKey": "supplyItemChangeComment",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "warehousePackQtyUomCode": {
+        "metadata": {
+          "id": "warehousePackQtyUomCode",
+          "name": "Warehouse Pack Quantity Uom",
+          "label": "Whse Pack Qty UOM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "warehousePackQtyUomCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "EA"
+          ]
+        },
+        "errors": null
+      },
+      "legacyProductNbr": {
+        "metadata": {
+          "id": "legacyProductNbr",
+          "name": "Legacy Product Number",
+          "label": "Product Number (Legacy)",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 9,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "legacyProductNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "21094325"
+          ]
+        },
+        "errors": null
+      },
+      "estimatedOutOfStockDate": {
+        "metadata": {
+          "id": "estimatedOutOfStockDate",
+          "name": "Estimated Out Of Stock Date",
+          "label": "Est Out of Stock Date",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "date",
+          "type": null,
+          "attributeKey": "estimatedOutOfStockDate",
+          "attributeDataType": "Date",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "allowedTimeInWarehouseQty": {
+        "metadata": {
+          "id": "allowedTimeInWarehouseQty",
+          "name": "Allowed Time In Warehouse",
+          "label": "Allowed Time in Whse",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "allowedTimeInWarehouseQty",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "9999"
+          ]
+        },
+        "errors": null
+      },
+      "isReplenishedByUnitInd": {
+        "metadata": {
+          "id": "isReplenishedByUnitInd",
+          "name": "Is Replenished By Unit",
+          "label": "Sold by Weight/Repl By Unit",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isReplenishedByUnitInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "mbmTypeCode": {
+        "metadata": {
+          "id": "mbmTypeCode",
+          "name": "MBM Type",
+          "label": "MBM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1,
+          "field": "select",
+          "type": null,
+          "attributeKey": "mbmTypeCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "M",
+              "value": "M - MODULAR DRIVEN"
+            },
+            {
+              "id": "I",
+              "value": "I - ITEM DRIVEN"
+            },
+            {
+              "id": "P",
+              "value": "P - PENDING"
+            },
+            {
+              "id": "H",
+              "value": "H - HOLD"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "I"
+          ]
+        },
+        "errors": null
+      }
+    },
+    "Required": {
+      "supplierId": {
+        "metadata": {
+          "id": "supplierId",
+          "name": "Supplier ID",
+          "label": "Supplier ID",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 9,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "supplierId",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "212001238 - HANESBRANDS INC DBA KNIT"
+          ]
+        },
+        "errors": null
+      },
+      "isCorporateReplenishableInd": {
+        "metadata": {
+          "id": "isCorporateReplenishableInd",
+          "name": "Is Corporate Replenishable",
+          "label": "Corporate Orderbook",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isCorporateReplenishableInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "isEcommerceReplenishableInd": {
+        "metadata": {
+          "id": "isEcommerceReplenishableInd",
+          "name": "Is eCommerce Replenishable",
+          "label": "eCommerce Orderbook",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isEcommerceReplenishableInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "warehousePackCalcMethodCode": {
+        "metadata": {
+          "id": "warehousePackCalcMethodCode",
+          "name": "Warehouse Pack Calculation Method Code",
+          "label": "Whse Pack Sell Calculation Method",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 1,
+          "field": "select",
+          "type": null,
+          "attributeKey": "warehousePackCalcMethodCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "A",
+              "value": "A - Averaged"
+            },
+            {
+              "id": "M",
+              "value": "M - Manually Maintained"
+            },
+            {
+              "id": "R",
+              "value": "R - Revalued"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "A"
+          ]
+        },
+        "errors": null
+      },
+      "recipientGln": {
+        "metadata": {
+          "id": "recipientGln",
+          "name": "Recipient GLN",
+          "label": "Recipient GLN",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 13,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "recipientGln",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "0078742000008"
+          ]
+        },
+        "errors": null
+      },
+      "warehousePackCostAmt": {
+        "metadata": {
+          "id": "warehousePackCostAmt",
+          "name": "Warehouse Pack Cost",
+          "label": "Whse Pack Cost",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 17,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": "warehousePackCostAmt",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 4,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "350"
+          ]
+        },
+        "errors": null
+      },
+      "deptNbr": {
+        "metadata": {
+          "id": "deptNbr",
+          "name": "Department Number",
+          "label": "Order Dept",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "select",
+          "type": null,
+          "attributeKey": "deptNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "1",
+              "value": "1 - CANDY TOBACCO COOKIES"
+            },
+            {
+              "id": "2",
+              "value": "2 - PERSONAL CARE"
+            },
+            {
+              "id": "3",
+              "value": "3 - STATIONERY"
+            },
+            {
+              "id": "4",
+              "value": "4 - HOUSEHOLD PAPER GOODS"
+            },
+            {
+              "id": "5",
+              "value": "5 - MEDIA AND GAMING"
+            },
+            {
+              "id": "6",
+              "value": "6 - PHOTO"
+            },
+            {
+              "id": "7",
+              "value": "7 - TOYS"
+            },
+            {
+              "id": "8",
+              "value": "8 - PETS and SUPPLIES"
+            },
+            {
+              "id": "9",
+              "value": "9 - SPORTING GOODS"
+            },
+            {
+              "id": "10",
+              "value": "10 - AUTOMOTIVE"
+            },
+            {
+              "id": "11",
+              "value": "11 - HARDWARE"
+            },
+            {
+              "id": "12",
+              "value": "12 - PAINT and ACCESSORIES"
+            },
+            {
+              "id": "13",
+              "value": "13 - CHEMICALS and CLEANING SUPPLIES"
+            },
+            {
+              "id": "14",
+              "value": "14 - COOK AND DINE"
+            },
+            {
+              "id": "15",
+              "value": "15 - HEALTH AND WELLNESS CLINICS"
+            },
+            {
+              "id": "16",
+              "value": "16 - OUTDOOR LIVING"
+            },
+            {
+              "id": "17",
+              "value": "17 - HOME DÉCOR"
+            },
+            {
+              "id": "18",
+              "value": "18 - SEASONAL"
+            },
+            {
+              "id": "19",
+              "value": "19 - FABRICS/CRAFTS/ARTIFICIAL FLORAL"
+            },
+            {
+              "id": "20",
+              "value": "20 - BATH AND SHOWER"
+            },
+            {
+              "id": "21",
+              "value": "21 - BOOKS AND MAGAZINES"
+            },
+            {
+              "id": "22",
+              "value": "22 - BEDDING"
+            },
+            {
+              "id": "23",
+              "value": "23 - MENS WEAR"
+            },
+            {
+              "id": "24",
+              "value": "24 - BOYS WEAR"
+            },
+            {
+              "id": "25",
+              "value": "25 - SHOES"
+            },
+            {
+              "id": "26",
+              "value": "26 - INFANT APPAREL"
+            },
+            {
+              "id": "27",
+              "value": "27 - LADIES SOCKS"
+            },
+            {
+              "id": "28",
+              "value": "28 - SHEER HOSIERY"
+            },
+            {
+              "id": "29",
+              "value": "29 - SLEEPWEAR and PANTIES"
+            },
+            {
+              "id": "30",
+              "value": "30 - BRAS and SHAPEWEAR"
+            },
+            {
+              "id": "31",
+              "value": "31 - LADIES ACCESSORIES/HANDBAGS"
+            },
+            {
+              "id": "32",
+              "value": "32 - JEWELRY - SUNGLASSES"
+            },
+            {
+              "id": "33",
+              "value": "33 - GIRLS WEAR"
+            },
+            {
+              "id": "34",
+              "value": "34 - LADIES WEAR"
+            },
+            {
+              "id": "35",
+              "value": "35 - WOMENSWEAR/MATERNITY"
+            },
+            {
+              "id": "36",
+              "value": "36 - OUTERWEAR/SWIMWEAR"
+            },
+            {
+              "id": "37",
+              "value": "37 - AUTOMOTIVE;SERVICE INCOME"
+            },
+            {
+              "id": "38",
+              "value": "38 - PHARMACY PRESCRIPTIONS"
+            },
+            {
+              "id": "39",
+              "value": "39 - SNACK\nBAR"
+            },
+            {
+              "id": "40",
+              "value": "40 - PHARMACY;OTC"
+            },
+            {
+              "id": "41",
+              "value": "41 - MENSWEAR"
+            },
+            {
+              "id": "42",
+              "value": "42 - AUTOMOTIVE"
+            },
+            {
+              "id": "43",
+              "value": "43 - TOYS"
+            },
+            {
+              "id": "44",
+              "value": "44 - CRAFTS"
+            },
+            {
+              "id": "45",
+              "value": "45 - SPORTING GOODS"
+            },
+            {
+              "id": "46",
+              "value": "46 - BEAUTY"
+            },
+            {
+              "id": "47",
+              "value": "47 - JEWELRY (ADDITIONAL)"
+            },
+            {
+              "id": "48",
+              "value": "48 - SPORTING GOODS"
+            },
+            {
+              "id": "49",
+              "value": "49 - OPTICAL -\nFRAMES"
+            },
+            {
+              "id": "50",
+              "value": "50 - OPTICAL - LENSES"
+            },
+            {
+              "id": "51",
+              "value": "51 - SPORTING GOODS"
+            },
+            {
+              "id": "52",
+              "value": "52 - FABRICS AND CRAFTS"
+            },
+            {
+              "id": "53",
+              "value": "53 - STATIONERY AND BOOKS"
+            },
+            {
+              "id": "54",
+              "value": "54 - JEWELRY AND SUNGLASSES"
+            },
+            {
+              "id": "55",
+              "value": "55 - PLAYERS AND ELECTRONICS"
+            },
+            {
+              "id": "56",
+              "value": "56 - HORTICULTURE AND ACCESS"
+            },
+            {
+              "id": "57",
+              "value": "57 - TOYS"
+            },
+            {
+              "id": "58",
+              "value": "58 - WIRELESS SERVICE INCOME"
+            },
+            {
+              "id": "59",
+              "value": "59 - HEALTH AND BEAUTY AIDS"
+            },
+            {
+              "id": "60",
+              "value": "60 - CONCEPT STORES"
+            },
+            {
+              "id": "65",
+              "value": "65 - GASOLINE"
+            },
+            {
+              "id": "67",
+              "value": "67 - CELEBRATION"
+            },
+            {
+              "id": "69",
+              "value": "69 - WAL-MART ONLINE"
+            },
+            {
+              "id": "70",
+              "value": "70 - STORE USE ONLY"
+            },
+            {
+              "id": "71",
+              "value": "71 - FURNITURE"
+            },
+            {
+              "id": "72",
+              "value": "72 - ELECTRONICS"
+            },
+            {
+              "id": "73",
+              "value": "73 - BOOKS AND MAGAZINES"
+            },
+            {
+              "id": "74",
+              "value": "74 - HOME MANAGEMENT"
+            },
+            {
+              "id": "75",
+              "value": "75 - OPTICAL - DOCTORS FEES"
+            },
+            {
+              "id": "76",
+              "value": "76 - ACADEMY (STORE TRAINING)"
+            },
+            {
+              "id": "77",
+              "value": "77 - LARGE HOUSEHOLD GOODS"
+            },
+            {
+              "id": "78",
+              "value": "78 - LADIES WEAR"
+            },
+            {
+              "id": "79",
+              "value": "79 - INFANT CONSUMABLE HARDLINES"
+            },
+            {
+              "id": "80",
+              "value": "80 - SERVICE DELI"
+            },
+            {
+              "id": "81",
+              "value": "81 - COMMERCIAL BREAD"
+            },
+            {
+              "id": "82",
+              "value": "82 - IMPULSE MERCHANDISE"
+            },
+            {
+              "id": "85",
+              "value": "85 - 1 HOUR PHOTO"
+            },
+            {
+              "id": "86",
+              "value": "86 - FINANCIAL SERVICES"
+            },
+            {
+              "id": "87",
+              "value": "87 - WIRELESS"
+            },
+            {
+              "id": "88",
+              "value": "88 - SIGNING"
+            },
+            {
+              "id": "89",
+              "value": "89 - TRAVEL"
+            },
+            {
+              "id": "90",
+              "value": "90 - DAIRY"
+            },
+            {
+              "id": "91",
+              "value": "91 - FROZEN FOODS"
+            },
+            {
+              "id": "92",
+              "value": "92 - GROCERY"
+            },
+            {
+              "id": "93",
+              "value": "93 - MEAT FRESH AND FROZEN"
+            },
+            {
+              "id": "94",
+              "value": "94 - PRODUCE"
+            },
+            {
+              "id": "95",
+              "value": "95 - DSD GROCERY"
+            },
+            {
+              "id": "96",
+              "value": "96 - LIQUOR"
+            },
+            {
+              "id": "97",
+              "value": "97 - MEAT/DELI WALL"
+            },
+            {
+              "id": "98",
+              "value": "98 - FRESH BAKERY"
+            },
+            {
+              "id": "99",
+              "value": "99 - SUPPLIES"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "23"
+          ]
+        },
+        "errors": null
+      },
+      "supplyItemPrimaryDescription": {
+        "metadata": {
+          "id": "supplyItemPrimaryDescription",
+          "name": "Supply Item Primary Description",
+          "label": "Primary Desc",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 20,
+          "field": "select",
+          "type": null,
+          "attributeKey": "supplyItemPrimaryDescription",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "UHEIOHQWOEHFFHK"
+          ]
+        },
+        "errors": null
+      },
+      "buyingRegionCode": {
+        "metadata": {
+          "id": "buyingRegionCode",
+          "name": "Buying Region Code",
+          "label": "Buying Region",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 6,
+          "field": "select",
+          "type": null,
+          "attributeKey": "buyingRegionCode",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "0",
+              "value": "0 - Corporate"
+            },
+            {
+              "id": "1",
+              "value": "1 - Alaska"
+            },
+            {
+              "id": "2",
+              "value": "2 - Hawaii"
+            },
+            {
+              "id": "3",
+              "value": "3 - Puerto Rico"
+            },
+            {
+              "id": "6",
+              "value": "6 - eCommerce"
+            },
+            {
+              "id": "7",
+              "value": "7 - Export"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "0"
+          ]
+        },
+        "errors": null
+      },
+      "supplyItemEffectiveDate": {
+        "metadata": {
+          "id": "supplyItemEffectiveDate",
+          "name": "Supply Item Effective Date",
+          "label": "Effective Date",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "date",
+          "type": null,
+          "attributeKey": "supplyItemEffectiveDate",
+          "attributeDataType": "Date",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "2017-12-30"
+          ]
+        },
+        "errors": null
+      },
+      "originCountryCode": {
+        "metadata": {
+          "id": "originCountryCode",
+          "name": "Origin Country Code",
+          "label": "Country of Origin",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "listBox",
+          "type": null,
+          "attributeKey": "originCountryCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "AD",
+              "value": "AD - Andorra"
+            },
+            {
+              "id": "AE",
+              "value": "AE - United Arab Emirates"
+            },
+            {
+              "id": "AF",
+              "value": "AF - Afghanistan"
+            },
+            {
+              "id": "AG",
+              "value": "AG - Antigua and Barbuda"
+            },
+            {
+              "id": "AI",
+              "value": "AI - Anguilla"
+            },
+            {
+              "id": "AL",
+              "value": "AL - Albania"
+            },
+            {
+              "id": "AM",
+              "value": "AM - Armenia"
+            },
+            {
+              "id": "AN",
+              "value": "AN - Netherlands Antilles"
+            },
+            {
+              "id": "AO",
+              "value": "AO - Angola"
+            },
+            {
+              "id": "AQ",
+              "value": "AQ - Antarctica"
+            },
+            {
+              "id": "AR",
+              "value": "AR - Argentina"
+            },
+            {
+              "id": "AS",
+              "value": "AS - American Samoa"
+            },
+            {
+              "id": "AT",
+              "value": "AT - Austria"
+            },
+            {
+              "id": "AU",
+              "value": "AU - Australia"
+            },
+            {
+              "id": "AW",
+              "value": "AW - Aruba"
+            },
+            {
+              "id": "AZ",
+              "value": "AZ - Azerbaijan"
+            },
+            {
+              "id": "BA",
+              "value": "BA - Bosnia and Herzegovina"
+            },
+            {
+              "id": "BB",
+              "value": "BB - Barbados"
+            },
+            {
+              "id": "BD",
+              "value": "BD - Bangladesh"
+            },
+            {
+              "id": "BE",
+              "value": "BE - Belgium"
+            },
+            {
+              "id": "BF",
+              "value": "BF - Burkina Faso"
+            },
+            {
+              "id": "BG",
+              "value": "BG - Bulgaria"
+            },
+            {
+              "id": "BH",
+              "value": "BH - Bahrain"
+            },
+            {
+              "id": "BI",
+              "value": "BI - Burundi"
+            },
+            {
+              "id": "BJ",
+              "value": "BJ - Benin"
+            },
+            {
+              "id": "BM",
+              "value": "BM - Bermuda"
+            },
+            {
+              "id": "BN",
+              "value": "BN - Brunei Darussalam"
+            },
+            {
+              "id": "BO",
+              "value": "BO - Bolivia"
+            },
+            {
+              "id": "BR",
+              "value": "BR - Brazil"
+            },
+            {
+              "id": "BS",
+              "value": "BS - Bahamas"
+            },
+            {
+              "id": "BT",
+              "value": "BT - Bhutan"
+            },
+            {
+              "id": "BV",
+              "value": "BV - Bouvet Island"
+            },
+            {
+              "id": "BW",
+              "value": "BW - Botswana"
+            },
+            {
+              "id": "BY",
+              "value": "BY - Belarus"
+            },
+            {
+              "id": "BZ",
+              "value": "BZ - Belize"
+            },
+            {
+              "id": "CA",
+              "value": "CA - Canada"
+            },
+            {
+              "id": "CC",
+              "value": "CC - Cocos (Keeling) Islands"
+            },
+            {
+              "id": "CD",
+              "value": "CD - Republic of Congo"
+            },
+            {
+              "id": "CF",
+              "value": "CF - Central African Republic"
+            },
+            {
+              "id": "CG",
+              "value": "CG - Congo"
+            },
+            {
+              "id": "CH",
+              "value": "CH - Switzerland"
+            },
+            {
+              "id": "CI",
+              "value": "CI - Ivory Coast"
+            },
+            {
+              "id": "CK",
+              "value": "CK - Cook Islands"
+            },
+            {
+              "id": "CL",
+              "value": "CL - Chile"
+            },
+            {
+              "id": "CM",
+              "value": "CM - Cameroon"
+            },
+            {
+              "id": "CN",
+              "value": "CN - China"
+            },
+            {
+              "id": "CO",
+              "value": "CO - Colombia"
+            },
+            {
+              "id": "CR",
+              "value": "CR - Costa Rica"
+            },
+            {
+              "id": "CU",
+              "value": "CU - Cuba"
+            },
+            {
+              "id": "CV",
+              "value": "CV - Cape Verde"
+            },
+            {
+              "id": "CX",
+              "value": "CX - Christmas Island"
+            },
+            {
+              "id": "CY",
+              "value": "CY - Cyprus"
+            },
+            {
+              "id": "CZ",
+              "value": "CZ - Czech Republic"
+            },
+            {
+              "id": "DE",
+              "value": "DE - Germany"
+            },
+            {
+              "id": "DJ",
+              "value": "DJ - Djibouti"
+            },
+            {
+              "id": "DK",
+              "value": "DK - Denmark"
+            },
+            {
+              "id": "DM",
+              "value": "DM - Dominica"
+            },
+            {
+              "id": "DO",
+              "value": "DO - Dominican Republic"
+            },
+            {
+              "id": "DZ",
+              "value": "DZ - Algeria"
+            },
+            {
+              "id": "EC",
+              "value": "EC - Ecuador"
+            },
+            {
+              "id": "EE",
+              "value": "EE - Estonia"
+            },
+            {
+              "id": "EG",
+              "value": "EG - Egypt"
+            },
+            {
+              "id": "EH",
+              "value": "EH - Western Sahara"
+            },
+            {
+              "id": "ER",
+              "value": "ER - Eritrea"
+            },
+            {
+              "id": "ES",
+              "value": "ES - Spain"
+            },
+            {
+              "id": "ET",
+              "value": "ET - Ethiopia"
+            },
+            {
+              "id": "FI",
+              "value": "FI - Finland"
+            },
+            {
+              "id": "FJ",
+              "value": "FJ - Fiji"
+            },
+            {
+              "id": "FK",
+              "value": "FK - Falkland Islands (Malvinas)"
+            },
+            {
+              "id": "FM",
+              "value": "FM - Micronesia"
+            },
+            {
+              "id": "FO",
+              "value": "FO - Faroe Islands"
+            },
+            {
+              "id": "FR",
+              "value": "FR - France"
+            },
+            {
+              "id": "FX",
+              "value": "FX - France"
+            },
+            {
+              "id": "GA",
+              "value": "GA - Gabon"
+            },
+            {
+              "id": "GB",
+              "value": "GB - United Kingdom"
+            },
+            {
+              "id": "GD",
+              "value": "GD - Grenada"
+            },
+            {
+              "id": "GE",
+              "value": "GE - Georgia"
+            },
+            {
+              "id": "GF",
+              "value": "GF - French Guiana"
+            },
+            {
+              "id": "GH",
+              "value": "GH - Ghana"
+            },
+            {
+              "id": "GI",
+              "value": "GI - Gibraltar"
+            },
+            {
+              "id": "GL",
+              "value": "GL - Greenland"
+            },
+            {
+              "id": "GM",
+              "value": "GM - Gambia"
+            },
+            {
+              "id": "GN",
+              "value": "GN - Guinea"
+            },
+            {
+              "id": "GP",
+              "value": "GP - Guadeloupe"
+            },
+            {
+              "id": "GQ",
+              "value": "GQ - Equatorial Guinea"
+            },
+            {
+              "id": "GR",
+              "value": "GR - Greece"
+            },
+            {
+              "id": "GS",
+              "value": "GS - South Georgia/So Sandwich Isl"
+            },
+            {
+              "id": "GT",
+              "value": "GT - Guatemala"
+            },
+            {
+              "id": "GU",
+              "value": "GU - Guam"
+            },
+            {
+              "id": "GW",
+              "value": "GW - Guinea-Bissau"
+            },
+            {
+              "id": "GY",
+              "value": "GY - Guyana"
+            },
+            {
+              "id": "HK",
+              "value": "HK - Hong Kong"
+            },
+            {
+              "id": "HM",
+              "value": "HM - Heard Island & McDonald Isl"
+            },
+            {
+              "id": "HN",
+              "value": "HN - Honduras"
+            },
+            {
+              "id": "HR",
+              "value": "HR - Croatia"
+            },
+            {
+              "id": "HT",
+              "value": "HT - Haiti"
+            },
+            {
+              "id": "HU",
+              "value": "HU - Hungary"
+            },
+            {
+              "id": "ID",
+              "value": "ID - Indonesia"
+            },
+            {
+              "id": "IE",
+              "value": "IE - Ireland"
+            },
+            {
+              "id": "IL",
+              "value": "IL - Israel"
+            },
+            {
+              "id": "IN",
+              "value": "IN - India"
+            },
+            {
+              "id": "IO",
+              "value": "IO - British Indian Ocean Territory"
+            },
+            {
+              "id": "IQ",
+              "value": "IQ - Iraq"
+            },
+            {
+              "id": "IR",
+              "value": "IR - Iran"
+            },
+            {
+              "id": "IS",
+              "value": "IS - Iceland"
+            },
+            {
+              "id": "IT",
+              "value": "IT - Italy"
+            },
+            {
+              "id": "JM",
+              "value": "JM - Jamaica"
+            },
+            {
+              "id": "JO",
+              "value": "JO - Jordan"
+            },
+            {
+              "id": "JP",
+              "value": "JP - Japan"
+            },
+            {
+              "id": "KE",
+              "value": "KE - Kenya"
+            },
+            {
+              "id": "KG",
+              "value": "KG - Kyrgyzstan"
+            },
+            {
+              "id": "KH",
+              "value": "KH - Cambodia"
+            },
+            {
+              "id": "KI",
+              "value": "KI - Kiribati"
+            },
+            {
+              "id": "KM",
+              "value": "KM - Comoros"
+            },
+            {
+              "id": "KN",
+              "value": "KN - Saint Kitts And Nevis"
+            },
+            {
+              "id": "KP",
+              "value": "KP - Korea"
+            },
+            {
+              "id": "KR",
+              "value": "KR - Korea"
+            },
+            {
+              "id": "KW",
+              "value": "KW - Kuwait"
+            },
+            {
+              "id": "KY",
+              "value": "KY - Cayman Islands"
+            },
+            {
+              "id": "KZ",
+              "value": "KZ - Kazakhstan"
+            },
+            {
+              "id": "LA",
+              "value": "LA - Laos"
+            },
+            {
+              "id": "LB",
+              "value": "LB - Lebanon"
+            },
+            {
+              "id": "LC",
+              "value": "LC - Saint Lucia"
+            },
+            {
+              "id": "LI",
+              "value": "LI - Liechtenstein"
+            },
+            {
+              "id": "LK",
+              "value": "LK - Sri Lanka"
+            },
+            {
+              "id": "LR",
+              "value": "LR - Liberia"
+            },
+            {
+              "id": "LS",
+              "value": "LS - Lesotho"
+            },
+            {
+              "id": "LT",
+              "value": "LT - Lithuania"
+            },
+            {
+              "id": "LU",
+              "value": "LU - Luxembourg"
+            },
+            {
+              "id": "LV",
+              "value": "LV - Latvia"
+            },
+            {
+              "id": "LY",
+              "value": "LY - Libyan Arab Jamahiriya"
+            },
+            {
+              "id": "MA",
+              "value": "MA - Morocco"
+            },
+            {
+              "id": "MC",
+              "value": "MC - Monaco"
+            },
+            {
+              "id": "MD",
+              "value": "MD - Moldova"
+            },
+            {
+              "id": "MG",
+              "value": "MG - Madagascar"
+            },
+            {
+              "id": "MH",
+              "value": "MH - Marshall Islands"
+            },
+            {
+              "id": "MK",
+              "value": "MK - Macedonia"
+            },
+            {
+              "id": "ML",
+              "value": "ML - Mali"
+            },
+            {
+              "id": "MM",
+              "value": "MM - Myanmar"
+            },
+            {
+              "id": "MN",
+              "value": "MN - Mongolia"
+            },
+            {
+              "id": "MO",
+              "value": "MO - Macau"
+            },
+            {
+              "id": "MP",
+              "value": "MP - Northern Mariana Islands"
+            },
+            {
+              "id": "MQ",
+              "value": "MQ - Martinique"
+            },
+            {
+              "id": "MR",
+              "value": "MR - Mauritania"
+            },
+            {
+              "id": "MS",
+              "value": "MS - Montserrat"
+            },
+            {
+              "id": "MT",
+              "value": "MT - Malta"
+            },
+            {
+              "id": "MU",
+              "value": "MU - Mauritius"
+            },
+            {
+              "id": "MV",
+              "value": "MV - Maldives"
+            },
+            {
+              "id": "MW",
+              "value": "MW - Malawi"
+            },
+            {
+              "id": "MX",
+              "value": "MX - Mexico"
+            },
+            {
+              "id": "MY",
+              "value": "MY - Malaysia"
+            },
+            {
+              "id": "MZ",
+              "value": "MZ - Mozambique"
+            },
+            {
+              "id": "NA",
+              "value": "NA - Namibia"
+            },
+            {
+              "id": "NC",
+              "value": "NC - New Caledonia"
+            },
+            {
+              "id": "NE",
+              "value": "NE - Niger"
+            },
+            {
+              "id": "NF",
+              "value": "NF - Norfolk Island"
+            },
+            {
+              "id": "NG",
+              "value": "NG - Nigeria"
+            },
+            {
+              "id": "NI",
+              "value": "NI - Nicaragua"
+            },
+            {
+              "id": "NL",
+              "value": "NL - Netherlands"
+            },
+            {
+              "id": "NO",
+              "value": "NO - Norway"
+            },
+            {
+              "id": "NP",
+              "value": "NP - Nepal"
+            },
+            {
+              "id": "NR",
+              "value": "NR - Nauru"
+            },
+            {
+              "id": "NU",
+              "value": "NU - Niue"
+            },
+            {
+              "id": "NZ",
+              "value": "NZ - New Zealand"
+            },
+            {
+              "id": "OM",
+              "value": "OM - Oman"
+            },
+            {
+              "id": "PA",
+              "value": "PA - Panama"
+            },
+            {
+              "id": "PE",
+              "value": "PE - Peru"
+            },
+            {
+              "id": "PF",
+              "value": "PF - French Polynesia"
+            },
+            {
+              "id": "PG",
+              "value": "PG - Papua New Guinea"
+            },
+            {
+              "id": "PH",
+              "value": "PH - Philippines"
+            },
+            {
+              "id": "PK",
+              "value": "PK - Pakistan"
+            },
+            {
+              "id": "PL",
+              "value": "PL - Poland"
+            },
+            {
+              "id": "PM",
+              "value": "PM - Saint Pierre And Miquelon"
+            },
+            {
+              "id": "PN",
+              "value": "PN - Pitcairn"
+            },
+            {
+              "id": "PR",
+              "value": "PR - Puerto Rico"
+            },
+            {
+              "id": "PS",
+              "value": "PS - Palestine"
+            },
+            {
+              "id": "PT",
+              "value": "PT - Portugal"
+            },
+            {
+              "id": "PW",
+              "value": "PW - Palau"
+            },
+            {
+              "id": "PY",
+              "value": "PY - Paraguay"
+            },
+            {
+              "id": "QA",
+              "value": "QA - Qatar"
+            },
+            {
+              "id": "RE",
+              "value": "RE - Reunion"
+            },
+            {
+              "id": "RO",
+              "value": "RO - Romania"
+            },
+            {
+              "id": "RU",
+              "value": "RU - Russian Federation"
+            },
+            {
+              "id": "RW",
+              "value": "RW - Rwanda"
+            },
+            {
+              "id": "SA",
+              "value": "SA - Saudi Arabia"
+            },
+            {
+              "id": "SB",
+              "value": "SB - Solomon Islands"
+            },
+            {
+              "id": "SC",
+              "value": "SC - Seychelles"
+            },
+            {
+              "id": "SD",
+              "value": "SD - Sudan"
+            },
+            {
+              "id": "SE",
+              "value": "SE - Sweden"
+            },
+            {
+              "id": "SG",
+              "value": "SG - Singapore"
+            },
+            {
+              "id": "SH",
+              "value": "SH - Saint Helena"
+            },
+            {
+              "id": "SI",
+              "value": "SI - Slovenia"
+            },
+            {
+              "id": "SJ",
+              "value": "SJ - Svalbard and Jan Mayen"
+            },
+            {
+              "id": "SK",
+              "value": "SK - Slovakia"
+            },
+            {
+              "id": "SL",
+              "value": "SL - Sierra Leone"
+            },
+            {
+              "id": "SM",
+              "value": "SM - San Marino"
+            },
+            {
+              "id": "SN",
+              "value": "SN - Senegal"
+            },
+            {
+              "id": "SO",
+              "value": "SO - Somalia"
+            },
+            {
+              "id": "SR",
+              "value": "SR - Suriname"
+            },
+            {
+              "id": "ST",
+              "value": "ST - Sao Tome and Principe"
+            },
+            {
+              "id": "SV",
+              "value": "SV - El Salvador"
+            },
+            {
+              "id": "SY",
+              "value": "SY - Syrian Arab Republic"
+            },
+            {
+              "id": "SZ",
+              "value": "SZ - Swaziland"
+            },
+            {
+              "id": "TC",
+              "value": "TC - Turks and Caicos Islands"
+            },
+            {
+              "id": "TD",
+              "value": "TD - Chad"
+            },
+            {
+              "id": "TF",
+              "value": "TF - French Southern Territories"
+            },
+            {
+              "id": "TG",
+              "value": "TG - Togo"
+            },
+            {
+              "id": "TH",
+              "value": "TH - Thailand"
+            },
+            {
+              "id": "TJ",
+              "value": "TJ - Tajikistan"
+            },
+            {
+              "id": "TK",
+              "value": "TK - Tokelau"
+            },
+            {
+              "id": "TM",
+              "value": "TM - Turkmenistan"
+            },
+            {
+              "id": "TN",
+              "value": "TN - Tunisia"
+            },
+            {
+              "id": "TO",
+              "value": "TO - Tonga"
+            },
+            {
+              "id": "TP",
+              "value": "TP - East Timor"
+            },
+            {
+              "id": "TR",
+              "value": "TR - Turkey"
+            },
+            {
+              "id": "TT",
+              "value": "TT - Trinidad and Tobago"
+            },
+            {
+              "id": "TV",
+              "value": "TV - Tuvalu"
+            },
+            {
+              "id": "TW",
+              "value": "TW - Taiwan"
+            },
+            {
+              "id": "TZ",
+              "value": "TZ - Tanzania"
+            },
+            {
+              "id": "UA",
+              "value": "UA - Ukraine"
+            },
+            {
+              "id": "UG",
+              "value": "UG - Uganda"
+            },
+            {
+              "id": "UM",
+              "value": "UM - US Minor Outlying Islands"
+            },
+            {
+              "id": "US",
+              "value": "US - United States"
+            },
+            {
+              "id": "UY",
+              "value": "UY - Uruguay"
+            },
+            {
+              "id": "UZ",
+              "value": "UZ - Uzbekistan"
+            },
+            {
+              "id": "VA",
+              "value": "VA - Vatican City State"
+            },
+            {
+              "id": "VC",
+              "value": "VC - Saint Vincent & the Grenadines"
+            },
+            {
+              "id": "VE",
+              "value": "VE - Venezuela"
+            },
+            {
+              "id": "VG",
+              "value": "VG - Virgin Islands (British)"
+            },
+            {
+              "id": "VI",
+              "value": "VI - Virgin Islands (U.S.)"
+            },
+            {
+              "id": "VN",
+              "value": "VN - Viet Nam"
+            },
+            {
+              "id": "VU",
+              "value": "VU - Vanuatu"
+            },
+            {
+              "id": "WF",
+              "value": "WF - Wallis and Futuna Islands"
+            },
+            {
+              "id": "WS",
+              "value": "WS - Samoa"
+            },
+            {
+              "id": "YE",
+              "value": "YE - Yemen"
+            },
+            {
+              "id": "YT",
+              "value": "YT - Mayotte"
+            },
+            {
+              "id": "YU",
+              "value": "YU - Yugoslavia"
+            },
+            {
+              "id": "ZA",
+              "value": "ZA - South Africa"
+            },
+            {
+              "id": "ZM",
+              "value": "ZM - Zambia"
+            },
+            {
+              "id": "ZW",
+              "value": "ZW - Zimbabwe"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "AF",
+            "ID"
+          ]
+        },
+        "errors": null
+      },
+      "sellTotalContentQty": {
+        "metadata": {
+          "id": "sellTotalContentQty",
+          "name": "Sell Total Content Quantity",
+          "label": "Sell Total Content Qty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 13,
+          "field": "select",
+          "type": null,
+          "attributeKey": "sellTotalContentQty",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 4,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "supplyItemStatusCode": {
+        "metadata": {
+          "id": "supplyItemStatusCode",
+          "name": "Supply Item Status Code",
+          "label": "Status Code",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1,
+          "field": "select",
+          "type": null,
+          "attributeKey": "supplyItemStatusCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "A",
+              "value": "A - Active"
+            },
+            {
+              "id": "D",
+              "value": "D - Deleted"
+            },
+            {
+              "id": "I",
+              "value": "I - Inactive"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "A"
+          ]
+        },
+        "errors": null
+      },
+      "informationProviderId": {
+        "metadata": {
+          "id": "informationProviderId",
+          "name": "Information Provider ID",
+          "label": "Information Provider ID",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 25,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "informationProviderId",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "0070354000773"
+          ]
+        },
+        "errors": null
+      },
+      "consumableGtin": {
+        "metadata": {
+          "id": "consumableGtin",
+          "name": "Consumable GTIN",
+          "label": "Consumable GTIN",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 14,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "consumableGtin",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "00010512000122"
+          ]
+        },
+        "errors": null
+      },
+      "sellTotalContentUomCode": {
+        "metadata": {
+          "id": "sellTotalContentUomCode",
+          "name": "Sell Total Content Uom",
+          "label": "Sell Total Content UOM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 2,
+          "field": "select",
+          "type": null,
+          "attributeKey": "sellTotalContentUomCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "CA",
+              "value": "CA - Case"
+            },
+            {
+              "id": "EA",
+              "value": "EA - Each"
+            },
+            {
+              "id": "PL",
+              "value": "PL - Pallet"
+            },
+            {
+              "id": "CM",
+              "value": "CM - Centimeter"
+            },
+            {
+              "id": "FT",
+              "value": "FT - Foot"
+            },
+            {
+              "id": "IN",
+              "value": "IN - Inch"
+            },
+            {
+              "id": "MR",
+              "value": "MR - Meter"
+            },
+            {
+              "id": "CF",
+              "value": "CF - Cubic Foot"
+            },
+            {
+              "id": "LT",
+              "value": "LT - Liter"
+            },
+            {
+              "id": "GR",
+              "value": "GR - Gram"
+            },
+            {
+              "id": "KG",
+              "value": "KG - Kilogram"
+            },
+            {
+              "id": "LB",
+              "value": "LB - Pound"
+            },
+            {
+              "id": "LT",
+              "value": "LT - Liter"
+            },
+            {
+              "id": "ML",
+              "value": "ML - Milliliter"
+            },
+            {
+              "id": "OZ",
+              "value": "OZ - Ounce"
+            },
+            {
+              "id": "FO",
+              "value": "FO - Fluid Ounce"
+            },
+            {
+              "id": "GA",
+              "value": "GA - Gallon"
+            },
+            {
+              "id": "QT",
+              "value": "QT - Quart"
+            },
+            {
+              "id": "YD",
+              "value": "YD - Yard"
+            },
+            {
+              "id": "C3",
+              "value": "C3 - Centiliter"
+            },
+            {
+              "id": "PT",
+              "value": "PT - Pint"
+            },
+            {
+              "id": "SH",
+              "value": "SH - Sheet"
+            },
+            {
+              "id": "SF",
+              "value": "SF - Square Foot"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": null,
+        "errors": null
+      },
+      "supplierStockId": {
+        "metadata": {
+          "id": "supplierStockId",
+          "name": "Supplier Stock ID",
+          "label": "Supplier Stock ID",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 1,
+          "maxLength": 15,
+          "field": "select",
+          "type": null,
+          "attributeKey": "supplierStockId",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "stock"
+          ]
+        },
+        "errors": null
+      },
+      "baseRetailUomCode": {
+        "metadata": {
+          "id": "baseRetailUomCode",
+          "name": "Base Retail Uom",
+          "label": "Base Retail UOM",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": 0,
+          "maxLength": 2,
+          "field": "select",
+          "type": null,
+          "attributeKey": "baseRetailUomCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "EA",
+              "value": "EA - Each"
+            },
+            {
+              "id": "FT",
+              "value": "FT - Foot"
+            },
+            {
+              "id": "YD",
+              "value": "YD - Yard"
+            },
+            {
+              "id": "IN",
+              "value": "IN - Inch"
+            },
+            {
+              "id": "LB",
+              "value": "LB - Pound"
+            },
+            {
+              "id": "QT",
+              "value": "QT - Quart"
+            },
+            {
+              "id": "GA",
+              "value": "GA - Gallon"
+            },
+            {
+              "id": "OZ",
+              "value": "OZ - Ounce"
+            },
+            {
+              "id": "CA",
+              "value": "CA - Case"
+            },
+            {
+              "id": "DZ",
+              "value": "DZ - Dozen"
+            },
+            {
+              "id": "PL",
+              "value": "PL - Pallet/Unit\n  Load"
+            },
+            {
+              "id": "CM",
+              "value": "CM - Centimeter"
+            },
+            {
+              "id": "MR",
+              "value": "MR - Meter"
+            },
+            {
+              "id": "CF",
+              "value": "CF - Cubic Foot"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "EA"
+          ]
+        },
+        "errors": null
+      },
+      "isVariableWeightInd": {
+        "metadata": {
+          "id": "isVariableWeightInd",
+          "name": "Is Variable Weight",
+          "label": "Variable Weight",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isVariableWeightInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "orderablePackCostAmt": {
+        "metadata": {
+          "id": "orderablePackCostAmt",
+          "name": "Orderable Pack Cost",
+          "label": "Orderable Pack Cost",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "orderablePackCostAmt",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 4,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "350"
+          ]
+        },
+        "errors": null
+      },
+      "replenishSubTypeCode": {
+        "metadata": {
+          "id": "replenishSubTypeCode",
+          "name": "Replenish Sub Type",
+          "label": "Subtype",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "replenishSubTypeCode",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "0",
+              "value": "0 - 00"
+            },
+            {
+              "id": "1",
+              "value": "1 - 01"
+            },
+            {
+              "id": "2",
+              "value": "2 - 02"
+            },
+            {
+              "id": "3",
+              "value": "3 - 03"
+            },
+            {
+              "id": "4",
+              "value": "4 - 04"
+            },
+            {
+              "id": "5",
+              "value": "5 - 05"
+            },
+            {
+              "id": "6",
+              "value": "6 - 06"
+            },
+            {
+              "id": "7",
+              "value": "7 - 07"
+            },
+            {
+              "id": "8",
+              "value": "8 - 08"
+            },
+            {
+              "id": "9",
+              "value": "9 - 09"
+            },
+            {
+              "id": "10",
+              "value": "10 - 10"
+            },
+            {
+              "id": "11",
+              "value": "11 - 11"
+            },
+            {
+              "id": "12",
+              "value": "12 - 12"
+            },
+            {
+              "id": "13",
+              "value": "13 - 13"
+            },
+            {
+              "id": "14",
+              "value": "14 - 14"
+            },
+            {
+              "id": "15",
+              "value": "15 - 15"
+            },
+            {
+              "id": "17",
+              "value": "17 - 17"
+            },
+            {
+              "id": "18",
+              "value": "18 - 18"
+            },
+            {
+              "id": "19",
+              "value": "19 - 19"
+            },
+            {
+              "id": "21",
+              "value": "21 - 21"
+            },
+            {
+              "id": "25",
+              "value": "25 - 25"
+            },
+            {
+              "id": "33",
+              "value": "33 - 33"
+            },
+            {
+              "id": "37",
+              "value": "37 - 37"
+            },
+            {
+              "id": "40",
+              "value": "40 - 40"
+            },
+            {
+              "id": "47",
+              "value": "47 - 47"
+            },
+            {
+              "id": "60",
+              "value": "60 - 60"
+            },
+            {
+              "id": "70",
+              "value": "70 - 70"
+            },
+            {
+              "id": "87",
+              "value": "87 - 87"
+            },
+            {
+              "id": "88",
+              "value": "88 - 88"
+            },
+            {
+              "id": "89",
+              "value": "89 - 89"
+            },
+            {
+              "id": "97",
+              "value": "97 - 97"
+            },
+            {
+              "id": "98",
+              "value": "98 - 98"
+            },
+            {
+              "id": "99",
+              "value": "99 - 99"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "0"
+          ]
+        },
+        "errors": null
+      },
+      "warehousePackQty": {
+        "metadata": {
+          "id": "warehousePackQty",
+          "name": "Warehouse Pack Quantity",
+          "label": "Whse Pack Qty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "warehousePackQty",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "1"
+          ]
+        },
+        "errors": null
+      },
+      "informationProviderTypeCode": {
+        "metadata": {
+          "id": "informationProviderTypeCode",
+          "name": "Information Provider Type",
+          "label": "Information Provider Type",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 25,
+          "field": "select",
+          "type": null,
+          "attributeKey": "informationProviderTypeCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "GLN",
+              "value": "GLN - GLOBAL LOCATION NUMBER"
+            },
+            {
+              "id": "SUPPLIER_NUMBER",
+              "value": "SUPPLIER_NUMBER - SUPPLIER NUMBER"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "GLN"
+          ]
+        },
+        "errors": null
+      },
+      "itemTypeCode": {
+        "metadata": {
+          "id": "itemTypeCode",
+          "name": "Item Type",
+          "label": "Item Type",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "itemTypeCode",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "3",
+              "value": "3 - Promotional"
+            },
+            {
+              "id": "7",
+              "value": "7 - DSD Direct Store Delivery"
+            },
+            {
+              "id": "20",
+              "value": "20 - Warehouse"
+            },
+            {
+              "id": "22",
+              "value": "22 - Seasonal Warehouse"
+            },
+            {
+              "id": "33",
+              "value": "33 - Assembly Distribution"
+            },
+            {
+              "id": "37",
+              "value": "37 - Assembly Ship and Bill"
+            },
+            {
+              "id": "40",
+              "value": "40 - Import Warehouse"
+            },
+            {
+              "id": "42",
+              "value": "42 - Import Seasonal Warehouse"
+            },
+            {
+              "id": "43",
+              "value": "43 - Import"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "3"
+          ]
+        },
+        "errors": null
+      },
+      "warehouseRotationTypeCode": {
+        "metadata": {
+          "id": "warehouseRotationTypeCode",
+          "name": "Warehouse Rotation Type",
+          "label": "Whse Rotation",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "warehouseRotationTypeCode",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": "1",
+              "value": "1 - Normal - Rotate by Received Date"
+            },
+            {
+              "id": "2",
+              "value": "2 - Strict - Rotate by Received Date"
+            },
+            {
+              "id": "3",
+              "value": "3 - Strict - Rotate by Sell By Date"
+            },
+            {
+              "id": "4",
+              "value": "4 - Strict - Rotate by Sequence Number"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "2"
+          ]
+        },
+        "errors": null
+      },
+      "orderablePackQty": {
+        "metadata": {
+          "id": "orderablePackQty",
+          "name": "Orderable Pack Quantity",
+          "label": "Orderable Qty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 6,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": "orderablePackQty",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "1"
+          ]
+        },
+        "errors": null
+      },
+      "targetMarketCode": {
+        "metadata": {
+          "id": "targetMarketCode",
+          "name": "Target Market Code",
+          "label": "Target Market",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": "targetMarketCode",
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "US"
+          ]
+        },
+        "errors": null
+      },
+      "sendStoreDate": {
+        "metadata": {
+          "id": "sendStoreDate",
+          "name": "Send Store Date",
+          "label": "Send to Store Date",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "date",
+          "type": null,
+          "attributeKey": "sendStoreDate",
+          "attributeDataType": "Date",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "2017-02-01"
+          ]
+        },
+        "errors": null
+      },
+      "hasRigidPlasticPackagingContainerInd": {
+        "metadata": {
+          "id": "hasRigidPlasticPackagingContainerInd",
+          "name": "Has Rigid Plastic Packaging Container",
+          "label": "RPPC Ind",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "hasRigidPlasticPackagingContainerInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "unitCostAmt": {
+        "metadata": {
+          "id": "unitCostAmt",
+          "name": "Unit Cost",
+          "label": "Unit Cost",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "select",
+          "type": null,
+          "attributeKey": "unitCostAmt",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 4,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "350"
+          ]
+        },
+        "errors": null
+      },
+      "baseRetailAmt": {
+        "metadata": {
+          "id": "baseRetailAmt",
+          "name": "Base Retail",
+          "label": "Base Retail",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 13,
+          "field": "select",
+          "type": null,
+          "attributeKey": "baseRetailAmt",
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 2,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "0"
+          ]
+        },
+        "errors": null
+      },
+      "finelineNbr": {
+        "metadata": {
+          "id": "finelineNbr",
+          "name": "Fineline Number",
+          "label": "Fineline",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": "finelineNbr",
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "1"
+          ]
+        },
+        "errors": null
+      },
+      "isBackroomScaleInd": {
+        "metadata": {
+          "id": "isBackroomScaleInd",
+          "name": "Is Backroom Scale",
+          "label": "Backroom Scale Indicator",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": "isBackroomScaleInd",
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "supplyItemExpireDate": {
+        "metadata": {
+          "id": "supplyItemExpireDate",
+          "name": "Supply Item Expire Date",
+          "label": "Expiration Date",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "date",
+          "type": null,
+          "attributeKey": "supplyItemExpireDate",
+          "attributeDataType": "Date",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT_OFFERING",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "2020-06-06"
+          ]
+        },
+        "errors": null
+      }
+    }
+  }
+}
