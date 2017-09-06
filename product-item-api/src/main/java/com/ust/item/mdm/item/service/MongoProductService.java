@@ -16,9 +16,11 @@ import com.ust.item.mdm.dto.Attribute;
 import com.ust.item.mdm.dto.ItemSummary;
 import com.ust.item.mdm.dto.Metadata;
 import com.ust.item.mdm.item.repo.GlobalTradeItemRepository;
+import com.ust.item.mdm.item.repo.LogisticalItemRepository;
 import com.ust.item.mdm.item.repo.MetadataRepository;
 import com.ust.item.mdm.item.repo.ProductRepository;
 import com.ust.item.mdm.model.GlobalTradeItem;
+import com.ust.item.mdm.model.LogisticalItem;
 import com.ust.item.mdm.model.Product;
 
 @Service
@@ -28,6 +30,8 @@ public class MongoProductService implements ProductService {
 	private ProductRepository productRepository;
 	@Autowired
 	private GlobalTradeItemRepository gtItemRepository;
+	@Autowired
+	private LogisticalItemRepository lItemRepository;
 	@Autowired
 	private MetadataRepository metaRepository;
 
@@ -51,6 +55,7 @@ public class MongoProductService implements ProductService {
 	public Collection<ItemSummary<Product>> searchProductByAnyAttributeForSummary(String attr, String attrVal) {
 		Collection<Product> products = this.searchProductByAnyAttribute(attr, attrVal);
 		Collection<GlobalTradeItem> tradeItems = new ArrayList<GlobalTradeItem>(0);
+		Collection<LogisticalItem> lItems = new ArrayList<LogisticalItem>(0);
 		Collection<ItemSummary<Product>> itemsSummary = new ArrayList<ItemSummary<Product>>(0);
 		if (null != products && !products.isEmpty()) {
 			for (Product product : products) {
@@ -60,12 +65,19 @@ public class MongoProductService implements ProductService {
 				for (String gtin : gtins) {
 					tradeItems.addAll(gtItemRepository.searchGlobalTradeItemByAnyAttribute("tradeItemGtin", gtin,
 							"Alphanumeric"));
+					lItems.addAll(lItemRepository.searchLogisticalItemByAnyAttribute("consumableGtin", gtin,
+							"Alphanumeric"));
 				}
 				List<Map> conceptCount = new ArrayList<>();
-				Map<String,String> concepts = new HashMap<>();
-				concepts.put("label","T");
-				concepts.put("value",String.valueOf(tradeItems.size()));
-				conceptCount.add(concepts );
+				Map<String,String> tConcept = new HashMap<>();
+				tConcept.put("label","T");
+				tConcept.put("value",String.valueOf(tradeItems.size()));
+				
+				Map<String,String> lConcept = new HashMap<>();
+				lConcept.put("label","S");
+				lConcept.put("value",String.valueOf(lItems.size()));
+				conceptCount.add(lConcept );
+				conceptCount.add(tConcept );
 				itemSummary.setConceptCount(conceptCount);
 				itemsSummary.add(itemSummary);
 			}
