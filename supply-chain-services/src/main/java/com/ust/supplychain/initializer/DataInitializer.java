@@ -3,11 +3,11 @@ package com.ust.supplychain.initializer;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Iterator;
-import java.util.List;
 
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
@@ -16,7 +16,6 @@ import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 import org.jongo.Jongo;
-import org.jongo.MongoCursor;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
@@ -51,7 +50,7 @@ public class DataInitializer {
 //		intializer.loadTIMetadata();
 //		intializer.loadTradeItems();
 //		intializer.loadProducts();
-//		intializer.loadLogisticalItemsMetadata();
+		intializer.loadLogisticalItemsMetadata();
 		intializer.loadLogisticalItems();
 	}
 
@@ -157,16 +156,15 @@ public class DataInitializer {
 	}
 
 	private void loadLogisticalItems() throws JSONException, JsonParseException, JsonMappingException, IOException {
-		JSONArray lItems = new JSONArray(Resources.toString(Resources.getResource("logistical-items.json"), Charsets.UTF_8));
-		jongo.getCollection(collectionName).drop();
-		jongo.getCollection(collectionName).drop();
+		JSONArray lItems = new JSONArray(Resources.toString(new URL("file:/C:/Users/u17078/mongo-poc/supply-chain-services/src/main/resources/logistical-items.json"), Charsets.UTF_8));
+		jongo.getCollection("logisticalitems").drop();
 		for (int i = 0; i < lItems.length(); i++) {
 			LogisticalItem item = mapper.readValue(lItems.getJSONObject(i).toString(), LogisticalItem.class);
-			jongo.getCollection(collectionName).save(item);
+			jongo.getCollection("logisticalitems").save(item);
 		}
 //		To QUERY
-		MongoCursor<List> o = jongo.getCollection(collectionName).find("{consumableGtin: '00010512000122'}").as(List.class);
-		System.out.println("Queried" + o.count());
+		LogisticalItem item1 = jongo.getCollection("logisticalitems").findOne("{consumableGtin: '00010512000122'}").as(LogisticalItem.class);
+		System.out.println("Queried");
 	}
 
 }
