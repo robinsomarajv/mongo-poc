@@ -50,7 +50,7 @@ public class DataInitializer {
 //		intializer.loadTIMetadata();
 //		intializer.loadTradeItems();
 //		intializer.loadProducts();
-		intializer.loadLogisticalItemsMetadata();
+//		intializer.loadLogisticalItemsMetadata();
 		intializer.loadLogisticalItems();
 	}
 
