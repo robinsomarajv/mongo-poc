@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Bags",
+    "icon": "card_travel",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Canon Cameras",
+    "icon": "camera",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Furniture",
+    "icon": "weekend",
+    "tile": {
+      "rowSpan": 2,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Video games",
+    "icon": "videogame_asset",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Home Decor",
+    "icon": "home",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Watches from Citizen",
+    "icon": "watch",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Printers",
+    "icon": "print",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Photo frames",
+    "icon": "wallpaper",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Mouse from Microsoft",
+    "icon": "mouse",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "LEGO Toys",
+    "icon": "toys",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Building sets",
+    "icon": "dashboard",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Glass items",
+    "icon": "local_bar",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "HDMI Cables",
+    "icon": "settings_input_hdmi",
+    "tile": {
+      "rowSpan": 2,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Batteries",
+    "icon": "battery_charging_full",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "WIFI - Routers",
+    "icon": "router",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Headsets under 100$",
+    "icon": "headset",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Kitchen item below 5$",
+    "icon": "kitchen",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Valentine Day items",
+    "icon": "favorite",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Camping items",
+    "image": "images/tiles/camping.jpeg",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Football items",
+    "image": "images/tiles/football.jpeg",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  }
+]

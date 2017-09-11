@@ -1,0 +1,67 @@
+<md-content>
+    <div>
+        <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+            <div class="md-toolbar-tools">
+                <h4>
+                    <span>Attribute filter options</span>
+                </h4>
+                <span flex></span>
+            </div>
+        </md-toolbar>
+        <md-list>
+            <md-list-item>
+                <p>Show attributes with error</p>
+                <md-switch ng-model="idvm.context.staticBar.selected.filterOptions.showAttributesWithError" class="md-primary" ng-change="idvm.context.staticBar.selected.filterOptions.filterAttributesWithError()"></md-switch>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-list-item>
+                <p>Show empty attributes</p>
+                <md-switch ng-model="idvm.context.staticBar.selected.filterOptions.showEmptyAttributes" class="md-primary" ng-change="idvm.context.staticBar.selected.filterOptions.filterEmptyAttributes()"></md-switch>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-list-item>
+                <p>Show all attributes with value</p>
+                <md-switch ng-model="idvm.context.staticBar.selected.filterOptions.showAttributesWithValue" class="md-primary" ng-change="idvm.context.staticBar.selected.filterOptions.filterAttributesWithValue()"></md-switch>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-list-item>
+                <p>Show all required attributes</p>
+                <md-switch ng-model="idvm.context.staticBar.selected.filterOptions.showRequiredAttributes" class="md-primary" ng-change="idvm.context.staticBar.selected.filterOptions.filterRequiredAttributes()"></md-switch>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-list-item>
+                <p>Show all optional attributes</p>
+                <md-switch ng-model="idvm.context.staticBar.selected.filterOptions.showOptionalAttributes" class="md-primary" ng-change="idvm.context.staticBar.selected.filterOptions.filterOptionalAttributes()"></md-switch>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-subheader>
+                Custom filter
+            </md-subheader>
+            <md-list-item>
+                <md-input-container flex>
+                    <label>Search by group name</label>
+                    <input ng-model="idvm.context.staticBar.selected.filterOptions.groupName" ng-change="idvm.context.staticBar.selected.filterOptions.applyCustomFilter()"/>
+                </md-input-container>
+            </md-list-item>
+            <md-list-item>
+                <md-input-container flex>
+                    <label>Search by attribute name</label>
+                    <input ng-model="idvm.context.staticBar.selected.filterOptions.attributeName" ng-change="idvm.context.staticBar.selected.filterOptions.applyCustomFilter()"/>
+                </md-input-container>
+            </md-list-item>
+        </md-list>
+    </div>
+    <div>
+        <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+            <div class="md-toolbar-tools">
+                <h4>
+                    <span>Data Completeness</span>
+                </h4>
+                <span flex>
+
+                </span>
+            </div>
+        </md-toolbar>
+        <div style="padding-top:5px;" ng-include="idvm.context.userPreference.itemDetails.staticBar.default.dataCompleteness.view.selectedTemplate.url"></div>
+    </div>
+</md-content>

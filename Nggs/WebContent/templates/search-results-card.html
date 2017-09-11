@@ -1,0 +1,181 @@
+<div layout="row" layout-wrap>
+    <md-card flex="50" ng-repeat="dto in srvm.context.searchResults.data  | filter:{item:{product_long_description:srvm.context.searchResultsText}}"">
+        <md-card-content layout="column">
+            <div layout="row">
+                <div flex="70" layout="column" layout-align="center none">
+                    <div>
+                        <span flex=20><b>Name: </b></span><span ng-bind="dto.item.product_name"></span>
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex="20"><b>Category: </b></span><span ng-bind="dto.item.category"></span>
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex=20><b>Product ID: </b></span><span ng-bind="dto.item.product_id"></span>
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex=20><b>Product Launch Date: </b></span><span ng-bind="dto.item.product_launch_date"></span>
+                        <md-divider></md-divider>
+                    </div>
+					 <div>
+                        <span flex="20"><b>Unit Price: </b></span><span ng-bind="dto.item.price_per_unit_quantity"></span>$
+                        <md-divider></md-divider>
+                    </div>
+                    <div>
+                       <span><b>Consumable GTINs:</b></span>
+						<span ng-repeat="gitins in dto.item.consumable_gtins">
+						<span ng-bind="gitins"></span></br> 
+						</span>
+                        <md-divider></md-divider>
+                    </div>
+                    
+                    <div>
+                        <span flex="20"><b>Description: </b></span><span ng-bind="dto.item.product_short_description"></span>
+                        <md-divider></md-divider>
+                    </div>
+
+                </div>
+                <div flex>
+                    <img ng-src="images/{{dto.item.product_id}}.jpg" style="height: 100%;width: 100%;" />
+                </div>
+            </div>
+            <div class="search-result-card"layout="row" layout-align="center center">
+                <span>
+                    <span class="search-chips" ng-repeat="count in dto.conceptCounts" style="display: inline-block; margin: 5px;">
+                        <md-tooltip>{{count.tooltip}}</md-tooltip>
+                        <md-button class="md-fab md-button-no-margin" ng-bind="count.label"></md-button>
+                        <span ng-bind="count.value"></span>
+                    </span>
+                </span>
+                <span flex></span>
+                <span>
+                    <md-button class="md-fab md-mini md-primary" ng-click="srvm.context.itemDetails(dto.item)">
+                        <md-icon class="material-icons">navigate_next</md-icon>
+                    </md-button>
+                </span>
+            </div>
+        </md-card-content>
+    </md-card>
+   
+</div>
+
+<div layout="row" layout-wrap>
+    <md-card flex="50" ng-repeat="item in srvm.context.searchResults_trade.data  | filter:{tradeItemDescription:srvm.context.searchResultsText}">
+        <md-card-content layout="column">
+            <div layout="row">
+                <div flex="70" layout="column" layout-align="center none">
+                    <div>
+                        <span flex=20><b>Gtin: </b></span><span ng-bind="item._id.tradeItemGtin"></span>
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex="20"><b>Category: </b></span><span ng-bind="item.tradeItemPackTypeCode"></span>
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex=20><b>Provider ID: </b></span><span ng-bind="item._id.informationProviderId"></span>
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex=20><b>Dimension: </b></span><span ng-bind="item.tradeItemDimensionsWidthQty"></span><span> x </span><span ng-bind="item.tradeItemDimensionsHeightQty"></span>
+                   <span> x </span><span ng-bind="item.tradeItemDimensionsDepthQty"></span>
+                        <md-divider></md-divider>
+                    </div>
+					 <div>
+                        <span flex="20"> <span><b>Orderable Item: </b></span><span ng-bind="item.isOrderableInd"></span>$
+                        <md-divider></md-divider>
+                    </div>
+                    <div>
+                       <span><b>Parent / Childs GTINs:</b></span>
+						<span ng-repeat="gitins in item.parent">
+						<span ng-bind="gitins.tradeItemGtin"></span>&nbsp&nbsp
+						</span>
+						<span ng-repeat="gitins in item.children">
+						<span ng-bind="gitins.tradeItemGtin"></span>&nbsp&nbsp
+						</span>
+                        <md-divider></md-divider>
+                    </div>
+                    
+                    <div>
+                        <span flex="20"> <span><b>Description: </b></span><span ng-bind="item.tradeItemDescription"></span></span>
+                        <md-divider></md-divider>
+                    </div>
+
+                </div>
+                <div flex>
+                    <img  style="height: 100%;width: 100%;" />
+                </div>
+            </div>
+            <div class="search-result-card"layout="row" layout-align="center center">
+               
+                <span flex></span>
+                <span>
+                    <md-button class="md-fab md-mini md-primary" ng-click="srvm.context.tradeItemDetails(item)">
+                        <md-icon class="material-icons">navigate_next</md-icon>
+                    </md-button>
+                </span>
+            </div>
+        </md-card-content>
+    </md-card>
+   
+</div>
+
+
+<div layout="row" layout-wrap>
+    <md-card flex="50" ng-repeat="item in srvm.context.searchResults_supply.data  | filter:{supplyItemPrimaryDescription:srvm.context.searchResultsText}">
+        <md-card-content layout="column">
+            <div layout="row">
+                <div flex="70" layout="column" layout-align="center none">
+                    <div>
+                        <span flex=20> <b>item Number: </b></span><span ng-bind="item.itemNbr"></span> 
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex="20"><b>Supplier: </b></span><span ng-bind="item.supplierId"></span>
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex=20><b>Provider ID: </b></span><span ng-bind="item._id.informationProviderId"></span>
+                        <md-divider></md-divider>
+                    </div>
+					<div>
+                        <span flex=20><b>Department: </b></span><span ng-bind="item.deptNbr"></span>
+                        <md-divider></md-divider>
+                    </div>
+					 <div>
+                        <span flex="20"> <b> Item Type: </b></span><span ng-bind="item.itemTypeCode"></span>$
+                        <md-divider></md-divider>
+                    </div>
+                    <div>
+                        <span><b>Origin Countries:</b></span>
+						<span ng-repeat="country in item.originCountryCode">
+						<span ng-bind="country"></span>&nbsp&nbsp
+						</span>
+                        <md-divider></md-divider>
+                    </div>
+                    
+                    <div>
+                         <span><b>Description: </b></span><span ng-bind="item.supplyItemPrimaryDescription"></span></span>
+                        <md-divider></md-divider>
+                    </div>
+
+                </div>
+                <div flex>
+                    <img  style="height: 100%;width: 100%;" />
+                </div>
+            </div>
+            <div class="search-result-card"layout="row" layout-align="center center">
+               
+                <span flex></span>
+                <span>
+                    <md-button class="md-fab md-mini md-primary" ng-click="srvm.context.supplyItemDetails(item)">
+                        <md-icon class="material-icons">navigate_next</md-icon>
+                    </md-button>
+                </span>
+            </div>
+        </md-card-content>
+    </md-card>
+   
+</div>

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Completeness",
+    "value": 50
+  },
+  {
+    "name": "Accuracy",
+    "value": 60
+  },
+  {
+    "name": "Data Integrity",
+    "value": 75
+  },
+  {
+    "name": "Consistency",
+    "value": 45
+  },
+  {
+    "name": "Duplication",
+    "value": 70
+  }
+]

@@ -1,0 +1,225 @@
+<div ng-cloak>
+    <md-content layout="row" layout-padding>
+        <div md-whiteframe="3" flex="70">
+            <uib-accordion close-others="false">
+                <div uib-accordion-group class="panel-default" heading="Dashboard Options" is-open="true">
+                    <md-content layout-padding>
+                        <div class="md-whiteframe-5dp">
+                            <md-list>
+                                <md-list-item>
+                                    <p>Show the section for the latest items created by you</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.dashboard.showItemsCreatedByUser"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <p>Show the section for the tasks assigned to you</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.dashboard.showTasksAssignedToUser"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <p>Show the section with your last login details</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.dashboard.showLastLogin"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <p>Show the section which displays the Recent activities</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.dashboard.showRecentActivities"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <span flex="5"></span>
+                                    <p>Number of items to be shown in the Recent activities section</p>
+                                    <md-input-container style="margin: 0px; width: 50px">
+                                        <input ng-model="upvm.context.options.dashboard.noOfRecentActivities" ng-disabled="!upvm.context.options.dashboard.showRecentActivities" style="text-align: right" type="number" step="any"/>
+                                    </md-input-container>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <p>Show the section which displays the data quality values</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.dashboard.showDataQuality"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                            </md-list>
+                        </div>
+                    </md-content>
+                </div>
+                <div uib-accordion-group class="panel-default" heading="Search Options" is-open="true">
+                    <md-content layout-padding>
+                        <div class="md-whiteframe-5dp">
+                            <md-list>
+                                <md-list-item>
+                                    <p>Show favorite section</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.search.showFavorites"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <span flex="5"></span>
+                                    <p>Number of items to be shown in the favorite section</p>
+                                    <md-input-container style="margin: 0px; width: 50px" ng-disabled="!upvm.context.options.search.showFavorites">
+                                        <input ng-model="upvm.context.options.search.noOfFavorites" ng-disabled="!upvm.context.options.search.showFavorites" style="text-align: right" type="number" step="any"/>
+                                    </md-input-container>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <p>Show search tiles</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.search.showSearchTiles"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <span flex="5"></span>
+                                    <p>Show option to add new search tiles</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.search.showAddTiles" ng-disabled="!upvm.context.options.search.showSearchTiles"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <span flex="5"></span>
+                                    <p>Show tiles which are created only by me</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.search.showTilesCreateByMe" ng-disabled="!upvm.context.options.search.showSearchTiles"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <p>Search filters</p>
+                                    <md-switch class="md-primary" ng-model="upvm.context.options.search.enableSearchFilters"></md-switch>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <span flex="5"></span>
+                                    <p>Departments to search</p>
+                                    <md-select ng-model="upvm.context.options.search.filters.departmentsToSearch" multiple style="margin: 0px" flex="30" style="text-align:right">
+                                        <md-option value="Furniture">Furniture</md-option>
+                                        <md-option value="Toys">Toys</md-option>
+                                        <md-option value="Personal Care">Personal Care</md-option>
+                                        <md-option value="Hardware">Hardware</md-option>
+                                        <md-option value="Automotive">Automotive</md-option>
+                                    </md-select>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <span flex="5"></span>
+                                    <p>Time frame</p>
+                                    <span flex></span>
+                                    <span>Between</span>
+                                    <md-input-container style="margin: 0px;" flex="17" layout-align="end center">
+                                        <md-datepicker ng-model="upvm.coontext.options.search.filters.fromDate"></md-datepicker>
+                                    </md-input-container>
+                                    <span>and</span>
+                                    <md-input-container style="margin: 0px;" flex="17" layout-align="end center">
+                                        <md-datepicker ng-model="upvm.coontext.options.search.filters.toDate"></md-datepicker>
+                                    </md-input-container>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                                <md-list-item>
+                                    <span flex="5"></span>
+                                    <p>Sort search results based on</p>
+                                    <md-select ng-model="upvm.context.options.search.filters.sortBy" style="margin: 0px" flex="20" style="text-align:right">
+                                        <md-option value="Furniture">Date created</md-option>
+                                        <md-option value="Toys">Date modified</md-option>
+                                        <md-option value="Personal Care">Name</md-option>
+                                        <md-option value="Hardware">GTIN</md-option>
+                                        <md-option value="Automotive">Ratings</md-option>
+                                    </md-select>
+                                </md-list-item>
+                                <md-divider></md-divider>
+                            </md-list>
+                        </div>
+                    </md-content>
+                </div>
+            </uib-accordion>
+        </div>
+        <div md-whiteframe="3" flex="30">
+            <md-content>
+                <uib-accordion close-others="false">
+                    <div uib-accordion-group class="panel-default" heading="User Details" is-open="true">
+                        <md-card>
+                            <md-card-title>
+                                <md-card-title-text>
+                                    <span class="md-title">Dave Holder [Id: dholder]</span>
+                                    <span class="md-subhead">Core user</span>
+                                    <span class="md-subhead">Logged in for the past 50 minutes</span>
+                                </md-card-title-text>
+                                <md-card-title-media>
+                                    <div class="md-media-sm">
+                                        <i class="material-icons" style="font-size: 80px;color:rgb(63,81,181)">person_pin_circle</i>
+                                    </div>
+                                </md-card-title-media>
+                            </md-card-title>
+                        </md-card>
+                    </div>
+                </uib-accordion>
+                <uib-accordion close-others="false">
+                    <div uib-accordion-group class="panel-default" heading="My Templates" is-open="true">
+                        <md-content layout-padding>
+                            <div class="md-whiteframe-5dp">
+                                <md-list>
+                                    <md-list-item>
+                                        <span flex="5"></span>
+                                        <p>Toys Category - Product Template</p>
+                                        <md-button class="md-icon-button md-primary">
+                                            <md-tooltip>Delete this template</md-tooltip>
+                                            <i class="material-icons">delete</i>
+                                        </md-button>
+                                    </md-list-item>
+                                    <md-divider></md-divider>
+                                    <md-list-item>
+                                        <span flex="5"></span>
+                                        <p>Toys Category - Supply Item Template</p>
+                                        <md-button class="md-icon-button md-primary">
+                                            <md-tooltip>Delete this template</md-tooltip>
+                                            <i class="material-icons">delete</i>
+                                        </md-button>
+                                    </md-list-item>
+                                    <md-divider></md-divider>
+                                    <md-list-item>
+                                        <span flex="5"></span>
+                                        <p>Toys Category - Trade Item Template</p>
+                                        <md-button class="md-icon-button md-primary">
+                                            <md-tooltip>Delete this template</md-tooltip>
+                                            <i class="material-icons">delete</i>
+                                        </md-button>
+                                    </md-list-item>
+                                    <md-divider></md-divider>
+                                    <md-list-item>
+                                        <span flex="5"></span>
+                                        <p>T-Shirt Product Template</p>
+                                        <md-button class="md-icon-button md-primary">
+                                            <md-tooltip>Delete this template</md-tooltip>
+                                            <i class="material-icons">delete</i>
+                                        </md-button>
+                                    </md-list-item>
+                                    <md-divider></md-divider>
+                                    <md-list-item>
+                                        <span flex="5"></span>
+                                        <p>T-Shirt - Offer Template</p>
+                                        <md-button class="md-icon-button md-primary">
+                                            <md-tooltip>Delete this template</md-tooltip>
+                                            <i class="material-icons">delete</i>
+                                        </md-button>
+                                    </md-list-item>
+                                    <md-divider></md-divider>
+                                    <md-list-item>
+                                        <span flex="5"></span>
+                                        <p>Jeans Category - Product Template</p>
+                                        <md-button class="md-icon-button md-primary">
+                                            <md-tooltip>Delete this template</md-tooltip>
+                                            <i class="material-icons">delete</i>
+                                        </md-button>
+                                    </md-list-item>
+                                    <md-divider></md-divider>
+                                    <md-list-item>
+                                        <span flex="5"></span>
+                                        <p>Jeans Category - Supply Item Template</p>
+                                        <md-button class="md-icon-button md-primary">
+                                            <md-tooltip>Delete this template</md-tooltip>
+                                            <i class="material-icons">delete</i>
+                                        </md-button>
+                                    </md-list-item>
+                                    <md-divider></md-divider>
+                                </md-list>
+                            </div>
+                        </md-content>
+                    </div>
+                </uib-accordion>
+            </md-content>
+        </div>
+    </md-content>
+</div>

@@ -1,0 +1,94 @@
+<div class="md-whiteframe-5dp" flex>
+    <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+        <div class="md-toolbar-tools">
+            <span flex></span>
+            <a href="" ng-show="idvm.context.dynamicBar.active.context.selectedView === idvm.context.dynamicBar.active.context.views.tradeItemHierarchy"
+               ng-click="idvm.context.dynamicBar.active.context.goBack()">
+                <md-tooltip>Go back</md-tooltip>
+                <md-icon md-font-set="material-icons">arrow_back</md-icon>
+            </a>
+        </div>
+    </md-toolbar>
+    <md-list flex ng-show="idvm.context.dynamicBar.active.context.selectedView === idvm.context.dynamicBar.active.context.views.tradeItem">
+        <md-list-item ng-repeat="item in idvm.context.dynamicBar.active.context.data" ng-click="idvm.context.dynamicBar.active.context.onTradeItemClicked(item)">
+            <div layout="column" align="start start" flex>
+                <div layout="row" layout-align="start center" style="padding: 10px;">
+                    <span class="md-headline">GLN: </span><span class="md-headline" ng-bind="item.gln"></span>
+                    <span flex></span>
+                    <md-button class="md-raised" ng-click="idvm.context.dynamicBar.active.context.tradeItemSelected(item)">
+                        <span ng-bind="item.hierarchyItems.length"></span>
+                        <span> hierarchy(s)</span>
+                    </md-button>
+                </div>
+                <div layout="row" flex style="padding: 10px;">
+                    <div layout="column" flex style="padding:0px;">
+                        <div class="blueRow" layout="row" flex>
+                            <span flex>GTIN</span>
+                            <span flex>Classification</span>
+                            <span flex>Division</span>
+                            <span flex>Target Market</span>
+                            <span flex>Is Orderable</span>
+                            <span flex>Is Consumable</span>
+                        </div>
+                        <div class="greenRow" layout="row" flex>
+                            <span flex ng-bind="item.gtin"></span>
+                            <span flex ng-bind="item.classification"></span>
+                            <span flex ng-bind="item.division"></span>
+                            <span flex ng-bind="item.targetMarket"></span>
+                            <span flex ng-bind="item.isOrderable"></span>
+                            <span flex ng-bind="item.isConsumable"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <md-divider></md-divider>
+        </md-list-item>
+    </md-list>
+    <md-list flex ng-show="idvm.context.dynamicBar.active.context.selectedView === idvm.context.dynamicBar.active.context.views.tradeItemHierarchy">
+        <md-list-item ng-repeat="item in idvm.context.dynamicBar.active.context.selectedTradeItem.hierarchyItems">
+            <div layout="column" align="start start" flex>
+                <div layout="row" layout-align="start center" style="padding: 10px;">
+                    <span class="md-headline" ng-bind="item.name"></span>
+                </div>
+                <div layout="row" flex style="padding-bottom: 10px;">
+                    <div layout="column" flex style="padding:0px;">
+                        <div layout="row" flex style="padding: 5px;">
+                            <span flex="20"></span>
+                            <span flex><b>Quantity</b></span>
+                            <span flex><b>Depth</b></span>
+                            <span flex><b>Width</b></span>
+                            <span flex><b>Height</b></span>
+                            <span flex><b>Cube</b></span>
+                            <span flex><b>TI/HI</b></span>
+                            <span flex><b>Net-Weight</b></span>
+                            <span flex><b>Weight</b></span>
+                            <span flex="5"></span>
+                        </div>
+                        <span flex><hr style="margin-top: 10px;margin-bottom: 5px;"/></span>
+                        <div layout="row" flex ng-repeat="hItem in item.items" ng-class-odd="'blueRow'" ng-class-even="'greenRow'"
+                             style="cursor: pointer;" ng-click="idvm.context.dynamicBar.active.context.tradeHierarchyItemSelected(item, hItem)">
+                            <span flex="20">
+                                <md-icon md-font-set="material-icons" style="color: rgba(255,255,255,0.87)">{{hItem.icon}}</md-icon>
+                                <span ng-bind="hItem.name"></span>
+                            </span>
+                            <span flex ng-bind="hItem.quantity"></span>
+                            <span flex ng-bind="hItem.depth"></span>
+                            <span flex ng-bind="hItem.width"></span>
+                            <span flex ng-bind="hItem.height"></span>
+                            <span flex ng-bind="hItem.cube"></span>
+                            <span flex ng-bind="hItem.tihi"></span>
+                            <span flex ng-bind="hItem.netWeight"></span>
+                            <span flex ng-bind="hItem.weight"></span>
+                            <span flex="5" layout="row" layout-align="center end">
+                                <a href="">
+                                    <md-icon md-font-set="material-icons" style="color: rgba(255,255,255,0.87)">keyboard_arrow_right</md-icon>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <md-divider></md-divider>
+        </md-list-item>
+    </md-list>
+</div>

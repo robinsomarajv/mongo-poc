@@ -1,0 +1,36 @@
+<md-toolbar class="md-hue-2">
+    <div class="md-toolbar-tools">
+        <h3>Create Template</h3>
+    </div>
+</md-toolbar>
+<div layout="column" style="padding-top: 10px;padding-bottom: 10px;">
+    <md-input-container>
+        <label>Template name</label>
+        <input ng-model="gsvm.context.navbar.templateName">
+    </md-input-container>
+    <div layout="row">
+        <md-button class="md-raised md-primary" ng-click="gsvm.context.navbar.saveTemplate()">Save</md-button>
+        <md-button class="md-raised md-primary" ng-click="gsvm.context.navbar.cancelTemplate()">Cancel</md-button>
+    </div>
+    <md-content class="md-whiteframe-3dp" flex layout-padding>
+        <p>Click on the <i class="material-icons icon-color">bookmark_border</i> under each attribute to add it into the current template.</p>
+        <p>When selected click on the <i class="material-icons icon-color">bookmark_border</i> under each attribute to remove it from the current template or click on <i class="material-icons icon-color">remove_circle</i> in the 'Selected attribute' section below.</p>
+    </md-content>
+</div>
+<md-toolbar class="md-hue-2">
+    <div class="md-toolbar-tools">
+        <h3>Selected attributes</h3>
+    </div>
+</md-toolbar>
+<div layout="row">
+    <md-list flex>
+        <div ng-repeat="(group, attributes) in gsvm.context.navbar.selectedAttributes">
+            <md-subheader class="md-no-sticky">{{group}}</md-subheader>
+            <md-list-item ng-repeat="attribute in attributes">
+                <p ng-bind="attribute.metadata.label"></p>
+                <md-button class="md-icon-button md-secondary icon-color" ng-click="gsvm.context.navbar.removeFromTemplate(attribute)"><md-tooltip>Remove from template</md-tooltip><i class="material-icons">remove_circle</i></md-button>
+                <md-divider></md-divider>
+            </md-list-item>
+        </div>
+    </md-list>
+</div>

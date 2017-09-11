@@ -1,0 +1,19 @@
+<div layout="column">
+    <md-nav-bar md-selected-nav-item="idvm.context.userPreference.itemDetails.attributesList.view.selectedTemplate.selectedTab.name" nav-bar-aria-label="navigation links">
+        <md-nav-item
+                md-nav-click="idvm.context.attributesList.view.setViewTab(group, groupDetails)"
+                name="{{group}}"
+                ng-show="groupDetails.show"
+                ng-repeat="(group, groupDetails) in idvm.context.data">{{group}}</md-nav-item>
+    </md-nav-bar>
+    <div layout="row" layout-wrap>
+
+        <div ng-repeat="(name, attribute) in idvm.context.userPreference.itemDetails.attributesList.view.selectedTemplate.selectedTab.groupDetails.attributes"
+             ng-show="attribute.show"
+             flex="50">
+            <attribute-list-item
+                    attribute="attribute"
+                    on-attribute-clicked="idvm.context.onAttributeSelected(attribute)"></attribute-list-item>
+        </div>
+    </div>
+</div>

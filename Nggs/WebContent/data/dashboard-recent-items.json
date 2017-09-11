@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Dove Shampoo",
+    "gtin": "0000012345123",
+    "category": "Personal Care",
+    "subCategory": "Personal Care",
+    "brand": "Unilever",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2,
+      "template": "dashboard-recent-items-landscape"
+    }
+  },
+  {
+    "name": "Dove Conditioner",
+    "gtin": "0000012345321",
+    "category": "Personal Care",
+    "subCategory": "Personal Care",
+    "brand": "Unilever",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2,
+      "template": "dashboard-recent-items-landscape"
+    }
+  },
+  {
+    "name": "Head & Shoulders Shampoo",
+    "gtin": "0000012345789",
+    "category": "Personal Care",
+    "subCategory": "Personal Care",
+    "brand": "Procter & Gamble",
+    "tile": {
+      "rowSpan": 2,
+      "colSpan": 1,
+      "template": "dashboard-recent-items-portrait"
+    }
+  },
+  {
+    "name": "Head & Shoulders Conditioner",
+    "gtin": "0000012345987",
+    "category": "Personal Care",
+    "subCategory": "Personal Care",
+    "brand": "Procter & Gamble",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2,
+      "template": "dashboard-recent-items-landscape"
+    }
+  },
+  {
+    "name": "Pantene Shampoo",
+    "gtin": "0000012345678",
+    "category": "Personal Care",
+    "subCategory": "Personal Care",
+    "brand": "Procter & Gamble",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2,
+      "template": "dashboard-recent-items-landscape"
+    }
+  },
+  {
+    "name": "Pantene Conditioner",
+    "gtin": "0000012345876",
+    "category": "Personal Care",
+    "subCategory": "Personal Care",
+    "brand": "Procter & Gamble",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2,
+      "template": "dashboard-recent-items-landscape"
+    }
+  },
+  {
+    "name": "Garnier Shampoo",
+    "gtin": "0000012345234",
+    "category": "Personal Care",
+    "subCategory": "Personal Care",
+    "brand": "L'Oreal",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2,
+      "template": "dashboard-recent-items-landscape"
+    }
+  }
+]

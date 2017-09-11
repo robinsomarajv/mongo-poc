@@ -1,0 +1,46 @@
+<md-toolbar class="md-hue-2">
+    <div class="md-toolbar-tools">
+        <h3>Errors</h3>
+        <span flex></span>
+        <md-button class="md-icon-button md-secondary" ng-click="gsvm.context.navbar.createTask($event)"><md-tooltip>Create a task to resolve the errors.</md-tooltip><i class="material-icons">add_alert</i></md-button>
+        <md-button class="md-icon-button" ng-click="gsvm.context.navbar.close()"><md-tooltip>Close</md-tooltip><i class="material-icons">highlight_off</i></md-button>
+    </div>
+</md-toolbar>
+<uib-accordion close-others="true">
+    <div uib-accordion-group class="panel-default" heading="Validation Errors" is-open="true">
+        <div layout="row" layout-wrap>
+            <div layout="column" flex>
+                <md-list flex ng-repeat="(group, attributes) in gsvm.context.navbar.errors">
+                    <md-subheader>{{group}}</md-subheader>
+                    <md-list-item ng-repeat="(name, attribute) in attributes" ng-class="{'error-selected': attribute.selected === true}" ng-click="gsvm.context.navbar.selectAttribute(attribute)">
+                        <div class="md-list-item-text" layout="column">
+                            <h5 ng-bind="attribute.metadata.label"></h5>
+                            <i><p ng-repeat="error in attribute.errors.errorList" style="color: red" ng-bind="error"></p></i>
+                        </div>
+                        <md-divider></md-divider>
+                    </md-list-item>
+                </md-list>
+            </div>
+        </div>
+    </div>
+    <div uib-accordion-group class="panel-default" heading="Migration Errors" is-open="false">
+        <md-content layout="row" layout-wrap>
+            <div layout="column">
+                <md-list flex>
+                    <md-list-item ng-click="null">
+                        <div class="md-list-item-text" layout="column">
+                            <i><p>Exception occurred while parsing warranty_information attribute</p></i>
+                        </div>
+                        <md-divider></md-divider>
+                    </md-list-item>
+                    <md-list-item  ng-click="null">
+                        <div class="md-list-item-text" layout="column">
+                            <i><p>Quantity match failed for shelf_life attribute</p></i>
+                        </div>
+                        <md-divider></md-divider>
+                    </md-list-item>
+                </md-list>
+            </div>
+        </md-content>
+    </div>
+</uib-accordion>

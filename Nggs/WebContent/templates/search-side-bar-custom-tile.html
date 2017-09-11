@@ -1,0 +1,58 @@
+<md-card flex="100" class="md-whiteframe-3dp">
+    <!--<md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">Custom search (Advanced)</span>
+        </md-card-title-text>
+    </md-card-title>-->
+    <md-card-content>
+        <div>
+            <div layout="row">
+                <span flex></span>
+                <md-button class="md-fab md-primary" ng-click="searchvm.context.sideBar.selectedTab.data.addFilter()">
+                    <md-icon class="material-icons">add</md-icon>
+                </md-button>
+            </div>
+            <div layout="row" ng-repeat="filter in searchvm.context.sideBar.selectedTab.data.filters" layout-align="center center">
+                <md-button class="md-fab md-primary md-mini" ng-click="searchvm.context.sideBar.selectedTab.data.deleteFilter($$index)">
+                    <md-icon class="material-icons">delete</md-icon>
+                </md-button>
+                <md-input-container class="md-block" flex>
+                    <label>Attribute Name</label>
+                    <md-select ng-model="filter.attributeName">
+                        <md-option value="Product Name">Product Name</md-option>
+                        <md-option value="Product Long Description">Product Long Description</md-option>
+                        <md-option value="Target Market">Target Market</md-option>
+                        <md-option value="Supplier Number">Supplier Number</md-option>
+                        <md-option value="Event name">Event name</md-option>
+                        <md-option value="Brand Code">Brand Code</md-option>
+                    </md-select>
+                </md-input-container>
+                <md-input-container class="md-block" flex>
+                    <label>Compare type</label>
+                    <md-select ng-model="filter.compareType">
+                        <md-option value="Equals"><em>Equals</em></md-option>
+                        <md-option value="Not Equals"><em>Not Equals</em></md-option>
+                        <md-option value="Contains"><em>Contains</em></md-option>
+                        <md-option value="Greater Than"><em>Greater Than</em></md-option>
+                        <md-option value="Greater Than or Equals"><em>Greater Than or Equals</em></md-option>
+                        <md-option value="Less Than"><em>Less Than</em></md-option>
+                        <md-option value="Less Than or Equals"><em>Less Than or Equals</em></md-option>
+                    </md-select>
+                </md-input-container>
+                <md-input-container class="md-block" flex>
+                    <label>Attribute value</label>
+                    <input type="text" ng-model="filter.attributeValue"/>
+                </md-input-container>
+            </div>
+        </div>
+    </md-card-content>
+    <md-card-actions layout="row" layout-margin layout-align="end center">
+        <md-input-container class="md-block" flex="40">
+            <label>Tile name</label>
+            <input type="text" ng-model="searchvm.context.sideBar.selectedTab.data.tileName"/>
+        </md-input-container>
+        <md-button class="md-primary md-raised" ng-click="searchvm.context.sideBar.addTile(searchvm.context.sideBar.selectedTab.data.tileName)">
+            Create Tile
+        </md-button>
+    </md-card-actions>
+</md-card>

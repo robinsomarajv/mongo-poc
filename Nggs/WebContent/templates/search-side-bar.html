@@ -1,0 +1,17 @@
+<md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+    <div class="md-toolbar-tools">
+        <h4>
+            <span>Add/Create search tiles</span>
+        </h4>
+        <span flex></span>
+        <a href="" ng-click="searchvm.context.sideBar.close()">
+            <md-icon class="material-icons">cancel</md-icon>
+        </a>
+    </div>
+</md-toolbar>
+<md-content layout-padding>
+    <md-nav-bar md-autofocus md-selected-nav-item="searchvm.context.sideBar.selectedTab.id">
+        <md-nav-item md-nav-click="searchvm.context.sideBar.selectTab(tab)" name="{{tab.id}}" ng-repeat="tab in searchvm.context.sideBar.tabs">{{tab.name}}</md-nav-item>
+    </md-nav-bar>
+    <div ng-include="searchvm.context.sideBar.selectedTab.url"></div>
+</md-content>

@@ -1,0 +1,21 @@
+<div ng-repeat="(group, groupDetails) in idvm.context.data" ng-show="groupDetails.show">
+    <div layout="column">
+        <md-nav-bar md-selected-nav-item="group" nav-bar-aria-label="navigation links">
+            <md-nav-item md-nav-click="" name="{{group}}">
+                <span layout="row" layout-align="center center">
+                    <span>
+                        {{group}}
+                    </span>
+                    <i class="material-icons">keyboard_arrow_down</i>
+                </span>
+            </md-nav-item>
+        </md-nav-bar>
+        <div layout="row" layout-wrap>
+            <div ng-repeat="(name, attribute) in groupDetails.attributes" ng-show="attribute.show" flex="50">
+            <attribute-list-item
+                        attribute="attribute"
+                        on-attribute-clicked="idvm.context.onAttributeSelected(attribute)"></attribute-list-item>
+            </div>
+        </div>
+    </div>
+</div>

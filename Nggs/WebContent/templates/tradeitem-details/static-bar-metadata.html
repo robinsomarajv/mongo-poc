@@ -1,0 +1,75 @@
+<div>
+    <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+        <div class="md-toolbar-tools">
+            <h4>
+                <span>Metadata</span>
+            </h4>
+            <span flex></span>
+            <a href="" ng-show="idvm.context.attributesList.selectedAttribute.lineage" ng-click="idvm.context.showAttributeLineage()">
+                <md-tooltip>Show the lineage of this attribute</md-tooltip>
+                <md-icon class="material-icons">device_hub</md-icon>
+            </a>
+            <a href="" ng-click="">
+                <md-tooltip>Create a task</md-tooltip>
+                <md-icon class="material-icons">note</md-icon>
+            </a>
+            <a href="" ng-click="idvm.context.staticBar.selected.onClose()">
+                <md-icon class="material-icons">cancel</md-icon>
+            </a>
+        </div>
+    </md-toolbar>
+    <div>
+        <div layout="row" class="md-whiteframe-3dp" style="padding-bottom: 10px;margin-bottom: 10px;">
+            <md-list flex>
+                <div ng-show="idvm.context.attributesList.selectedAttribute.errors">
+                    <md-subheader>Error</md-subheader>
+                    <md-list-item ng-repeat="error in idvm.context.attributesList.selectedAttribute.errors.errorList">
+                        <div class="md-list-item-text" layout="row" flex>
+                            <i>
+                                <span style="color: red" ng-bind="error"></span>
+                            </i>
+                        </div>
+                    </md-list-item>
+                    <md-divider></md-divider>
+                </div>
+                <md-subheader>Details</md-subheader>
+                <md-list-item ng-show="idvm.context.attributesList.selectedAttribute.metadata.definition">
+                    <div class="md-list-item-text" layout="row" layout-align="start center" flex>
+                        <span class="metadata-heading">Definition</span>
+                        <span ng-bind="idvm.context.attributesList.selectedAttribute.metadata.definition" flex></span>
+                    </div>
+                    <md-divider></md-divider>
+                </md-list-item>
+                <md-list-item>
+                    <div class="md-list-item-text" layout="row" layout-align="start center" flex>
+                        <span class="metadata-heading">Is required attribute</span>
+                        <span flex>{{idvm.context.attributesList.selectedAttribute.metadata.required ? "Yes" : "No"}}</span>
+                    </div>
+                    <md-divider></md-divider>
+                </md-list-item>
+                <md-list-item ng-show="idvm.context.attributesList.selectedAttribute.metadata.minLength">
+                    <div class="md-list-item-text" layout="row" layout-align="start center" flex>
+                        <span class="metadata-heading">Minimum text length</span>
+                        <span ng-bind="idvm.context.attributesList.selectedAttribute.metadata.minLength" flex></span>
+                    </div>
+                    <md-divider></md-divider>
+                </md-list-item>
+                <md-list-item ng-show="idvm.context.attributesList.selectedAttribute.metadata.maxLength">
+                    <div class=" metadata-container" layout="row" layout-align="start center" flex>
+                        <span class="metadata-heading">Maximum text length</span>
+                        <span ng-bind="idvm.context.attributesList.selectedAttribute.metadata.maxLength" flex></span>
+                    </div>
+                    <md-divider></md-divider>
+                </md-list-item>
+                <md-list-item ng-show="idvm.context.attributesList.selectedAttribute.metadata.field === 'select'">
+                    <div class="md-list-item-text" layout="row" layout-align="start center" flex>
+                        <span class="metadata-heading">Valid values</span>
+                        <span layout="column">
+                            <span ng-repeat="val in idvm.context.attributesList.selectedAttribute.metadata.validValues" ng-bind="val.value" flex></span>
+                        </span>
+                    </div>
+                </md-list-item>
+            </md-list>
+        </div>
+    </div>
+</div>

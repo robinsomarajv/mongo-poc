@@ -1,0 +1,119 @@
+[
+    {
+        "name": "iPhone 7",
+        "gtin": "00020212123489",
+        "brand": "Apple",
+        "description": "Apple's new iPhone 7/7s",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Product item" },
+        "metadata": {
+            "tradeItems": { "label": "T", "value": 5, "tooltip": "There are 5 trade items for this item" },
+            "offerItems": { "label": "O", "value": 3, "tooltip": "There are 3 offer items for this item"},
+            "supplyItems": { "label": "S", "value": 1, "tooltip": "There are 1 supply item for this item"}
+        }
+    },
+    {
+        "name": "Samsung Note7",
+        "gtin": "00020212123490",
+        "brand": "Samsung",
+        "description": "Samsung's new andriod smart phone",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Product item" },
+        "metadata": {
+            "tradeItems": { "label": "T", "value": 10, "tooltip": "There are 10 trade items for this item" },
+            "offerItems": { "label": "O", "value": 5, "tooltip": "There are 5 offer items for this item"},
+            "supplyItems": { "label": "S", "value": 3, "tooltip": "There are 3 supply item for this item"}
+        }
+    },
+    {
+        "name": "Google Pixel",
+        "gtin": "00020212123491",
+        "brand": "Google",
+        "description": "Google's brand new andriod phone",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Product item" },
+        "metadata": {
+            "tradeItems": { "label": "T", "value": 7, "tooltip": "There are 7 trade items for this item" },
+            "offerItems": { "label": "O", "value": 5, "tooltip": "There are 5 offer items for this item"}
+        }
+    },
+    {
+        "name": "Micromax Canvas 6",
+        "gtin": "00020212123492",
+        "brand": "Micromax",
+        "description": "The new smartphone from Micromax",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Shipper" },
+        "metadata": {
+            "shipperItems": { "label": "SH", "value": 20, "tooltip": "This item is part of 20 shippers" }
+        }
+    },
+    {
+        "name": "Oneplus 3",
+        "gtin": "00020212123493",
+        "brand": "Oneplus",
+        "description": "Never Settle",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Shipper Item" },
+        "metadata": {
+            "shipperItems": { "label": "SH", "value": 4, "tooltip": "This item is part of 4 shippers" }
+        }
+    },
+    {
+        "name": "Vivo V5",
+        "gtin": "00020212123494",
+        "brand": "Vivo",
+        "description": "Perfect selfie smartphone from Vivo",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Trade item" },
+        "metadata": {
+            "productItems": { "label": "T", "value": 1, "tooltip": "There are 1 product for this item" }
+        }
+    },
+    {
+        "name": "Motorola G5",
+        "gtin": "00020212123495",
+        "brand": "Motorola",
+        "description": "Motorola's brand new andriod phone",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Offer item" },
+        "metadata": {
+            "productItems": { "label": "T", "value": 1, "tooltip": "There is 1 product for this item" },
+            "supplyItems": { "label": "S", "value": 1, "tooltip": "There is 1 supply item for this item" }
+        }
+    },
+    {
+        "name": "HTC Desire",
+        "gtin": "00020212123496",
+        "brand": "HTC",
+        "description": "Latest smart phone from HTC",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Product item" }
+    },
+    {
+        "name": "Lenovo P2",
+        "gtin": "00020212123497",
+        "brand": "Lenovo",
+        "description": "Lenovo's latest andriod phone",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Product item" }
+    },
+    {
+        "name": "Sony Xperia",
+        "gtin": "0002021212349",
+        "brand": "Sony",
+        "description": "Newest update in Xperia lineup",
+        "category": "Mobile",
+        "imageUrl": "images/no-image.png",
+        "itemType": { "value": "P", "tooltip": "Product item" }
+    }
+]

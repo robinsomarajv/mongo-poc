@@ -1,0 +1,3649 @@
+{
+  "attributes": {
+    "Optional": {
+      "state_restrictions_text_spec_fromUIFor_state_restrictions_spec_3": {
+        "metadata": {
+          "id": "state_restrictions_text_spec_fromUIFor_state_restrictions_spec_3",
+          "name": "State Restrictions Text (SPEC)",
+          "label": "State Restrictions Text (#3) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "state_restrictions_text_spec_fromUIFor_state_restrictions_spec_2": {
+        "metadata": {
+          "id": "state_restrictions_text_spec_fromUIFor_state_restrictions_spec_2",
+          "name": "State Restrictions Text (SPEC)",
+          "label": "State Restrictions Text (#2) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "autographed_by": {
+        "metadata": {
+          "id": "autographed_by",
+          "name": "Autographed By",
+          "label": "Autographed By",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null,
+          "definition": "The full name of the autographer."
+        },
+        "values": {
+          "valuesList": [
+            "lax"
+          ]
+        },
+        "errors": null
+      },
+      "us_state_fromUIFor_state_restrictions_spec_1": {
+        "metadata": {
+          "id": "us_state_fromUIFor_state_restrictions_spec_1",
+          "name": "U.S. State",
+          "label": "US State (#1) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "us_state_fromUIFor_state_restrictions_spec_2": {
+        "metadata": {
+          "id": "us_state_fromUIFor_state_restrictions_spec_2",
+          "name": "U.S. State",
+          "label": "US State (#2) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "additional_asset_attributes_fromUIFor_additional_assets_3": {
+        "metadata": {
+          "id": "additional_asset_attributes_fromUIFor_additional_assets_3",
+          "name": "Additional Asset Attributes",
+          "label": "Additional Asset Attributes (#3) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 400,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "us_state_fromUIFor_state_restrictions_spec_3": {
+        "metadata": {
+          "id": "us_state_fromUIFor_state_restrictions_spec_3",
+          "name": "U.S. State",
+          "label": "US State (#3) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "additional_asset_attributes_fromUIFor_additional_assets_2": {
+        "metadata": {
+          "id": "additional_asset_attributes_fromUIFor_additional_assets_2",
+          "name": "Additional Asset Attributes",
+          "label": "Additional Asset Attributes (#2) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 400,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "additional_asset_attributes_fromUIFor_additional_assets_1": {
+        "metadata": {
+          "id": "additional_asset_attributes_fromUIFor_additional_assets_1",
+          "name": "Additional Asset Attributes",
+          "label": "Additional Asset Attributes (#1) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 400,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "alt_text_fromUIFor_additional_assets_2": {
+        "metadata": {
+          "id": "alt_text_fromUIFor_additional_assets_2",
+          "name": "Alt Text",
+          "label": "Alt Text (#2) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 150,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": {
+          "errorList": [
+            "Inavalid value. Please change."
+          ]
+        }
+      },
+      "alt_text_fromUIFor_additional_assets_3": {
+        "metadata": {
+          "id": "alt_text_fromUIFor_additional_assets_3",
+          "name": "Alt Text",
+          "label": "Alt Text (#3) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 150,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": {
+          "errorList": [
+            "Invalid value. Please change."
+          ]
+        }
+      },
+      "alt_text_fromUIFor_additional_assets_1": {
+        "metadata": {
+          "id": "alt_text_fromUIFor_additional_assets_1",
+          "name": "Alt Text",
+          "label": "Alt Text (#1) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 150,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "asset_type_fromUIFor_additional_assets_3": {
+        "metadata": {
+          "id": "asset_type_fromUIFor_additional_assets_3",
+          "name": "Asset Type",
+          "label": "Asset Type (#3) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 9,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "PRIMARY",
+              "value": "PRIMARY - PRIMARY"
+            },
+            {
+              "id": "SECONDARY",
+              "value": "SECONDARY - SECONDARY"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "state_restrictions_text_spec_fromUIFor_state_restrictions_spec_1": {
+        "metadata": {
+          "id": "state_restrictions_text_spec_fromUIFor_state_restrictions_spec_1",
+          "name": "State Restrictions Text (SPEC)",
+          "label": "State Restrictions Text (#1) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "asset_type_fromUIFor_additional_assets_2": {
+        "metadata": {
+          "id": "asset_type_fromUIFor_additional_assets_2",
+          "name": "Asset Type",
+          "label": "Asset Type (#2) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 9,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "PRIMARY",
+              "value": "PRIMARY - PRIMARY"
+            },
+            {
+              "id": "SECONDARY",
+              "value": "SECONDARY - SECONDARY"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "features": {
+        "metadata": {
+          "id": "features",
+          "name": "Features",
+          "label": "Features",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "assembled_product_width": {
+        "metadata": {
+          "id": "assembled_product_width",
+          "name": "Assembled Product Width",
+          "label": "Assembled Product Width",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Pack information",
+          "precision": 2,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "5"
+          ]
+        },
+        "errors": null
+      },
+      "asset_url_fromUIFor_additional_assets_3": {
+        "metadata": {
+          "id": "asset_url_fromUIFor_additional_assets_3",
+          "name": "Asset URL",
+          "label": "Asset URL (#3) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Hyperlink",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "has_warranty": {
+        "metadata": {
+          "id": "has_warranty",
+          "name": "Has Warranty",
+          "label": "Has Warranty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "prop_65_warning_text": {
+        "metadata": {
+          "id": "prop_65_warning_text",
+          "name": "Prop 65 Warning Text",
+          "label": "Prop 65 Warning Text",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 400,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "usera should see the warnings"
+          ]
+        },
+        "errors": null
+      },
+      "minimum_storage_temperature": {
+        "metadata": {
+          "id": "minimum_storage_temperature",
+          "name": "Minimum Storage Temperature",
+          "label": "Minimum Storage Temperature",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": 2,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "40"
+          ]
+        },
+        "errors": null
+      },
+      "asset_url_fromUIFor_additional_assets_2": {
+        "metadata": {
+          "id": "asset_url_fromUIFor_additional_assets_2",
+          "name": "Asset URL",
+          "label": "Asset URL (#2) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Hyperlink",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "product_id_fromUIFor_product_identifiers_2": {
+        "metadata": {
+          "id": "product_id_fromUIFor_product_identifiers_2",
+          "name": "Product ID",
+          "label": "Product Identifier (#2) product_identifiers",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 14,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "020212123489"
+          ]
+        },
+        "errors": null
+      },
+      "athlete": {
+        "metadata": {
+          "id": "athlete",
+          "name": "Athlete",
+          "label": "Athlete",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "price_per_unit_quantity": {
+        "metadata": {
+          "id": "price_per_unit_quantity",
+          "name": "PPU Quantity of Units",
+          "label": "Price Per Unit Qty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Pricing",
+          "precision": 2,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "465"
+          ]
+        },
+        "errors": null
+      },
+      "certifying_agent_fromUIFor_certifications_3": {
+        "metadata": {
+          "id": "certifying_agent_fromUIFor_certifications_3",
+          "name": "Certifying Agent",
+          "label": "Certifying Agent (#3) certifications",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "agenc"
+          ]
+        },
+        "errors": null
+      },
+      "assembled_product_length_unitOfMeasure": {
+        "metadata": {
+          "id": "assembled_product_length_unitOfMeasure",
+          "name": "Assembled Product Length-Unit",
+          "label": "Assembled Product Length-Unit",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Pack information",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Feet"
+          ]
+        },
+        "errors": null
+      },
+      "assembled_product_weight": {
+        "metadata": {
+          "id": "assembled_product_weight",
+          "name": "Assembled Product Weight",
+          "label": "Assembled Weight",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 12,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 3,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null,
+          "definition": "Provides the weight of the product when it is assembled."
+        },
+        "values": {
+          "valuesList": [
+            "45"
+          ]
+        },
+        "errors": null
+      },
+      "product_id_fromUIFor_product_identifiers_3": {
+        "metadata": {
+          "id": "product_id_fromUIFor_product_identifiers_3",
+          "name": "Product ID",
+          "label": "Product Identifier (#3) product_identifiers",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 14,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "warranty_length": {
+        "metadata": {
+          "id": "warranty_length",
+          "name": "Warranty Length",
+          "label": "Warranty Length",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "45"
+          ]
+        },
+        "errors": null
+      },
+      "addtional_product_attribute_value_fromUIFor_additional_product_attributes_2": {
+        "metadata": {
+          "id": "addtional_product_attribute_value_fromUIFor_additional_product_attributes_2",
+          "name": "Addtional Product Attribute Value",
+          "label": "Addtional Product Attribute Value (#2) additional_product_attributes",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "addtional_product_attribute_value_fromUIFor_additional_product_attributes_3": {
+        "metadata": {
+          "id": "addtional_product_attribute_value_fromUIFor_additional_product_attributes_3",
+          "name": "Addtional Product Attribute Value",
+          "label": "Addtional Product Attribute Value (#3) additional_product_attributes",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "addtional_product_attribute_value_fromUIFor_additional_product_attributes_1": {
+        "metadata": {
+          "id": "addtional_product_attribute_value_fromUIFor_additional_product_attributes_1",
+          "name": "Addtional Product Attribute Value",
+          "label": "Addtional Product Attribute Value (#1) additional_product_attributes",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Replenishment",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "assembled_product_weight_unitOfMeasure": {
+        "metadata": {
+          "id": "assembled_product_weight_unitOfMeasure",
+          "name": "Assembled Weight-Unit",
+          "label": "Assembled Weight-Unit",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Ounces"
+          ]
+        },
+        "errors": null
+      },
+      "certification_and_claim_type_fromUIFor_certifications_2": {
+        "metadata": {
+          "id": "certification_and_claim_type_fromUIFor_certifications_2",
+          "name": "Other Certification Type",
+          "label": "Certification Claim Type (#2) certifications",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "GOTS"
+          ]
+        },
+        "errors": null
+      },
+      "certifying_agent_fromUIFor_certifications_1": {
+        "metadata": {
+          "id": "certifying_agent_fromUIFor_certifications_1",
+          "name": "Certifying Agent",
+          "label": "Certifying Agent (#1) certifications",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "claim"
+          ]
+        },
+        "errors": null
+      },
+      "zip_codes_fromUIFor_state_restrictions_spec_1": {
+        "metadata": {
+          "id": "zip_codes_fromUIFor_state_restrictions_spec_1",
+          "name": "ZIP Codes",
+          "label": "ZIP Codes (#1) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "certification_and_claim_type_fromUIFor_certifications_1": {
+        "metadata": {
+          "id": "certification_and_claim_type_fromUIFor_certifications_1",
+          "name": "Other Certification Type",
+          "label": "Certification Claim Type (#1) certifications",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Oraganic"
+          ]
+        },
+        "errors": null
+      },
+      "certifying_agent_fromUIFor_certifications_2": {
+        "metadata": {
+          "id": "certifying_agent_fromUIFor_certifications_2",
+          "name": "Certifying Agent",
+          "label": "Certifying Agent (#2) certifications",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "origin"
+          ]
+        },
+        "errors": null
+      },
+      "zip_codes_fromUIFor_state_restrictions_spec_2": {
+        "metadata": {
+          "id": "zip_codes_fromUIFor_state_restrictions_spec_2",
+          "name": "ZIP Codes",
+          "label": "ZIP Codes (#2) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "assembled_product_height_unitOfMeasure": {
+        "metadata": {
+          "id": "assembled_product_height_unitOfMeasure",
+          "name": "Assembled Product Height-Unit",
+          "label": "Assembled Product Height-Unit",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Pack information",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Centimeters"
+          ]
+        },
+        "errors": null
+      },
+      "has_warnings": {
+        "metadata": {
+          "id": "has_warnings",
+          "name": "Has Warnings",
+          "label": "Has Warnings",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "true"
+          ]
+        },
+        "errors": null
+      },
+      "zip_codes_fromUIFor_state_restrictions_spec_3": {
+        "metadata": {
+          "id": "zip_codes_fromUIFor_state_restrictions_spec_3",
+          "name": "ZIP Codes",
+          "label": "ZIP Codes (#3) state_restrictions_spec",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": {
+          "errorList": [
+            "Not a valid zip code. Please change."
+          ]
+        }
+      },
+      "certification_and_claim_type_fromUIFor_certifications_3": {
+        "metadata": {
+          "id": "certification_and_claim_type_fromUIFor_certifications_3",
+          "name": "Other Certification Type",
+          "label": "Certification Claim Type (#3) certifications",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "fair"
+          ]
+        },
+        "errors": null
+      },
+      "shelf_life_unitOfMeasure": {
+        "metadata": {
+          "id": "shelf_life_unitOfMeasure",
+          "name": "Shelf Life Quantity-Unit",
+          "label": "Shelf Life Quantity-Unit",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": ["abc"]
+        },
+        "errors": {
+          "errorList": [
+            "Self life quantity has got invalid value. Please change"
+          ]
+        }
+      },
+      "small_parts_warning_code": {
+        "metadata": {
+          "id": "small_parts_warning_code",
+          "name": "Small Parts Warning Code",
+          "label": "Small Parts Warning ",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 25,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "0",
+              "value": "0 - Not Applicable"
+            },
+            {
+              "id": "1",
+              "value": "1 - Any ball with a diameter of 1.75 inches (44.4mm) or less that is intended for use by children 3 years or older"
+            },
+            {
+              "id": "2",
+              "value": "2 - Any toy or game intended for children 3 years or older but less than 8 years that contains a small ball"
+            },
+            {
+              "id": "3",
+              "value": "3 - Any toy and game"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "8"
+          ]
+        },
+        "errors": null
+      },
+      "main_image": {
+        "metadata": {
+          "id": "main_image",
+          "name": "Main Image",
+          "label": "Main Image",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 400,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "video"
+          ]
+        },
+        "errors": null
+      },
+      "warranty_information": {
+        "metadata": {
+          "id": "warranty_information",
+          "name": "Warranty Information",
+          "label": "Warranty Information",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "4545"
+          ]
+        },
+        "errors": null
+      },
+      "autographed": {
+        "metadata": {
+          "id": "autographed",
+          "name": "Autographed",
+          "label": "Autographed",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null,
+          "definition": "Is this product autographed?"
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "sports_team": {
+        "metadata": {
+          "id": "sports_team",
+          "name": "Sports Team",
+          "label": "Sports Team",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "product_id_type_fromUIFor_product_identifiers_2": {
+        "metadata": {
+          "id": "product_id_type_fromUIFor_product_identifiers_2",
+          "name": "Product ID Type",
+          "label": "Product ID Type (#2) product_identifiers",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "GTIN",
+              "value": "GTIN"
+            },
+            {
+              "id": "UPC",
+              "value": "UPC"
+            },
+            {
+              "id": "ISBN",
+              "value": "ISBN"
+            },
+            {
+              "id": "ISSN",
+              "value": "ISSN"
+            },
+            {
+              "id": "EAN",
+              "value": "EAN"
+            },
+            {
+              "id": "EPC",
+              "value": "EPC"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "UPC"
+          ]
+        },
+        "errors": null
+      },
+      "has_state_restrictions": {
+        "metadata": {
+          "id": "has_state_restrictions",
+          "name": "Has State Restrictions",
+          "label": "Has State Restrictions",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "product_id_type_fromUIFor_product_identifiers_3": {
+        "metadata": {
+          "id": "product_id_type_fromUIFor_product_identifiers_3",
+          "name": "Product ID Type",
+          "label": "Product ID Type (#3) product_identifiers",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "GTIN",
+              "value": "GTIN"
+            },
+            {
+              "id": "UPC",
+              "value": "UPC"
+            },
+            {
+              "id": "ISBN",
+              "value": "ISBN"
+            },
+            {
+              "id": "ISSN",
+              "value": "ISSN"
+            },
+            {
+              "id": "EAN",
+              "value": "EAN"
+            },
+            {
+              "id": "EPC",
+              "value": "EPC"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "shelf_life": {
+        "metadata": {
+          "id": "shelf_life",
+          "name": "Shelf Life",
+          "label": "Shelf Life Quantity",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "10"
+          ]
+        },
+        "errors": null
+      },
+      "addtional_product_attribute_name_fromUIFor_additional_product_attributes_3": {
+        "metadata": {
+          "id": "addtional_product_attribute_name_fromUIFor_additional_product_attributes_3",
+          "name": "Addtional Product Attribute Name",
+          "label": "Addtional Product Attribute Name (#3) additional_product_attributes",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 100,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "addtional_product_attribute_name_fromUIFor_additional_product_attributes_2": {
+        "metadata": {
+          "id": "addtional_product_attribute_name_fromUIFor_additional_product_attributes_2",
+          "name": "Addtional Product Attribute Name",
+          "label": "Addtional Product Attribute Name (#2) additional_product_attributes",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 100,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "assembled_product_height": {
+        "metadata": {
+          "id": "assembled_product_height",
+          "name": "Assembled Product Height",
+          "label": "Assembled Product Height",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Pack information",
+          "precision": 2,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "8"
+          ]
+        },
+        "errors": null
+      },
+      "warranty_url": {
+        "metadata": {
+          "id": "warranty_url",
+          "name": "Warranty URL",
+          "label": "Warranty URL",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Hyperlink",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "https://www.ghk/com"
+          ]
+        },
+        "errors": null
+      },
+      "addtional_product_attribute_name_fromUIFor_additional_product_attributes_1": {
+        "metadata": {
+          "id": "addtional_product_attribute_name_fromUIFor_additional_product_attributes_1",
+          "name": "Addtional Product Attribute Name",
+          "label": "Addtional Product Attribute Name (#1) additional_product_attributes",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 100,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "minimum_storage_temperature_unitOfMeasure": {
+        "metadata": {
+          "id": "minimum_storage_temperature_unitOfMeasure",
+          "name": "Minimum Storage Temperature-Unit",
+          "label": "Minimum Storage Temperature-Unit",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "warnings": {
+        "metadata": {
+          "id": "warnings",
+          "name": "Warning Text",
+          "label": "Warning Text",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "user old should be above 18 to purchase the item"
+          ]
+        },
+        "errors": null
+      },
+      "maximum_storage_temperature": {
+        "metadata": {
+          "id": "maximum_storage_temperature",
+          "name": "Maximum Storage Temperature",
+          "label": "Maximum Storage Temperature",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": 2,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "50"
+          ]
+        },
+        "errors": null
+      },
+      "assembled_product_length": {
+        "metadata": {
+          "id": "assembled_product_length",
+          "name": "Assembled Product Length",
+          "label": "Assembled Product Length",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 10,
+          "field": "decimal",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Decimal",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Pack information",
+          "precision": 2,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "5"
+          ]
+        },
+        "errors": null
+      },
+      "maximum_storage_temperature_unitOfMeasure": {
+        "metadata": {
+          "id": "maximum_storage_temperature_unitOfMeasure",
+          "name": "Maximum Storage Temperature-Unit",
+          "label": "Maximum Storage Temperature-Unit",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "battery_type_and_quantity": {
+        "metadata": {
+          "id": "battery_type_and_quantity",
+          "name": "Battery Type & Quantity",
+          "label": "Battery Type Qty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 400,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Lead Acid (Non-Spillable);Lithium Ion"
+          ]
+        },
+        "errors": null
+      },
+      "package_quantity": {
+        "metadata": {
+          "id": "package_quantity",
+          "name": "Units Per Consumer Unit",
+          "label": "Package Qty",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 7,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "6"
+          ]
+        },
+        "errors": null
+      },
+      "is_controlled_substance": {
+        "metadata": {
+          "id": "is_controlled_substance",
+          "name": "Is Controlled Substance",
+          "label": "Controlled Substance",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "sports_league": {
+        "metadata": {
+          "id": "sports_league",
+          "name": "Sports League",
+          "label": "Sports League",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "assembled_product_width_unitOfMeasure": {
+        "metadata": {
+          "id": "assembled_product_width_unitOfMeasure",
+          "name": "Assembled Product Width-Unit",
+          "label": "Assembled Product Width-Unit",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 50,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Pack information",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Feet"
+          ]
+        },
+        "errors": null
+      },
+      "batteries_included": {
+        "metadata": {
+          "id": "batteries_included",
+          "name": "Contains Batteries",
+          "label": "Batteries Included",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": false,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "true"
+          ]
+        },
+        "errors": null
+      }
+    },
+    "Required": {
+      "product_name": {
+        "metadata": {
+          "id": "product_name",
+          "name": "Product Name",
+          "label": "Product Name",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 200,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Motorola Mobile"
+          ]
+        },
+        "errors": null,
+        "lineage": {
+          "name": "Product Name",
+          "children": [
+            {
+              "name": "Impacted Attributes",
+              "children": [
+                {"name": "Brand Name"},
+                {"name": "Shelf Label"},
+                {"name": "Signing Description"}
+              ]
+            },
+            {
+              "name": "Impact Area",
+              "children": [
+                {"name": "Distribution Centers"},
+                {"name": "Transportation"},
+                {"name": "Pricing System"},
+                {"name": "Stores/Clubs"},
+                {"name": "POS"},
+                {"name": "Plan for Profit"},
+                {"name": "Macro Space Allocation"},
+                {"name": "SMART"},
+                {"name": "Connexus"},
+                {"name": "Replenishment"},
+                {"name": "Automated Customer Service Machine"},
+                {"name": "Feature Planning Tool"}
+              ]
+            },
+            {
+              "name": "Data Quality",
+              "children": [
+                {
+                  "name": "Outliner",
+                  "children": [
+                    {"name": "Value - 1690"},
+                    {"name": "Pattern - 1450"},
+                    {"name": "Data Type - 1500"},
+                    {"name": "Length - 1550"}
+                  ]
+                },
+                {
+                  "name": "DQ Score",
+                  "children": [
+                    {"name": "Brazil - 60%"},
+                    {"name": "US - 75%"},
+                    {"name": "Mexico - 70%"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "product_long_description": {
+        "metadata": {
+          "id": "product_long_description",
+          "name": "Product Long Description",
+          "label": "Product Long Description",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Motorola, Inc. was an American multinational telecommunications company based in Schaumburg, Illinois, United States."
+          ]
+        },
+        "errors": {
+          "errorList": [
+            "Please provide a long description."
+          ]
+        }
+      },
+      "target_market": {
+        "metadata": {
+          "id": "target_market",
+          "name": "Target Market",
+          "label": "Target Market",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "US",
+              "value": "US"
+            },
+            {
+              "id": "CA",
+              "value": "CA"
+            },
+            {
+              "id": "MX",
+              "value": "MX"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "US"
+          ]
+        },
+        "errors": null
+      },
+      "buying_region": {
+        "metadata": {
+          "id": "buying_region",
+          "name": "Buying Region",
+          "label": "Buying Region",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "0",
+              "value": "0"
+            },
+            {
+              "id": "1",
+              "value": "1"
+            },
+            {
+              "id": "2",
+              "value": "2"
+            },
+            {
+              "id": "3",
+              "value": "3"
+            },
+            {
+              "id": "4",
+              "value": "4"
+            },
+            {
+              "id": "5",
+              "value": "5"
+            },
+            {
+              "id": "6",
+              "value": "6"
+            },
+            {
+              "id": "7",
+              "value": "7"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "0"
+          ]
+        },
+        "errors": null
+      },
+      "supplier_number": {
+        "metadata": {
+          "id": "supplier_number",
+          "name": "Supplier Number",
+          "label": "Supplier Number",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "123457",
+              "value": "123457"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+          ]
+        },
+        "errors": null
+      },
+      "gln_number": {
+        "metadata": {
+          "id": "gln_number",
+          "name": "GLN Number",
+          "label": "GLN Number",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "12345789",
+              "value": "12345789"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+          ]
+        },
+        "errors": null
+      },
+      "event_name": {
+        "metadata": {
+          "id": "event_name",
+          "name": "Event name",
+          "label": "Event name",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "Christmas",
+              "value": "Christmas"
+            },
+            {
+              "id": "New year",
+              "value": "New year"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+          ]
+        },
+        "errors": null
+      },
+      "year": {
+        "metadata": {
+          "id": "year",
+          "name": "Year",
+          "label": "Year",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "2016",
+              "value": "2016"
+            },
+            {
+              "id": "2017",
+              "value": "2017"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+          ]
+        },
+        "errors": null
+      },
+      "week": {
+        "metadata": {
+          "id": "week",
+          "name": "Week",
+          "label": "Week",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "1",
+              "value": "1"
+            },
+            {
+              "id": "2",
+              "value": "2"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+          ]
+        },
+        "errors": null
+      },
+      "category": {
+        "metadata": {
+          "id": "category",
+          "name": "Category",
+          "label": "Category",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "Furniture",
+              "value": "Furniture"
+            },
+            {
+              "id": "Baby",
+              "value": "Baby"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+          ]
+        },
+        "errors": null
+      },
+      "sub_category": {
+        "metadata": {
+          "id": "sub_category",
+          "name": "Sub Category",
+          "label": "Sub Category",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Basic",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "Chair",
+              "value": "Chair"
+            },
+            {
+              "id": "Table",
+              "value": "Table"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+          ]
+        },
+        "errors": null
+      },
+      "brand_code": {
+        "metadata": {
+          "id": "brand_code",
+          "name": "Brand Code",
+          "label": "Brand Code",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 11,
+          "field": "numeric",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "Motorola"
+          ]
+        },
+        "errors": null
+      },
+      "multipack_indicator": {
+        "metadata": {
+          "id": "multipack_indicator",
+          "name": "Multipack Indicator",
+          "label": "Is Multi Pack",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "true"
+          ]
+        },
+        "errors": null
+      },
+      "product_id_type_fromUIFor_product_identifiers_1": {
+        "metadata": {
+          "id": "product_id_type_fromUIFor_product_identifiers_1",
+          "name": "Product ID Type",
+          "label": "Product ID Type (#1) product_identifiers",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 4,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "GTIN",
+              "value": "GTIN"
+            },
+            {
+              "id": "UPC",
+              "value": "UPC"
+            },
+            {
+              "id": "ISBN",
+              "value": "ISBN"
+            },
+            {
+              "id": "ISSN",
+              "value": "ISSN"
+            },
+            {
+              "id": "EAN",
+              "value": "EAN"
+            },
+            {
+              "id": "EPC",
+              "value": "EPC"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "GTIN"
+          ]
+        },
+        "errors": null
+      },
+      "product_id_fromUIFor_product_identifiers_1": {
+        "metadata": {
+          "id": "product_id_fromUIFor_product_identifiers_1",
+          "name": "Product ID",
+          "label": "Product Identifier (#1) product_identifiers",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 14,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "00020212123489"
+          ]
+        },
+        "errors": null
+      },
+      "chemical_indicator": {
+        "metadata": {
+          "id": "chemical_indicator",
+          "name": "Is Chemical",
+          "label": "Chemical Ind",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "aerosol_indicator": {
+        "metadata": {
+          "id": "aerosol_indicator",
+          "name": "Is Aerosol",
+          "label": "Is Aerosol",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null,
+          "definition": "Indicates if the item contains compressed gas or propellant."
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "asset_type_fromUIFor_additional_assets_1": {
+        "metadata": {
+          "id": "asset_type_fromUIFor_additional_assets_1",
+          "name": "Asset Type",
+          "label": "Asset Type (#1) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 9,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "PRIMARY",
+              "value": "PRIMARY - PRIMARY"
+            },
+            {
+              "id": "SECONDARY",
+              "value": "SECONDARY - SECONDARY"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "shelf_description": {
+        "metadata": {
+          "id": "shelf_description",
+          "name": "Shelf Description",
+          "label": "Digital Shelf Description",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "points"
+          ]
+        },
+        "errors": null
+      },
+      "fuel_restriction_indicator": {
+        "metadata": {
+          "id": "fuel_restriction_indicator",
+          "name": "Has Fuel Container",
+          "label": "Fuel Restriction",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "is_private_label_unbranded": {
+        "metadata": {
+          "id": "is_private_label_unbranded",
+          "name": "Is Private Label/Unbranded",
+          "label": "Private Label/Unbranded",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "true"
+          ]
+        },
+        "errors": null
+      },
+      "contains_paper_wood": {
+        "metadata": {
+          "id": "contains_paper_wood",
+          "name": "Contains Paper/Wood",
+          "label": "Paper Wood Ind",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "true"
+          ]
+        },
+        "errors": null
+      },
+      "has_mercury": {
+        "metadata": {
+          "id": "has_mercury",
+          "name": "Has Mercury",
+          "label": "Has Mercury",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "country_of_origin_components": {
+        "metadata": {
+          "id": "country_of_origin_components",
+          "name": "Country of Origin - Components",
+          "label": "Component Country of Origin",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 15,
+          "field": "listBox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": true,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "1",
+              "value": "1 - USA"
+            },
+            {
+              "id": "2",
+              "value": "2 - Imported"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "USA or Imported"
+          ]
+        },
+        "errors": null
+      },
+      "california_residents_prop_65_warning_required": {
+        "metadata": {
+          "id": "california_residents_prop_65_warning_required",
+          "name": "Is Prop 65 Warning Required",
+          "label": "California Prop 65",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "is_temperature_sensitive": {
+        "metadata": {
+          "id": "is_temperature_sensitive",
+          "name": "Is Temperature-Sensitive",
+          "label": "Temp Sensitive",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "true"
+          ]
+        },
+        "errors": null
+      },
+      "has_expiration": {
+        "metadata": {
+          "id": "has_expiration",
+          "name": "Has Expiration",
+          "label": "Has Expiration",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "product_short_description": {
+        "metadata": {
+          "id": "product_short_description",
+          "name": "Short Description",
+          "label": "Product Short Description",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1000,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Alphanumeric",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "chill"
+          ]
+        },
+        "errors": null
+      },
+      "hazardous_materials_indicator": {
+        "metadata": {
+          "id": "hazardous_materials_indicator",
+          "name": "Hazardous Materials Indicator",
+          "label": "Is Hazmat",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "cpsc_regulated_indicator": {
+        "metadata": {
+          "id": "cpsc_regulated_indicator",
+          "name": "CPSC-Regulated Indicator",
+          "label": "Is CPSC Regulated",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 1,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "pesticide_indicator": {
+        "metadata": {
+          "id": "pesticide_indicator",
+          "name": "Is Pesticide",
+          "label": "Pesticide Ind",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "boolean",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Boolean",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": "Compliance",
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": true,
+              "value": "Yes"
+            },
+            {
+              "id": false,
+              "value": "No"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "false"
+          ]
+        },
+        "errors": null
+      },
+      "asset_url_fromUIFor_additional_assets_1": {
+        "metadata": {
+          "id": "asset_url_fromUIFor_additional_assets_1",
+          "name": "Asset URL",
+          "label": "Asset URL (#1) additional_assets",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": null,
+          "field": "textbox",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Hyperlink",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": null,
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": []
+        },
+        "errors": null
+      },
+      "segregation": {
+        "metadata": {
+          "id": "segregation",
+          "name": "Segregation",
+          "label": "Segregation Code",
+          "displayLocation": null,
+          "displayed": true,
+          "minLength": null,
+          "maxLength": 2,
+          "field": "select",
+          "type": null,
+          "attributeKey": null,
+          "attributeDataType": "Integer",
+          "editable": true,
+          "multiValue": false,
+          "required": true,
+          "code": null,
+          "classification": null,
+          "attributeGroup": null,
+          "precision": null,
+          "specification": "PRODUCT",
+          "validValues": [
+            {
+              "id": "1",
+              "value": "1 - General Handling"
+            },
+            {
+              "id": "2",
+              "value": "2 - HBA Oral"
+            },
+            {
+              "id": "3",
+              "value": "3 - Chemical"
+            },
+            {
+              "id": "4",
+              "value": "4 - Contacts Good"
+            },
+            {
+              "id": "5",
+              "value": "5 - Human Food"
+            },
+            {
+              "id": "6",
+              "value": "6 - Medicine"
+            },
+            {
+              "id": "7",
+              "value": "7 - List 1"
+            },
+            {
+              "id": "8",
+              "value": "8 - Animal Food"
+            },
+            {
+              "id": "9",
+              "value": "9 - Ammunition-Nonmetal Jacket"
+            },
+            {
+              "id": "10",
+              "value": "10 - Ammunition-Metal Jacket"
+            },
+            {
+              "id": "11",
+              "value": "11 - Paint"
+            },
+            {
+              "id": "12",
+              "value": "12 - Pesticides/Insecticides"
+            },
+            {
+              "id": "13",
+              "value": "13 - HBA"
+            }
+          ],
+          "iconValue": null
+        },
+        "values": {
+          "valuesList": [
+            "1"
+          ]
+        },
+        "errors": null
+      }
+    }
+  }
+}

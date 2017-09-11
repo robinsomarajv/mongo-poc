@@ -1,0 +1,30 @@
+<div>
+    <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+        <div class="md-toolbar-tools">
+            <md-button class="md-primary" ng-click="idvm.context.dynamicBar.active.context.loadParent()" ng-bind="idvm.context.dynamicBar.active.context.selectedItem.title">
+            </md-button>
+            <span flex></span>
+        </div>
+    </md-toolbar>
+    <md-grid-list md-cols="6" md-row-height="1:1" md-gutter="10px">
+        <md-grid-tile md-rowspan="1" md-colspan="2" ng-repeat="item in idvm.context.dynamicBar.active.context.selectedItem.items" class="md-whiteframe-3dp">
+            <md-content layout="row" layout-fill layout-padding ng-click="idvm.context.dynamicBar.active.context.loadChildren(item)" style="cursor: pointer">
+                <div layout="column" flex="100">
+                    <div layout="column" layout-align="center center">
+                        <h4 ng-bind="item.title" style="margin: 10px"></h4>
+                    </div>
+                    <div layout="column">
+                        <div layout="row" flex layout-align="center center" style="margin:2px;padding:0px;" ng-repeat="mItem in item.metadata">
+                            <div layout="row" flex layout-align="center center">
+                                <span class="blueRow" flex="40" ng-bind="mItem.label" style="padding-left: 5px;"></span>
+                                <span class="greenRow" flex="60" ng-bind="mItem.value" style="padding-left: 5px;font-size: small"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </md-content>
+            <md-grid-tile-footer>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+    </md-grid-list>
+</div>

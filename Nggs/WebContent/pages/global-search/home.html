@@ -1,0 +1,198 @@
+<md-content layout="row" ng-cloak>
+    <md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="left">
+        <md-toolbar class="md-theme-light" layout="row" flex>
+            <h1 class="md-toolbar-tools">Related Items</h1>
+            <span flex></span>
+            <md-button class="md-fab md-mini md-primary">
+                <md-tooltip>Close</md-tooltip>
+                <md-icon md-font-set="material-icons">close</md-icon>
+            </md-button>
+        </md-toolbar>
+        <md-content layout-padding>
+            <md-nav-bar md-autofocus md-selected-nav-item="gsvm.context.additionalBar.page">
+                <md-nav-item md-nav-click="gsvm.context.additionalBar.navigateTo('overview')" name="overview">Overview</md-nav-item>
+                <md-nav-item md-nav-click="gsvm.context.additionalBar.navigateTo('trade')" name="trade">Trade Item</md-nav-item>
+                <md-nav-item md-nav-click="gsvm.context.additionalBar.navigateTo('supply')" name="supply">Supply Item</md-nav-item>
+                <md-nav-item md-nav-click="gsvm.context.additionalBar.navigateTo('offer')" name="offer">Offer</md-nav-item>
+                <md-nav-item md-nav-click="gsvm.context.additionalBar.navigateTo('shippers')" name="shippers">Shippers</md-nav-item>
+                <md-nav-item md-nav-click="gsvm.context.additionalBar.navigateTo('assortments')" name="assortments">Assortments</md-nav-item>
+                <md-nav-item md-nav-click="gsvm.context.additionalBar.navigateTo('related')" name="assortments">Related Items</md-nav-item>
+            </md-nav-bar>
+            <div ng-include="gsvm.context.additionalBar.pageUrl" onload="gsvm.context.additionalBar.onLoad()"></div>
+        </md-content>
+    </md-sidenav>
+    <md-content flex style="margin: 15px">
+        <md-card>
+            <div layout="row" flex="100" ng-show="gsvm.isShipperOrAssortment">
+                <md-nav-bar md-selected-nav-item="0002345765123" nav-bar-aria-label="navigation links" flex="100">
+                    <md-nav-item md-nav-click="" name="0002345765123"><b>0002345765123</b></md-nav-item>
+                    <md-nav-item md-nav-click="" name="0002345765124"><b>0002345765124</b></md-nav-item>
+                    <md-nav-item md-nav-click="" name="0002345765125"><b>0002345765125</b></md-nav-item>
+                    <md-nav-item md-nav-click="" name="0002345765126"><b>0002345765126</b></md-nav-item>
+                    <md-nav-item md-nav-click="" name="0002345765127"><b>0002345765127</b></md-nav-item>
+                </md-nav-bar>
+            </div>
+            <div layout="row" flex="100" ng-show="gsvm.context.isTradeItemView">
+                <md-nav-bar md-selected-nav-item="1" nav-bar-aria-label="navigation links" flex="100">
+                    <md-nav-item ng-repeat="item in gsvm.context.additionalBar.tradeItems.active.hierarchyItems" md-nav-click="" name="{{item.id}}"><b>{{item.name}}</b></md-nav-item>
+                </md-nav-bar>
+            </div>
+            <md-card-title ng-hide="gsvm.context.isClonedOrNewItem">
+                <md-card-title-media>
+                    <div class="md-media-lg card-media">
+                        <img src="images/image.jpeg"/>
+                    </div>
+                </md-card-title-media>
+                <md-card-title-text>
+                    <div layout="row" style="padding-bottom: 5px;padding-top: 10px;">
+                        <span class="md-subhead" flex="30"><label class="heading">Name:</label><span style="padding: 5px;" ng-bind="gsvm.context.searchResults.data.General.product_name.values.valuesList[0]"></span></span>
+                        <span class="md-subhead" flex="30"><label class="heading">Category:</label><span style="padding: 5px;">Electronics</span></span>
+                        <span class="md-subhead" flex="30"><label class="heading">Sub-Category:</label><span style="padding: 5px;">Mobile</span></span>
+                    </div>
+                    <div layout="row" style="padding-bottom: 5px;padding-top: 10px;">
+                        <span class="md-subhead"><label class="heading">Brand:</label><span style="padding: 5px;" ng-bind="gsvm.context.searchResults.data.General.brand_code.values.valuesList[0]"></span></span>
+                    </div>
+                    <div layout="row" style="padding-bottom: 10px;padding-top: 10px;">
+                        <span class="md-subhead"><label class="heading">Description:</label><span style="padding: 5px;" ng-bind="gsvm.context.searchResults.data.General.product_long_description.values.valuesList[0]"></span></span>
+                    </div>
+                </md-card-title-text>
+                <md-card-title-media layout-align="center center" ng-show="gsvm.context.isTradeItemView && gsvm.context.additionalBar.tradeItems.active.gln !== '0001182111058'">
+                    <md-button class="md-fab md-mini md-primary" ng-repeat="item in gsvm.context.additionalBar.tradeItems.active.hierarchyItems[0].items" ng-click="gsvm.context.additionalBar.tradeItems.active.selectedItem = item">
+                        <md-tooltip>{{item.name}}</md-tooltip>
+                        <md-icon md-font-set="material-icons" ng-class="{active: gsvm.context.additionalBar.tradeItems.active.selectedItem.name === item.name}">{{item.icon}}</md-icon>
+                    </md-button>
+                </md-card-title-media>
+                <md-card-title-media layout-align="center center" ng-show="gsvm.context.isTradeItemView && gsvm.context.additionalBar.tradeItems.active.gln === '0001182111058'">
+                    <md-menu md-position-mode="target-right target">
+                        <md-button class="md-button" ng-click="$mdOpenMenu($event)">
+                            <md-icon md-font-set="material-icons" style="color: orange">{{gsvm.context.additionalBar.tradeItems.active.selectedItem.icon}}</md-icon>
+                            {{gsvm.context.additionalBar.tradeItems.active.selectedItem.name}}
+                            <md-icon md-font-set="material-icons">keyboard_arrow_down</md-icon>
+                        </md-button>
+                        <md-menu-content width="4">
+                            <md-menu-item ng-repeat="item in gsvm.context.additionalBar.tradeItems.active.hierarchyItems[0].items">
+                                <md-button ng-click="gsvm.context.additionalBar.tradeItems.active.selectedItem = item">
+                                    <div layout="row" flex>
+                                        <md-icon md-font-set="material-icons">{{item.icon}}</md-icon>
+                                        <p flex ng-bind="item.name"></p>
+                                    </div>
+                                </md-button>
+                            </md-menu-item>
+                        </md-menu-content>
+                    </md-menu>
+                </md-card-title-media>
+            </md-card-title>
+            <md-card-content ng-show="gsvm.context.isTradeItemView">
+                <div layout="column" flex>
+                    <div layout="row" flex>
+                        <span flex><b>Quantity</b></span>
+                        <span flex><b>Depth</b></span>
+                        <span flex><b>Width</b></span>
+                        <span flex><b>Height</b></span>
+                        <span flex><b>Cube</b></span>
+                        <span flex><b>TI/HI</b></span>
+                        <span flex><b>Net-Weight</b></span>
+                        <span flex><b>Weight</b></span>
+                    </div>
+                    <span flex><hr style="margin-top: 10px;margin-bottom: 5px;"/></span>
+                    <div layout="row" flex>
+                        <span flex ng-bind="gsvm.context.additionalBar.tradeItems.active.selectedItem.quantity"></span>
+                        <span flex ng-bind="gsvm.context.additionalBar.tradeItems.active.selectedItem.depth"></span>
+                        <span flex ng-bind="gsvm.context.additionalBar.tradeItems.active.selectedItem.width"></span>
+                        <span flex ng-bind="gsvm.context.additionalBar.tradeItems.active.selectedItem.height"></span>
+                        <span flex ng-bind="gsvm.context.additionalBar.tradeItems.active.selectedItem.cube"></span>
+                        <span flex ng-bind="gsvm.context.additionalBar.tradeItems.active.selectedItem.tihi"></span>
+                        <span flex ng-bind="gsvm.context.additionalBar.tradeItems.active.selectedItem.netWeight"></span>
+                        <span flex ng-bind="gsvm.context.additionalBar.tradeItems.active.selectedItem.weight"></span>
+                    </div>
+                </div>
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center" class="item-footer">
+                <div class="md-toolbar-tools" ng-show="gsvm.context.isClonedOrNewItem">
+                    <label>New/Cloned item</label>
+                    <span flex></span>
+                    <md-button ng-click="gsvm.context.createClonedItem()">Create</md-button>
+                    <md-button ng-click="gsvm.context.cancelClonedItem()">Cancel</md-button>
+                </div>
+                <div class="md-toolbar-tools" ng-hide="gsvm.context.isClonedOrNewItem" style="min-height:50px">
+                    <div ng-show="gsvm.context.isTradeItemView" layout-align="center center">
+                        <md-button ng-href="" ng-click="gsvm.context.showMainItem()">GTIN: 00020212123489</md-button>
+                        <md-button class="md-icon-button">
+                            <i class="material-icons">keyboard_arrow_right</i>
+                        </md-button>
+                        <md-button ng-href="">Trade Item GLN: {{gsvm.context.additionalBar.tradeItems.active.gln}}</md-button>
+                    </div>
+                    <span flex></span>
+                    <div layout-align="end">
+                        <md-button class="md-icon-button" ng-click="gsvm.context.showRelatedItems()">
+                            <md-tooltip>Related Items</md-tooltip>
+                            <i class="material-icons">share</i>
+                        </md-button>
+                        <md-button class="md-icon-button" ng-click="gsvm.context.cloneItem()">
+                            <md-tooltip>Clone this item</md-tooltip>
+                            <i class="material-icons">compare_arrows</i>
+                        </md-button>
+                        <md-button class="md-icon-button" ng-click="gsvm.context.createTask($event)">
+                            <md-tooltip>Create a new task for this item</md-tooltip>
+                            <i class="material-icons">add_alert</i>
+                        </md-button>
+                        <md-button class="md-icon-button" ng-click="gsvm.context.showAllErrors()">
+                            <md-tooltip>Show all errors for this item</md-tooltip>
+                            <i class="material-icons">error</i>
+                        </md-button>
+                        <md-button class="md-icon-button" ng-click="gsvm.context.createTemplate()">
+                            <md-tooltip>Create a new template for this item</md-tooltip>
+                            <i class="material-icons">book</i>
+                        </md-button>
+                        <md-button class="md-icon-button" ng-click="gsvm.context.showTemplates()">
+                            <md-tooltip>View all templates for this item</md-tooltip>
+                            <i class="material-icons">bookmark</i>
+                        </md-button>
+                        <md-button class="md-icon-button" ng-click="gsvm.context.toggleDetailsView()">
+                            <md-tooltip>Toggle View</md-tooltip>
+                            <i class="material-icons">{{gsvm.context.detailsView === 'card' ? 'view_list' : 'view_quilt'}}</i>
+                        </md-button>
+                    </div>
+                </div>
+            </md-card-actions>
+        </md-card>
+
+
+        <uib-accordion close-others="gsvm.context.attributesViewOptions.expandActiveGroupOnly">
+            <div uib-accordion-group class="panel-default" ng-repeat="(group, attributes) in gsvm.context.searchResults.data" heading="{{group}}" is-open="gsvm.context.searchResults.metadata[group].isExpanded">
+                <div layout="row" layout-wrap>
+                    <div ng-repeat="(name, attribute) in attributes" flex="33" ng-if="gsvm.context.detailsView === 'card'">
+                        <attribute-container attribute="attribute" on-bookmarked="gsvm.context.navbar.addToTemplate(attribute)" on-show-error="gsvm.context.showError(attribute)" on-show-metadata="gsvm.context.showMetadata(attribute)"></attribute-container>
+                    </div>
+                    <div flex ng-if="gsvm.context.detailsView === 'list'">
+                        <div class="md-whiteframe-5dp" flex>
+                            <md-list>
+                                <md-list-item class="md-2-line" ng-repeat="attribute in attributes">
+                                    <div class="md-list-item-text" layout="column" flex="5" layout-align="center center">
+                                        <md-button ng-if="attribute.metadata.required" class="md-icon-button" style="color: red"><md-tooltip>Required attribute</md-tooltip><i class="material-icons">star_border</i></md-button>
+                                    </div>
+                                    <div class="md-list-item-text" layout="column" span="30">
+                                        <b><h3 ng-bind="attribute.metadata.label"></h3></b>
+                                        <h4 ng-bind="attribute.values.valuesList[0]"></h4>
+                                    </div>
+                                    <span layout="column" flex></span>
+                                    <div class="md-list-item-text" layout="column" layout-align="center end">
+                                        <div layout="row" flex>
+                                            <md-button class="md-icon-button" ng-if="attribute.errors !== null" ng-click="gsvm.context.showError(attribute)"><md-tooltip>Show attribute error</md-tooltip><i class="material-icons" style="color: red">error_outline</i></md-button>
+                                            <md-button class="md-icon-button icon-color" ng-click="gsvm.context.showMetadata(attribute)"><md-tooltip>Metadata</md-tooltip><i class="material-icons">assignment</i></md-button>
+                                        </div>
+                                    </div>
+                                    <md-divider></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </uib-accordion>
+    </md-content>
+    <md-sidenav class="md-sidenav-right" md-component-id="rightSidebar" md-whiteframe="4" md-is-locked-open="true">
+        <ng-include src="gsvm.context.navbar.url">
+        </ng-include>
+    </md-sidenav>
+</md-content>

@@ -1,0 +1,9 @@
+<div layout="row" layout-wrap class="item-details">
+    <span layout="row" class="data-quality-tablet-container md-whiteframe-2dp" ng-repeat="(key, dataQualityItemValue) in idvm.context.staticBar.selected.dataCompleteness.data">
+        <span class="data-quality-tablet-heading" ng-bind="key" layout="row" layout-align="center center"></span>
+        <span flex></span>
+        <md-button class="md-fab md-mini md-primary data-quality-tablet-value md-hue-2">
+            <span ng-bind="dataQualityItemValue"></span>%
+        </md-button>
+    </span>
+</div>

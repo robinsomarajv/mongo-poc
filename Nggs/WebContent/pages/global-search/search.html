@@ -1,0 +1,88 @@
+<md-content layout="column" ng-cloak>
+    <md-content layout="row" layout-padding layout-align="center center">
+        <md-content class="md-whiteframe-7dp" flex="90">
+            <div layout="row" flex layout-align="center center" style="height:150px;">
+                <md-input-container flex="25">
+				
+                    <div>
+                        <input type="text" id="gtn" ng-model="searchvm.context.searchGtN" placeholder="Please enter GTIN" ng-click="searchvm.context.textChange('gtn')"/>
+                    </div>
+                </md-input-container>
+				<md-input-container flex="25">
+                    <div>
+                        <input type="text" id="dec" ng-model="searchvm.context.searchDescription" placeholder="Please enter Prod Description" ng-click="searchvm.context.textChange('desc')"/>
+                    </div>
+                </md-input-container>
+		
+                 <md-input-container flex="20">
+                    <div>
+                        <label style="margin-bottom:10px">Prod Launch Date:</label>
+                    </div>
+                </md-input-container>
+                 <div flex-gt-xs><md-datepicker ng-model="searchvm.context.searchDate" placeholder="Enter date" ng-click="searchvm.context.textChange('date')"></md-datepicker> </div>
+                <div>
+                    <md-button class="md-raised md-primary" ng-click="searchvm.context.search()">Search</md-button>
+                </div>
+            </div>
+        </md-content>
+    </md-content>
+<!--    <md-content layout-padding>
+        <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+            <div class="md-toolbar-tools">
+                <h4>
+                    <span>Favorite Searches</span>
+                </h4>
+                <span flex></span>
+                <a href="">
+                    <md-icon class="material-icons">settings</md-icon>
+                </a>
+            </div>
+        </md-toolbar>
+        <md-content class="md-whiteframe-3dp">
+            <md-chips ng-model="searchvm.context.favoriteSearches" flex  class="md-primary" md-on-select="searchvm.context.search()">
+                <md-chip-template>
+                    <div>
+                        <strong>{{$chip}}</strong>
+                    </div>
+                </md-chip-template>
+            </md-chips>
+        </md-content>
+    </md-content>-->
+   <!--<md-content layout-padding>
+        <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+            <div class="md-toolbar-tools">
+                <h4>
+                    <span>Search Tiles</span>
+                </h4>
+                <span flex></span>
+                <a href="" ng-click="searchvm.context.sideBar.show()">
+                    <md-icon class="material-icons">add_circle</md-icon>
+                </a>
+                <a href="">
+                    <md-icon class="material-icons">settings</md-icon>
+                </a>
+            </div>
+        </md-toolbar>
+        <md-content class="md-whiteframe-3dp">
+            <md-grid-list md-cols="8" md-row-height="1:1" md-gutter="10">
+                <md-grid-tile md-rowspan="{{searchTile.tile.rowSpan}}" md-colspan="{{searchTile.tile.colSpan}}" ng-repeat="searchTile in searchvm.context.searchTiles"
+                              ng-click="searchvm.context.search()" style="cursor: pointer;">
+                    <md-content layout="row" layout-fill layout-align="center start" class="md-whiteframe-3dp">
+                        <div layout="row" flex layout-align="center center" ng-if="searchTile.image">
+                            <img ng-src="{{searchTile.image}}" style="height:90%; width: 90%"/>
+                        </div>
+                        <div flex ng-if="searchTile.icon" style="text-align: center;">
+                            <i class="material-icons" style="font-size: 175px; color:rgba(0,125,196, .25);">{{::searchTile.icon}}</i>
+                        </div>
+                    </md-content>
+                    <md-grid-tile-footer style="background-color: #007dc4" layout-padding>
+                        <span ng-bind="searchTile.name"></span>
+                    </md-grid-tile-footer>
+                </md-grid-tile>
+            </md-grid-list>
+        </md-content>
+    </md-content>-->
+</md-content>
+<!--<md-sidenav class="search-side-bar" md-component-id="searchSideBar">
+    <ng-include src="searchvm.context.sideBar.url"></ng-include>
+</md-sidenav>!-->

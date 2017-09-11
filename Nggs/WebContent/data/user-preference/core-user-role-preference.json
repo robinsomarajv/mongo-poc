@@ -1,0 +1,245 @@
+{
+  "dashboard": {
+    "view": {
+      "selectedTemplate": {
+        "id": "rightContentLeftBar",
+        "name": "Right Content Left Bar",
+        "url": "templates/dashboard/home.html"
+      },
+      "templates": {
+        "rightContentLeftBar": {
+          "id": "rightContentLeftBar",
+          "name": "Right Content Left Bar",
+          "url": "templates/dashboard/home.html"
+        },
+        "leftContentRightBar": {
+          "id": "leftContentRightBar",
+          "name": "Left Content Right Bar",
+          "url": ""
+        }
+      }
+    },
+    "overAllDataQuality": {
+      "view": {
+        "selectedTemplate": {
+          "id": "progress",
+          "name": "Progress",
+          "url": "templates/dashboard/data-quality-tablet.html"
+        },
+        "templates": {
+          "graph": {
+            "id": "graph",
+            "name": "Graph",
+            "url": "templates/dashboard/data-quality-graph.html"
+          },
+          "progress": {
+            "id": "progress",
+            "name": "Progress",
+            "url": "templates/dashboard/data-quality-tablet.html"
+          }
+        }
+      }
+    }
+  },
+  "itemDetails": {
+    "view": {
+      "selectedTemplate": {
+        "id": "leftContentRightBar",
+        "name": "Left Content Right Bar",
+        "url": "templates/item-details/home.html"
+      },
+      "templates": {
+        "leftContentRightBar": {
+          "id": "leftContentRightBar",
+          "name": "Left Content Right Bar",
+          "url": "templates/item-details/home.html"
+        }
+      }
+    },
+    "attributesList": {
+      "view": {
+        "selectedTemplate": {
+          "id": "card",
+          "name": "Card",
+          "url": "templates/item-details/attributes-list-card.html"
+        },
+        "templates": {
+          "card": {
+            "id": "card",
+            "name": "Card",
+            "url": "templates/item-details/attributes-list-card.html"
+          },
+          "tab": {
+            "id": "tab",
+            "name": "Tab",
+            "url": "templates/item-details/attributes-list-tab.html"
+          },
+          "list": {
+            "id": "list",
+            "name": "List",
+            "url": "templates/item-details/attributes-list-list.html"
+          },
+          "list-card": {
+            "id": "list-tab",
+            "name": "Tab List",
+            "url": "templates/item-details/attributes-list-list-tab.html"
+          }
+        }
+      }
+    },
+    "staticBar": {
+      "default": {
+        "dataCompleteness": {
+          "view": {
+            "selectedTemplate": {
+              "id": "tablet",
+              "Name": "Tablet",
+              "url": "templates/item-details/item-data-quality-tablet.html"
+            },
+            "templates": {
+              "tablet": {
+                "id": "tablet",
+                "Name": "Tablet",
+                "url": "templates/item-details/item-data-quality-tablet.html"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "supplyItemDetails": {
+    "view": {
+      "selectedTemplate": {
+        "id": "leftContentRightBar",
+        "name": "Left Content Right Bar",
+        "url": "templates/supplyitem-details/home.html"
+      },
+      "templates": {
+        "leftContentRightBar": {
+          "id": "leftContentRightBar",
+          "name": "Left Content Right Bar",
+          "url": "templates/supplyitem-details/home.html"
+        }
+      }
+    },
+    "attributesList": {
+      "view": {
+        "selectedTemplate": {
+          "id": "card",
+          "name": "Card",
+          "url": "templates/supplyitem-details/attributes-list-card.html"
+        },
+        "templates": {
+          "card": {
+            "id": "card",
+            "name": "Card",
+            "url": "templates/supplyitem-details/attributes-list-card.html"
+          },
+          "tab": {
+            "id": "tab",
+            "name": "Tab",
+            "url": "templates/supplyitem-details/attributes-list-tab.html"
+          },
+          "list": {
+            "id": "list",
+            "name": "List",
+            "url": "templates/supplyitem-details/attributes-list-list.html"
+          },
+          "list-card": {
+            "id": "list-tab",
+            "name": "Tab List",
+            "url": "templates/supplyitem-details/attributes-list-list-tab.html"
+          }
+        }
+      }
+    },
+    "staticBar": {
+      "default": {
+        "dataCompleteness": {
+          "view": {
+            "selectedTemplate": {
+              "id": "tablet",
+              "Name": "Tablet",
+              "url": "templates/supplyitem-details/item-data-quality-tablet.html"
+            },
+            "templates": {
+              "tablet": {
+                "id": "tablet",
+                "Name": "Tablet",
+                "url": "templates/supplyitem-details/item-data-quality-tablet.html"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+"tradeItemDetails": {
+    "view": {
+      "selectedTemplate": {
+        "id": "leftContentRightBar",
+        "name": "Left Content Right Bar",
+        "url": "templates/tradeitem-details/home.html"
+      },
+      "templates": {
+        "leftContentRightBar": {
+          "id": "leftContentRightBar",
+          "name": "Left Content Right Bar",
+          "url": "templates/tradeitem-details/home.html"
+        }
+      }
+    },
+    "attributesList": {
+      "view": {
+        "selectedTemplate": {
+          "id": "card",
+          "name": "Card",
+          "url": "templates/item-details/attributes-list-card.html"
+        },
+        "templates": {
+          "card": {
+            "id": "card",
+            "name": "Card",
+            "url": "templates/tradeitem-details/attributes-list-card.html"
+          },
+          "tab": {
+            "id": "tab",
+            "name": "Tab",
+            "url": "templates/tradeitem-details/attributes-list-tab.html"
+          },
+          "list": {
+            "id": "list",
+            "name": "List",
+            "url": "templates/tradeitem-details/attributes-list-list.html"
+          },
+          "list-card": {
+            "id": "list-tab",
+            "name": "Tab List",
+            "url": "templates/tradeitem-details/attributes-list-list-tab.html"
+          }
+        }
+      }
+    },
+    "staticBar": {
+      "default": {
+        "dataCompleteness": {
+          "view": {
+            "selectedTemplate": {
+              "id": "tablet",
+              "Name": "Tablet",
+              "url": "templates/tradeitem-details/item-data-quality-tablet.html"
+            },
+            "templates": {
+              "tablet": {
+                "id": "tablet",
+                "Name": "Tablet",
+                "url": "templates/tradeitem-details/item-data-quality-tablet.html"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

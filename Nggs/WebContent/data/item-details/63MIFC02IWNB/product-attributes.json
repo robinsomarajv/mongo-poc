@@ -1,0 +1,1023 @@
+[
+  {
+    "id": "product_id",
+    "metadata": {
+      "_id": "5979c1ab59d25a4a351f94d6",
+      "name": "Product ID",
+      "label": "Product ID",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "product_id",
+      "minLength": null,
+      "maxLength": 4000,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Replenishment",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "63MIFC02IWNB"
+    ],
+    "errors": null
+  },
+  {
+    "id": "product_launch_date",
+    "metadata": {
+      "_id": "5979c1ab59d25a4a351f9514",
+      "name": "Launch Date",
+      "label": "Launch Date",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "product_launch_date",
+      "minLength": null,
+      "maxLength": 4000,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Date",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Replenishment",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      1442946600000
+    ],
+    "errors": null
+  },
+  {
+    "id": "autographed_by",
+    "metadata": {
+      "_id": "5979c1ac59d25a4a351f9552",
+      "name": "Autographed By",
+      "label": "Autographed By",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "autographed_by",
+      "minLength": null,
+      "maxLength": 4000,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "lax"
+    ],
+    "errors": null
+  },
+  {
+    "id": "assembled_product_width",
+    "metadata": {
+      "_id": "5979c1b259d25a4a351f98a0",
+      "name": "Assembled Product Width",
+      "label": "Assembled Product Width",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "assembled_product_width",
+      "minLength": null,
+      "maxLength": 10,
+      "field": "decimal",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Decimal",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Pack information",
+      "precision": "2",
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      8.95
+    ],
+    "errors": null
+  },
+  {
+    "id": "has_warranty",
+    "metadata": {
+      "_id": "5979c1b259d25a4a351f994f",
+      "name": "Has Warranty",
+      "label": "Has Warranty",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "has_warranty",
+      "minLength": null,
+      "maxLength": null,
+      "field": "boolean",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Boolean",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Compliance",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Yes"
+        },
+        {
+          "id": null,
+          "value": "No"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      true
+    ],
+    "errors": null
+  },
+  {
+    "id": "price_per_unit_quantity",
+    "metadata": {
+      "_id": "5979c1b459d25a4a351f9a1b",
+      "name": "PPU Quantity of Units",
+      "label": "Price Per Unit Qty",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "price_per_unit_quantity",
+      "minLength": null,
+      "maxLength": 10,
+      "field": "decimal",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Decimal",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Pricing",
+      "precision": "2",
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      599.95
+    ],
+    "errors": null
+  },
+  {
+    "id": "assembled_product_length_unitOfMeasure",
+    "metadata": {
+      "_id": "5979c1b559d25a4a351f9a4e",
+      "name": "Assembled Product Length-Unit",
+      "label": "Assembled Product Length-Unit",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "assembled_product_length_unitOfMeasure",
+      "minLength": null,
+      "maxLength": 50,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Pack information",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "Centimeters"
+    ],
+    "errors": null
+  },
+  {
+    "id": "assembled_product_height_unitOfMeasure",
+    "metadata": {
+      "_id": "5979c1b959d25a4a351f9ce9",
+      "name": "Assembled Product Height-Unit",
+      "label": "Assembled Product Height-Unit",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "assembled_product_height_unitOfMeasure",
+      "minLength": null,
+      "maxLength": 50,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Pack information",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "Centimeters"
+    ],
+    "errors": null
+  },
+  {
+    "id": "has_warnings",
+    "metadata": {
+      "_id": "5979c1ba59d25a4a351f9d52",
+      "name": "Has Warnings",
+      "label": "Has Warnings",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "has_warnings",
+      "minLength": null,
+      "maxLength": null,
+      "field": "boolean",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Boolean",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Compliance",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Yes"
+        },
+        {
+          "id": null,
+          "value": "No"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      true
+    ],
+    "errors": null
+  },
+  {
+    "id": "assembled_product_height",
+    "metadata": {
+      "_id": "5979c1bf59d25a4a351fa01a",
+      "name": "Assembled Product Height",
+      "label": "Assembled Product Height",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "assembled_product_height",
+      "minLength": null,
+      "maxLength": 10,
+      "field": "decimal",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Decimal",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Pack information",
+      "precision": "2",
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      1.95
+    ],
+    "errors": null
+  },
+  {
+    "id": "assembled_product_length",
+    "metadata": {
+      "_id": "5979c1c159d25a4a351fa183",
+      "name": "Assembled Product Length",
+      "label": "Assembled Product Length",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "assembled_product_length",
+      "minLength": null,
+      "maxLength": 10,
+      "field": "decimal",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Decimal",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Pack information",
+      "precision": "2",
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      20.95
+    ],
+    "errors": null
+  },
+  {
+    "id": "battery_type_and_quantity",
+    "metadata": {
+      "_id": "5979c1c159d25a4a351fa1d4",
+      "name": "Battery Type & Quantity",
+      "label": "Battery Type Qty",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "battery_type_and_quantity",
+      "minLength": null,
+      "maxLength": 400,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": true,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "Lead Acid (Non-Spillable);Lithium Ion"
+    ],
+    "errors": null
+  },
+  {
+    "id": "assembled_product_width_unitOfMeasure",
+    "metadata": {
+      "_id": "5979c1c259d25a4a351fa26a",
+      "name": "Assembled Product Width-Unit",
+      "label": "Assembled Product Width-Unit",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "assembled_product_width_unitOfMeasure",
+      "minLength": null,
+      "maxLength": 50,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Pack information",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "Centimeters"
+    ],
+    "errors": null
+  },
+  {
+    "id": "batteries_included",
+    "metadata": {
+      "_id": "5979c1c359d25a4a351fa28c",
+      "name": "Contains Batteries",
+      "label": "Batteries Included",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "batteries_included",
+      "minLength": null,
+      "maxLength": null,
+      "field": "boolean",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Boolean",
+      "editable": true,
+      "multiValue": false,
+      "required": false,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Yes"
+        },
+        {
+          "id": null,
+          "value": "No"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      true
+    ],
+    "errors": null
+  },
+  {
+    "id": "product_name",
+    "metadata": {
+      "_id": "5979c1c359d25a4a351fa2be",
+      "name": "Product Name",
+      "label": "Product Name",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "product_name",
+      "minLength": null,
+      "maxLength": 200,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "Apple iPhone7"
+    ],
+    "errors": null
+  },
+  {
+    "id": "product_long_description",
+    "metadata": {
+      "_id": "5979c1c359d25a4a351fa2ea",
+      "name": "Product Long Description",
+      "label": "Product Long Description",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "product_long_description",
+      "minLength": null,
+      "maxLength": 4000,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "Apple iPhone 7 smartphone was launched in September 2016. The phone comes with a 4.70-inch touchscreen display with a resolution of 750 pixels by 1334 pixels at a PPI of 326 pixels per inch."
+    ],
+    "errors": null
+  },
+  {
+    "id": "event_name",
+    "metadata": {
+      "_id": "5979c1c559d25a4a351fa3f6",
+      "name": "Event name",
+      "label": "Event name",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "event_name",
+      "minLength": null,
+      "maxLength": 4,
+      "field": "select",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Basic",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Christmas"
+        },
+        {
+          "id": null,
+          "value": "New year"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      "New Year"
+    ],
+    "errors": null
+  },
+  {
+    "id": "category",
+    "metadata": {
+      "_id": "5979c1c659d25a4a351fa477",
+      "name": "Category",
+      "label": "Category",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "category",
+      "minLength": null,
+      "maxLength": 4,
+      "field": "select",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Basic",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Furniture"
+        },
+        {
+          "id": null,
+          "value": "Baby"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      "Cell Phones"
+    ],
+    "errors": null
+  },
+  {
+    "id": "sub_category",
+    "metadata": {
+      "_id": "5979c1c659d25a4a351fa494",
+      "name": "Sub Category",
+      "label": "Sub Category",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "sub_category",
+      "minLength": null,
+      "maxLength": 4,
+      "field": "select",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Basic",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Chair"
+        },
+        {
+          "id": null,
+          "value": "Table"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      "Unlocked Phones"
+    ],
+    "errors": null
+  },
+  {
+    "id": "brand_code",
+    "metadata": {
+      "_id": "5979c1c759d25a4a351fa4cc",
+      "name": "Brand Code",
+      "label": "Brand Code",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "brand_code",
+      "minLength": null,
+      "maxLength": 11,
+      "field": "numeric",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Integer",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      345
+    ],
+    "errors": null
+  },
+  {
+    "id": "multipack_indicator",
+    "metadata": {
+      "_id": "5979c1c759d25a4a351fa4f3",
+      "name": "Multipack Indicator",
+      "label": "Is Multi Pack",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "multipack_indicator",
+      "minLength": null,
+      "maxLength": 1,
+      "field": "boolean",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Boolean",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Yes"
+        },
+        {
+          "id": null,
+          "value": "No"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      false
+    ],
+    "errors": null
+  },
+  {
+    "id": "consumable_gtins",
+    "metadata": {
+      "_id": "5979c1c759d25a4a351fa513",
+      "name": "GTINS",
+      "label": "GTINS",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "consumable_gtins",
+      "minLength": null,
+      "maxLength": 4,
+      "field": "select",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": true,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "GTIN"
+        },
+        {
+          "id": null,
+          "value": "UPC"
+        },
+        {
+          "id": null,
+          "value": "ISBN"
+        },
+        {
+          "id": null,
+          "value": "ISSN"
+        },
+        {
+          "id": null,
+          "value": "EAN"
+        },
+        {
+          "id": null,
+          "value": "EPC"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      "6405200989052",
+      "00000000000024"
+    ],
+    "errors": null
+  },
+  {
+    "id": "chemical_indicator",
+    "metadata": {
+      "_id": "5979c1c859d25a4a351fa553",
+      "name": "Is Chemical",
+      "label": "Chemical Ind",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "chemical_indicator",
+      "minLength": null,
+      "maxLength": null,
+      "field": "boolean",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Boolean",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Compliance",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Yes"
+        },
+        {
+          "id": null,
+          "value": "No"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      false
+    ],
+    "errors": null
+  },
+  {
+    "id": "country_of_origin_components",
+    "metadata": {
+      "_id": "5979c1cb59d25a4a351fa70f",
+      "name": "Country of Origin - Components",
+      "label": "Component Country of Origin",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "country_of_origin_components",
+      "minLength": null,
+      "maxLength": 15,
+      "field": "listBox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": true,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "1 - USA"
+        },
+        {
+          "id": null,
+          "value": "2 - Imported"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      "USA"
+    ],
+    "errors": null
+  },
+  {
+    "id": "is_temperature_sensitive",
+    "metadata": {
+      "_id": "5979c1cc59d25a4a351fa769",
+      "name": "Is Temperature-Sensitive",
+      "label": "Temp Sensitive",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "is_temperature_sensitive",
+      "minLength": null,
+      "maxLength": null,
+      "field": "boolean",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Boolean",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": "Compliance",
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Yes"
+        },
+        {
+          "id": null,
+          "value": "No"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      true
+    ],
+    "errors": null
+  },
+  {
+    "id": "has_expiration",
+    "metadata": {
+      "_id": "5979c1cc59d25a4a351fa791",
+      "name": "Has Expiration",
+      "label": "Has Expiration",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "has_expiration",
+      "minLength": null,
+      "maxLength": null,
+      "field": "boolean",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Boolean",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": [
+        {
+          "id": null,
+          "value": "Yes"
+        },
+        {
+          "id": null,
+          "value": "No"
+        }
+      ],
+      "definition": null
+    },
+    "values": [
+      false
+    ],
+    "errors": null
+  },
+  {
+    "id": "product_short_description",
+    "metadata": {
+      "_id": "5979c1cc59d25a4a351fa7a9",
+      "name": "Short Description",
+      "label": "Product Short Description",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "product_short_description",
+      "minLength": null,
+      "maxLength": 1000,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Alphanumeric",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      "Apple iPhone 7 smartphone"
+    ],
+    "errors": null
+  },
+  {
+    "id": "asset_url_fromUIFor_additional_assets_1",
+    "metadata": {
+      "_id": "5979c1ce59d25a4a351fa85a",
+      "name": "Asset URL",
+      "label": "Asset URL (#1) additional_assets",
+      "displayLocation": null,
+      "displayed": true,
+      "id": "asset_url_fromUIFor_additional_assets_1",
+      "minLength": null,
+      "maxLength": null,
+      "field": "textbox",
+      "type": null,
+      "attributeKey": null,
+      "attributeDataType": "Hyperlink",
+      "editable": true,
+      "multiValue": false,
+      "required": true,
+      "code": null,
+      "classification": null,
+      "attributeGroup": null,
+      "precision": null,
+      "specification": "PRODUCT",
+      "iconValue": null,
+      "validValues": null,
+      "definition": null
+    },
+    "values": [
+      ""
+    ],
+    "errors": null
+  }
+]

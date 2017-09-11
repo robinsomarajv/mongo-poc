@@ -1,0 +1,36 @@
+<div layou="row">
+    <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+        <div class="md-toolbar-tools">
+            <h4>
+                <span>Shared search tiles</span>
+            </h4>
+            <span flex></span>
+        </div>
+    </md-toolbar>
+    <md-content class="md-whiteframe-3dp">
+        <md-grid-list md-cols="8" md-row-height="1:1" md-gutter="10">
+            <md-grid-tile md-rowspan="{{searchTile.tile.rowSpan}}" md-colspan="{{searchTile.tile.colSpan}}"
+                          ng-repeat="searchTile in ::searchvm.context.sideBar.sharedTiles">
+                <md-content layout="row" layout-fill layou-align="center start" class="md-whiteframe-3dp">
+                    <div layout="row" flex layout-align="center center" ng-if="searchTile.image">
+                        <img ng-src="{{searchTile.image}}" style="height:90%; width: 90%"/>
+                    </div>
+                    <div flex ng-if="searchTile.icon" style="text-align: center;">
+                        <i class="material-icons" style="font-size: 120px; color:rgba(0,125,196, .25);">{{::searchTile.icon}}</i>
+                    </div>
+                </md-content>
+                <md-grid-tile-header style="background-color: transparent">
+                    <div layout="row" flex>
+                        <span flex></span>
+                        <a href="" ng-click="searchvm.context.sideBar.addSharedTile(searchTile)">
+                            <md-icon class="material-icons">file_download</md-icon>
+                        </a>
+                    </div>
+                </md-grid-tile-header>
+                <md-grid-tile-footer style="background-color: #007dc4" layout-padding>
+                    <span ng-bind="::searchTile.name"></span>
+                </md-grid-tile-footer>
+            </md-grid-tile>
+        </md-grid-list>
+    </md-content>
+</div>

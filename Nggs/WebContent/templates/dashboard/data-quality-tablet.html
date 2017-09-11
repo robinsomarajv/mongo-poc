@@ -1,0 +1,12 @@
+<md-list>
+    <md-list-item ng-repeat="dataQualityItem in homevm.context.overAllDataQuality.data">
+        <span layout="row" flex="{{dataQualityItem.value}}" class="data-quality-tablet-container md-whiteframe-2dp">
+            <span class="data-quality-tablet-heading" ng-bind="dataQualityItem.name" layout="row" layout-align="center center"></span>
+            <span flex></span>
+            <md-button class="md-fab md-mini md-primary data-quality-tablet-value md-hue-2">
+                <span ng-bind="dataQualityItem.value"></span>%
+            </md-button>
+        </span>
+        <md-divider></md-divider>
+    </md-list-item>
+</md-list>

@@ -1,0 +1,411 @@
+{
+  "title": "Root",
+  "items": {
+    "trade": {
+      "title": "Trade Items",
+      "metadata": {
+        "count": {
+          "label": "Total Items",
+          "value": "3"
+        }
+      },
+      "items": {
+        "409003": {
+          "title": "Trade Item - 409003",
+          "metadata": {
+            "gln": {
+              "label": "GLN",
+              "value": "409003"
+            },
+            "count": {
+              "label": "Total hierarchies",
+              "value": "1"
+            }
+          },
+          "items": {
+            "1": {
+              "title": "Company Name - 409003",
+              "metadata": {
+                "count": {
+                  "label": "Total items",
+                  "value": "3"
+                }
+              },
+              "items": {
+                "1": {
+                  "title": "CA 00000456123759 (O)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "6"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "4.205 IN x 4.205 IN x 4.205 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "0.400 LB / -"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "PK 00122998456161 (O)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "2"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "4.283 IN x 5.154 IN x 6.677 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "0.400 LB / -"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "EA 00012345234446 (C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "-"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "2.200 IN x 5.200 IN x 6.500 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "0.400 LB / -"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "0001182111058": {
+          "title": "Trade Item - 0001182111058",
+          "metadata": {
+            "gln": {
+              "label": "GLN",
+              "value": "0001182111058"
+            },
+            "count": {
+              "label": "Total hierarchies",
+              "value": "1"
+            }
+          },
+          "items": {
+            "1": {
+              "title": "Company Name - 0001182111058",
+              "metadata": {
+                "count": {"label": "Total items", "value": "7"}
+              },
+              "items": {
+                "1": {
+                  "title": "DS 00033852342271 (O)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "4"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "11 IN x 11 IN x 42 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "41 LB / 42 LB"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "EA 00000456123759 (C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "2"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "10.250 IN x 10.250 IN x 10.250 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "10.200 LB / 10.270 LB"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "EA 00122199956163 (C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "2"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "10.250 IN x 10.250 IN x 10.250 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "10.200 LB / 10.270 LB"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "EA 00122199956163 (C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "2"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "10.250 IN x 10.250 IN x 10.250 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "10.200 LB / 10.270 LB"
+                    }
+                  }
+                },
+                "5": {
+                  "title": "EA 00122199956163 (C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "2"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "10.250 IN x 10.250 IN x 10.250 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "10.200 LB / 10.270 LB"
+                    }
+                  }
+                },
+                "6": {
+                  "title": "EA 00122199956163 (C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "2"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "10.250 IN x 10.250 IN x 10.250 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "10.200 LB / 10.270 LB"
+                    }
+                  }
+                },
+                "7": {
+                  "title": "EA 00122199956163 (C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "2"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "10.250 IN x 10.250 IN x 10.250 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "10.200 LB / 10.270 LB"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "0000045612378": {
+          "title": "Trade Item - 0000045612378",
+          "metadata": {
+            "gln": {
+              "label": "GLN",
+              "value": "0000045612378"
+            },
+            "count": {
+              "label": "Total hierarchies",
+              "value": "2"
+            }
+          },
+          "items": {
+            "1": {
+              "title": "Company Name - 0000045612378",
+              "metadata": {
+                "count": {
+                  "label": "Total items",
+                  "value": "3"
+                }
+              },
+              "items": {
+                "1": {
+                  "title": "PL 00000456123773 (O)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "15"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "46.402 IN x 40 IN x 48 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": " - / 861.125 LB"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "CA 00000456123766 (O/C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "8"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "3.867 IN x 13.752 IN x 18.752 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "- / 10.251 LB"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "EA 00000456123759 (O/C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "-"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "18.752 IN x 13.752 IN x 3.867 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": "- / 10.251 LB"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Company Name - 0000045612378",
+              "metadata": {
+                "count": {
+                  "label": "Total items",
+                  "value": "2"
+                }
+              },
+              "items": {
+                "1": {
+                  "title": "PL 00000456123773",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "15"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "46.402 IN x 40 IN x 48 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": " - / 861.125 LB"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "CA 00000456123766 (O/C)",
+                  "metadata": {
+                    "quantity": {
+                      "label": "Quantity",
+                      "value": "8"
+                    },
+                    "measurement": {
+                      "label": "H x W x D",
+                      "value": "3.867 IN x 13.752 IN x 18.752 IN"
+                    },
+                    "weight": {
+                      "label": "Net-Weight / Weight",
+                      "value": " - / 10.251 LB"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "supply": {
+      "title": "Supply Items",
+      "metadata": {
+        "count": {
+          "label": "Total items",
+          "value": "2"
+        }
+      },
+      "items": {
+        "558646153":{
+          "title": "Item No.: 558646153",
+          "metadata": {
+            "supplierNo": {"label": "Supplier No", "value": "212001"},
+            "departNo": {"label": "Department No", "value": "23 - MENS WEAR"},
+            "buyingRegion": {"label": "Buying Region", "value" : "0 - Corporate"}
+          }
+        },
+        "558645952":{
+          "title": "Item No.: 558645952",
+          "metadata": {
+            "supplierNo": {"label": "Supplier No", "value": "212001"},
+            "departNo": {"label": "Department No", "value": "23 - MENS WEAR"},
+            "buyingRegion": {"label": "Buying Region", "value" : "0 - Corporate"}
+          }
+        }
+      }
+    },
+    "offer": {
+      "title": "Offer Items",
+      "metadata": {
+        "count": {
+          "label": "Total items",
+          "value": "0"
+        }
+      }
+    },
+    "assortment": {
+      "title": "Assortments",
+      "metadata": {
+        "count": {
+          "label": "Total items",
+          "value": "0"
+        }
+      }
+    },
+    "shipper": {
+      "title": "Shippers",
+      "metadata": {
+        "count": {
+          "label": "Total items",
+          "value": "0"
+        }
+      }
+    }
+  }
+}

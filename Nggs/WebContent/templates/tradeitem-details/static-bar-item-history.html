@@ -1,0 +1,31 @@
+<div>
+    <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+        <div class="md-toolbar-tools">
+            <h4>
+                <span>Item save history</span>
+            </h4>
+            <span flex></span>
+            <a href="" ng-click="idvm.context.staticBar.selected.showAllHistoryDetails()">
+                <md-icon class="material-icons">subject</md-icon>
+            </a>
+            <a href="" ng-click="idvm.context.staticBar.selected.onClose()">
+                <md-icon class="material-icons">cancel</md-icon>
+            </a>
+        </div>
+    </md-toolbar>
+    <div class="md-whiteframe-3dp">
+        <md-list flex>
+            <div ng-repeat="item in idvm.context.staticBar.selected.historyData">
+                <md-list-item class="md-3-line" ng-click="idvm.context.staticBar.selected.showHistoryDetails(item)">
+                    <div class="md-list-item-text" layout="column">
+                        <h3 ng-show="::item.details">Changes made on <b ng-bind="::item.date"></b></h3>
+                        <h3 ng-hide="::item.details">Item created on <b ng-bind="::item.date"></b></h3>
+                        <h4>By <b ng-bind="::item.user"></b></h4>
+                        <p ng-show="::item.details">Values updated for {{::item.details.length}} attributes</p>
+                    </div>
+                </md-list-item>
+                <md-divider></md-divider>
+            </div>
+        </md-list>
+    </div>
+</div>

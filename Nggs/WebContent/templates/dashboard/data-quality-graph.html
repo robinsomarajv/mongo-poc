@@ -1,0 +1,20 @@
+<md-grid-list md-cols="2" md-row-height="1:1" md-gutter="10">
+    <md-grid-tile style="background: lightgray;" md-rowspan="1" md-colspan="1" ng-repeat="dataQualityItem in homevm.context.overAllDataQuality.data">
+        <md-content layout="column" layout-align="center center" layout-fill layout-padding class="md-whiteframe-3dp">
+            <a href="">
+                <div class="c100 p{{dataQualityItem.value}} medium">
+                    <span>{{dataQualityItem.value}}%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </a>
+        </md-content>
+        <md-grid-tile-footer layout-align="center center" style="background-color: #007dc4">
+            <div>
+                <span ng-bind="dataQualityItem.name"></span>
+            </div>
+        </md-grid-tile-footer>
+    </md-grid-tile>
+</md-grid-list>

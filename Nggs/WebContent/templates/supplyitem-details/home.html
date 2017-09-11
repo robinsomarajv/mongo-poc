@@ -1,0 +1,192 @@
+<md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="dynamicBar">
+    <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+        <div class="md-toolbar-tools">
+            <h4>
+                <span>Related Items</span>
+            </h4>
+            <span flex></span>
+        </div>
+    </md-toolbar>
+    <md-content layout-padding>
+        <md-nav-bar md-autofocus md-selected-nav-item="idvm.context.dynamicBar.active.id">
+            <md-nav-item md-nav-click="idvm.context.dynamicBar.navigateTo(tab)" name="{{tab.id}}" ng-repeat="tab in idvm.context.dynamicBar.tabs">{{tab.name}}</md-nav-item>
+        </md-nav-bar>
+        <div ng-include src="idvm.context.dynamicBar.active.context.url"></div>
+    </md-content>
+</md-sidenav>
+<md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="lineageBar">
+    <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+        <div class="md-toolbar-tools">
+            <h4>
+                <span>Attribute lineage</span>
+            </h4>
+            <span flex></span>
+        </div>
+    </md-toolbar>
+    <md-content layout-padding>
+        <div id="lineage"></div>
+    </md-content>
+</md-sidenav>
+<md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="historyBar">
+    <div ng-include src="'templates/item-details/item-history-details.html'"></div>
+</md-sidenav>
+<md-sidenav class="md-sidenav-left-full md-whitefame-4dp" md-component-id="customView" md-disable-scroll-target="#baseContainer">
+    <div ng-include src="'templates/item-details/custom-view.html'"></div>
+</md-sidenav>
+<md-content layout="row" flex="noshrink" layout-padding ng-cloak>
+    <md-content flex="idvm.context.selectedDisplayMode.attributeListWidth">
+        <div ng-show="idvm.context.selectedDisplayMode.id === idvm.context.displayModes.normal.id">
+            <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+                <div class="md-toolbar-tools">
+                    <h4>
+                        <a href="" ng-click="idvm.context.getItemDetails(idvm.gtin)">
+                            <span>TradeItem Details</span>
+                        </a>
+                        <a href="" ng-show="idvm.context.selectedView === idvm.context.views.tradeItem">
+                            <md-icon class="material-icons">keyboard_arrow_right</md-icon>
+                            <span>Trade Item: {{idvm.context.dynamicBar.active.context.selectedTradeItem.gln}}</span>
+                        </a>
+                        <a href="" ng-show="idvm.context.selectedView === idvm.context.views.supplyItem">
+                            <md-icon class="material-icons">keyboard_arrow_right</md-icon>
+                            <span>Supply Item: {{idvm.context.dynamicBar.active.context.selectedItem.itemNumber}}</span>
+                        </a>
+                    </h4>
+                    <span flex></span>
+                    <a href="" class="item-details-toolbar-action" ng-click="idvm.context.showItemHistoryStaticBar()">
+                        <md-tooltip>Show item history</md-tooltip>
+                        <md-icon class="material-icons">history</md-icon>
+                    </a>
+                    <a href="" class="item-details-toolbar-action" ng-click="idvm.context.showDynamicBar()">
+                        <md-tooltip>View all related items</md-tooltip>
+                        <md-icon class="material-icons">device_hub</md-icon>
+                    </a>
+                    <a href="" class="item-details-toolbar-action" ng-click="idvm.context.showErrorStaticBar()">
+                        <md-tooltip>View all errors</md-tooltip>
+                        <md-icon class="material-icons">error</md-icon>
+                    </a>
+                    <a href="" class="item-details-toolbar-action" ng-click="idvm.context.showTemplateStaticBar()">
+                        <md-tooltip>Create/View Templates</md-tooltip>
+                        <md-icon class="material-icons">book</md-icon>
+                    </a>
+                    <a href="" class="item-details-toolbar-action">
+                        <md-icon class="material-icons">settings</md-icon>
+                    </a>
+                </div>
+            </md-toolbar>
+            <md-content layout-padding class="md-whiteframe-2dp">
+                <div layout="row" flex>
+                     
+                    <div flex>
+                        <div layout="row" style="padding-bottom: 5px;">
+                            <span class="md-subhead" flex="25"><label class="heading">item Number:</label><span style="padding: 5px;">{{::idvm.context.data.General.attributes.itemNbr.values[0]}}</span></span>
+                            <span class="md-subhead" flex="30"><label class="heading">shelf Description:</label><span style="padding: 5px;">{{::idvm.context.data.General.attributes.shelfLabel3Description.values[0]}}</span></span>
+                            <span class="md-subhead" flex="40"><label class="heading">Provider ID:</label><span style="padding: 5px;">{{::idvm.context.data.General.attributes.informationProviderId.values[0]}}</span></span>
+                        </div>
+                        <div layout="row" style="padding-bottom: 5px;">
+                            <span class="md-subhead"><label class="heading">Department Number:</label><span style="padding: 5px;">{{::idvm.context.data.General.attributes.deptNbr.values[0]}} 
+                            </span></span>
+                        </div>
+                        <div layout="row" style="padding-bottom: 5px;">
+                            <span class="md-subhead"><label class="heading">Description:</label><span style="padding: 5px;">{{::idvm.context.data.General.attributes.supplyItemPrimaryDescription.values[0]}}</span></span>
+                        </div>
+                        <div layout="row" flex style="padding-bottom: 10px;" ng-show="idvm.context.selectedView === idvm.context.views.tradeItem">
+                            <div layout="column" flex style="padding:0px;">
+                                <div layout="row" flex class="blueRow" style="padding: 5px;">
+                                    <span flex="25"></span>
+                                    <span flex="5"><b>Qty</b></span>
+                                    <span flex="10"><b>Depth</b></span>
+                                    <span flex="10"><b>Width</b></span>
+                                    <span flex="10"><b>Height</b></span>
+                                    <span flex="10"><b>Cube</b></span>
+                                    <span flex="10"><b>TI/HI</b></span>
+                                    <span flex="10"><b>Net-Weight</b></span>
+                                    <span flex="10"><b>Weight</b></span>
+                                </div>
+                                <div layout="row" flex class="greenRow">
+                                    <span flex="25">
+                                        <md-menu>
+                                            <span style="cursor: pointer" ng-click="idvm.context.openTradeItemHierarchyMenu($mdOpenMenu, $event)" layout="row" layout-align="start center">
+                                                <md-icon md-font-set="material-icons" style="color: rgba(255,255,255,0.87)">{{idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.icon}}</md-icon>
+                                                <span ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.name"></span>
+                                                <md-icon md-font-set="material-icons" style="color: rgba(255,255,255,0.87)">keyboard_arrow_down</md-icon>
+                                            </span>
+                                            <md-menu-content width="4">
+                                                <md-menu-item ng-repeat="hItem in idvm.context.dynamicBar.active.context.selectedTradeHierarchy.items">
+                                                    <md-button ng-click="idvm.context.setTradeItemHierarchyItem(hItem)">
+                                                        <md-icon md-font-set="material-icons">{{hItem.icon}}</md-icon>
+                                                        <span ng-bind="hItem.name"></span>
+                                                    </md-button>
+                                                </md-menu-item>
+                                            </md-menu-content>
+                                        </md-menu>
+                                    </span>
+                                    <span flex="5" ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.quantity"></span>
+                                    <span flex="10" ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.depth"></span>
+                                    <span flex="10" ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.width"></span>
+                                    <span flex="10" ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.height"></span>
+                                    <span flex="10" ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.cube"></span>
+                                    <span flex="10" ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.tihi"></span>
+                                    <span flex="10" ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.netWeight"></span>
+                                    <span flex="10" ng-bind="idvm.context.dynamicBar.active.context.selectedTradeHierarchyItem.weight"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </md-content>
+        </div>
+        <div ng-class="{'item-details-attribute-list-container': idvm.context.selectedDisplayMode.id === idvm.context.displayModes.normal.id}">
+            <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+                <div class="md-toolbar-tools">
+                    <span ng-show="idvm.context.filterOptions.attributeFilterLabel" layout="row" layout-align="start center">
+                        <span ng-bind="idvm.context.filterOptions.attributeFilterLabel" style="padding-right:10px"></span>
+                        <i class="material-icons" style="cursor: pointer;" ng-click="idvm.context.filterOptions.clearAttributeFilter()">close</i>
+                    </span>
+                    <span flex></span>
+                    <a href="" ng-show="idvm.context.selectedDisplayMode.id === idvm.context.displayModes.normal.id" ng-click="idvm.context.showFullScreenDisplayMode()">
+                        <md-tooltip>Show full screen</md-tooltip>
+                        <md-icon class="material-icons">fullscreen</md-icon>
+                    </a>
+                    <a href="" ng-show="idvm.context.selectedDisplayMode.id === idvm.context.displayModes.fullScreen.id" ng-click="idvm.context.showNormalDisplayMode()">
+                        <md-tooltip>Exit full screen</md-tooltip>
+                        <md-icon class="material-icons">fullscreen_exit</md-icon>
+                    </a>
+                    <md-menu md-position-mode="target-right target">
+                        <md-button class="md-icon-button" ng-click="idvm.context.attributesList.view.showSettings($mdOpenMenu, $event)">
+                            <md-tooltip>Settings for Attribute list</md-tooltip>
+                            <md-icon class="material-icons">settings</md-icon>
+                        </md-button>
+                        <md-menu-content width="4">
+                            <md-menu-item ng-repeat="template in idvm.context.userPreference.tradeItemDetails.attributesList.view.templates">
+                                <md-button ng-click="idvm.context.attributesList.view.setView(template)">
+                                    <md-icon class="material-icons">{{template.icon}}</md-icon>
+                                    {{template.name}} view
+                                </md-button>
+                            </md-menu-item>
+                            <md-menu-divider></md-menu-divider>
+                            <md-menu-item>
+                                <md-button ng-click="idvm.context.createCustomView()">
+                                    <md-icon class="material-icons"></md-icon>
+                                    Create custom view
+                                </md-button>
+                            </md-menu-item>
+                            <md-menu-divider></md-menu-divider>
+                            <md-menu-item ng-repeat="template in idvm.context.customView.list">
+                                <md-button ng-click="idvm.context.customView.setCustomTemplate(template)">
+                                    <md-icon class="material-icons">{{template.icon}}</md-icon>
+                                    {{template.name}}
+                                </md-button>
+                            </md-menu-item>
+                        </md-menu-content>
+                    </md-menu>
+                </div>
+            </md-toolbar>
+            <md-content layout-padding class="md-whiteframe-2dp" class="attribute-list-resize">
+                <div ng-include src="idvm.context.userPreference.tradeItemDetails.attributesList.view.selectedTemplate.url"></div>
+            </md-content>
+        </div>
+    </md-content>
+    <md-content class="md-whiteframe-3dp"  flex="25" ng-show="idvm.context.selectedDisplayMode.id === idvm.context.displayModes.normal.id">
+        <div ng-include src="idvm.context.staticBar.selected.url"></div>
+    </div>
+</md-content>

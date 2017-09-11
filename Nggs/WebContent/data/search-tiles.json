@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Items created by you",
+    "icon": "account_circle",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Office items",
+    "icon": "business",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Personal care items",
+    "icon": "accessibility",
+    "tile": {
+      "rowSpan": 2,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Items for Summer",
+    "icon": "wb_sunny",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Toy items",
+    "icon": "toys",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Items from Pepsi",
+    "image": "images/tiles/pepsi.jpeg",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Items from Automotive",
+    "icon": "directions_car",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 2
+    }
+  },
+  {
+    "name": "Items created by rlbuyus",
+    "icon": "account_box",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Electronic items",
+    "image": "images/tiles/electronics.jpeg",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  },
+  {
+    "name": "Memory cards",
+    "icon": "sd_storage",
+    "tile": {
+      "rowSpan": 1,
+      "colSpan": 1
+    }
+  }
+]

@@ -1,0 +1,104 @@
+<md-content layout="row">
+    <div md-whiteframe="7" flex="90">
+        <div flex ng-hide="gsvm.context.additionalBar.tradeItems.selectedItem">
+            <md-toolbar>
+                <div class="md-toolbar-tools"></div>
+            </md-toolbar>
+            <md-card ng-repeat="item in gsvm.context.additionalBar.tradeItems.data">
+                <md-card-title>
+                    <md-card-title-text>
+                        <div class="md-headline" layout="row" layout-align="start center" flex>
+                            <span>GLN: </span><span ng-bind="item.gln"></span>
+                            <span flex></span>
+                            <md-button class="md-secondary md-icon-button icon-color" ng-click="gsvm.context.additionalBar.tradeItems.showTradeItemDetails(item)">
+                                <md-tooltip>View Items</md-tooltip>
+                                <i class="material-icons">chevron_right</i>
+                            </md-button>
+                            <md-button class="md-secondary md-icon-button icon-color" ng-click="gsvm.context.additionalBar.tradeItems.onTradeItemClicked(item)">
+                                <md-tooltip>Load Details</md-tooltip>
+                                <i class="material-icons">send</i>
+                            </md-button>
+                        </div>
+                    </md-card-title-text>
+                </md-card-title>
+                <md-card-content layout="row" flex>
+                    <div layout="column" flex>
+                        <div layout="row" flex>
+                            <span flex><b>GTIN</b></span>
+                            <span flex><b>Classification</b></span>
+                            <span flex><b>Division</b></span>
+                            <span flex><b>Target Market</b></span>
+                            <span flex><b>Is Orderable</b></span>
+                            <span flex><b>Is Consumable</b></span>
+                        </div>
+                        <span flex><hr style="margin-top: 10px;margin-bottom: 5px;"/></span>
+                        <div layout="row" flex>
+                            <span flex ng-bind="item.gtin"></span>
+                            <span flex ng-bind="item.classification"></span>
+                            <span flex ng-bind="item.division"></span>
+                            <span flex ng-bind="item.targetMarket"></span>
+                            <span flex ng-bind="item.isOrderable"></span>
+                            <span flex ng-bind="item.isConsumable"></span>
+                        </div>
+                    </div>
+                </md-card-content>
+            </md-card>
+        </div>
+        <div flex ng-show="gsvm.context.additionalBar.tradeItems.selectedItem">
+            <div ng-repeat="hierarchy in gsvm.context.additionalBar.tradeItems.selectedItem.hierarchyItems">
+                <md-toolbar>
+                    <div class="md-toolbar-tools" ng-bind="hierarchy.name"></div>
+                </md-toolbar>
+                <md-card ng-repeat="item in hierarchy.items">
+                    <md-card-title>
+                        <md-card-title-text>
+                            <div class="md-headline" layout="row" layout-align="start center" flex>
+                                <md-button class="md-fab md-mini md-primary">
+                                    <md-icon md-font-set="material-icons">{{item.icon}}</md-icon>
+                                </md-button>
+                                <span flex="3"></span>
+                                <span ng-bind="item.name"></span>
+                                <span flex></span>
+                                <md-button class="md-secondary md-icon-button icon-color" ng-click="gsvm.context.additionalBar.tradeItems.onTradeItemHierarchyClicked(item)">
+                                    <md-tooltip>Load Details</md-tooltip>
+                                    <i class="material-icons">send</i>
+                                </md-button>
+                            </div>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content layout="row" flex>
+                        <div layout="column" flex>
+                            <div layout="row" flex>
+                                <span flex><b>Quantity</b></span>
+                                <span flex><b>Depth</b></span>
+                                <span flex><b>Width</b></span>
+                                <span flex><b>Height</b></span>
+                                <span flex><b>Cube</b></span>
+                                <span flex><b>TI/HI</b></span>
+                                <span flex><b>Net-Weight</b></span>
+                                <span flex><b>Weight</b></span>
+                            </div>
+                            <span flex><hr style="margin-top: 10px;margin-bottom: 5px;"/></span>
+                            <div layout="row" flex>
+                                <span flex ng-bind="item.quantity"></span>
+                                <span flex ng-bind="item.depth"></span>
+                                <span flex ng-bind="item.width"></span>
+                                <span flex ng-bind="item.height"></span>
+                                <span flex ng-bind="item.cube"></span>
+                                <span flex ng-bind="item.tihi"></span>
+                                <span flex ng-bind="item.netWeight"></span>
+                                <span flex ng-bind="item.weight"></span>
+                            </div>
+                        </div>
+                    </md-card-content>
+                </md-card>
+            </div>
+        </div>
+    </div>
+    <div flex ng-show="gsvm.context.additionalBar.tradeItems.selectedItem">
+        <md-button class="md-fab md-mini md-primary" ng-click="gsvm.context.additionalBar.tradeItems.showTradeItems()">
+            <md-tooltip>Go Back</md-tooltip>
+            <md-icon md-font-set="material-icons">arrow_back</md-icon>
+        </md-button>
+    </div>
+</md-content>

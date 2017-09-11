@@ -1,0 +1,118 @@
+<md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+    <div class="md-toolbar-tools">
+        <h4>
+            <span>Create view</span>
+        </h4>
+        <span flex></span>
+    </div>
+</md-toolbar>
+<md-content layout="row" layout-padding>
+    <div layout="column" flex="75">
+        <div layout="row">
+            <md-input-container flex="30">
+                <label>Group Name</label>
+                <input ng-model="idvm.context.customView.create.groupName"/>
+            </md-input-container>
+            <md-button class="md-fab md-mini md-primary" ng-click="idvm.context.customView.create.addGroupToTemplate()">
+                <md-icon class="material-icons">add</md-icon>
+            </md-button>
+            <span flex></span>
+            <div layout="row" flex="60" layout-align="end start">
+                <md-input-container flex="50">
+                    <label>Template Name</label>
+                    <input ng-model="idvm.context.customView.create.templateName"/>
+                </md-input-container>
+                <md-button class="md-fab md-mini md-primary" ng-click="idvm.context.customView.create.createCustomTemplate()">
+                    <md-icon class="material-icons">create</md-icon>
+                </md-button>
+                <md-button class="md-fab md-mini md-primary" ng-click="idvm.context.customView.create.cancelCustomTemplate()">
+                    <md-icon class="material-icons">cancel</md-icon>
+                </md-button>
+            </div>
+        </div>
+        <div layout="column">
+            <div flex="100" layout="row" ng-repeat="group in idvm.context.customView.create.template.groups">
+                <div layout="column" flex="100">
+                    <div layout="row" flex layout-align="center center">
+                        <h3 ng-bind="group.name"></h3>
+                        <span flex></span>
+                        <md-button class="md-raised md-primary" ng-click="idvm.context.customView.create.addGroupRow(group)">Add Row</md-button>
+                    </div>
+                    <md-divider></md-divider>
+                    <div layout="row" flex layout-align="default center" ng-repeat="row in group.rows" ng-class="{'selectedCard': row.selected}" ng-click="idvm.context.customView.create.setActiveGroupRow(row)">
+                        <div layout="row" flex>
+                            <span layout="row" layout-padding ng-repeat="attribute in row.attributes" flex>
+                                <md-input-container flex="{{attribute.titleWidth}}" style="padding: 0px; margin: 0px;">
+                                    <input ng-model="attribute.label" ng-focus="idvm.context.customView.create.onTitleSelected(attribute)"/>
+                                </md-input-container>
+                                <span flex="{{attribute.valueWidth}}" style="height: auto; width: auto;" ng-bind="attribute.value"></span>
+                            </span>
+                        </div>
+                        <div flex="5">
+                            <md-button class="md-fab md-mini md-primary" ng-click="idvm.context.customView.create.deleteGroupRow(group, row)">
+                                <md-icon class="material-icons">close</md-icon>
+                            </md-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="md-whiteframe-3dp" layout="column" flex="25">
+        <div layout="row" layout-padding layout-align="center center">
+            <div flex="40">
+                <md-button class="md-fab md-mini md-primary" ng-click="idvm.context.customView.create.addAttributeToGroup()">
+                    <md-tooltip>Add</md-tooltip>
+                    <md-icon class="material-icons">done</md-icon>
+                </md-button>
+                <md-button class="md-fab md-mini md-primary" ng-click="idvm.context.customView.create.addAttributeAsGroupToGroup()">
+                    <md-tooltip>Add as a group</md-tooltip>
+                    <md-icon class="material-icons">done_all</md-icon>
+                </md-button>
+            </div>
+            <span flex></span>
+            <div ng-show="idvm.context.customView.create.activeAttribute" flex="50">
+                <span flex>Width</span>
+                <md-input-container flex="25" style="padding: 0px;margin:0px;">
+                    <label>Label</label>
+                    <input ng-model="idvm.context.customView.create.activeAttribute.titleWidth"/>
+                </md-input-container>
+                <md-input-container flex="25" style="padding: 0px;margin:0px;">
+                    <label>Value</label>
+                    <input ng-model="idvm.context.customView.create.activeAttribute.valueWidth"/>
+                </md-input-container>
+            </div>
+        </div>
+        <div layout="column" layout-padding>
+            <div layout="row">
+                <md-input-container flex>
+                    <label>Group Name</label>
+                    <input ng-model="idvm.context.customView.create.filter.groupName" ng-change="idvm.context.customView.create.filterAttributes()"/>
+                </md-input-container>
+                <md-button class="md-fab md-mini md-primary" ng-click="idvm.context.customView.create.filter.groupName = null;idvm.context.customView.create.filterAttributes()">
+                    <md-icon class="material-icons">close</md-icon>
+                </md-button>
+            </div>
+            <div layout="row">
+                <md-input-container flex>
+                    <label>Attribute Name</label>
+                    <input ng-model="idvm.context.customView.create.filter.attributeName" ng-change="idvm.context.customView.create.filterAttributes()"/>
+                </md-input-container>
+                <md-button class="md-fab md-mini md-primary" ng-click="idvm.context.customView.create.filter.attributeName = null;idvm.context.customView.create.filterAttributes()">
+                    <md-icon class="material-icons">close</md-icon>
+                </md-button>
+            </div>
+        </div>
+        <md-list>
+            <div ng-repeat="(groupName, group) in idvm.context.customView.itemAttributes" ng-show="group.show">
+                <md-subheader style="margin-top: 10px">
+                    <span ng-bind="::groupName"></span>
+                </md-subheader>
+                <md-list-item ng-repeat="(key, attribute) in group.attributes" ng-show="attribute.show" ng-class="{'error-selected': attribute.selected === true}" ng-click="idvm.context.customView.create.attributeSelected(attribute)">
+                    <p ng-bind="::attribute.metadata.label"></p>
+                    <md-divider></md-divider>
+                </md-list-item>
+            </div>
+        </md-list>
+    </div>
+</md-content>

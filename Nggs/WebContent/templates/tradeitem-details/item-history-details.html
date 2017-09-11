@@ -1,0 +1,82 @@
+<md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+    <div class="md-toolbar-tools">
+        <h4>
+            <span>Item history details</span>
+        </h4>
+        <span flex></span>
+        <a href="" ng-hide="idvm.context.staticBar.selected.selectedHistoryDetails.date === idvm.context.staticBar.selected.historyData[0].date" ng-click="idvm.context.staticBar.selected.showPrevious()">
+            <md-icon class="material-icons">keyboard_arrow_left</md-icon>
+        </a>
+        <a href="" ng-hide="idvm.context.staticBar.selected.selectedHistoryDetails.date === idvm.context.staticBar.selected.historyData[idvm.context.staticBar.selected.historyData.length - 1].date" ng-click="idvm.context.staticBar.selected.showNext()">
+            <md-icon class="material-icons">keyboard_arrow_right</md-icon>
+        </a>
+    </div>
+</md-toolbar>
+        <!--<div ng-repeat="item in idvm.context.staticBar.selected.selectedHistoryDetails">
+            <md-subheader>
+                <h3>
+                    <span ng-bind-html="::item.heading"></span>
+                    <span ng-bind-html="::item.subHeading"></span>
+                </h3>
+            </md-subheader>
+            <md-list-item>
+                <div class="md-list-item-text" layout="column">
+                    <div ng-repeat="details in item.details">
+                        <p ng-bind-html="::details"></p>
+                    </div>
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+        </div>-->
+        <!--<md-card ng-repeat="item in idvm.context.staticBar.selected.selectedHistoryDetails">
+            <md-subheader>
+                <h3>
+                    <span>Changes made on <b ng-bind="::item.date"></b></span>
+                    <span>By <b ng-bind="::item.user"></b></span>
+                </h3>
+
+            </md-subheader>
+            <div ng-show="::item.details" ng-repeat="itemDetails in item.details" layout="row" flex="100">
+                <span ng-bind="::itemDetails.attribute"></span>
+                <div layout="row" flex="100">
+                    <div ng-bind="::itemDetails.newVal" layout="row" flex="50"></div>
+                    <div ng-bind="::itemDetails.previousVal" layout="row" flex="50"></div>
+                </div>
+                <md-divider></md-divider>
+            </div>
+        </md-card>-->
+<md-list flex>
+    <md-list-item ng-repeat="item in idvm.context.staticBar.selected.selectedHistoryDetails">
+        <div layout="column" align="start start" flex>
+            <md-subheader>
+                <h3 ng-show="::item.details">
+                    <span>Changes made on <b ng-bind="::item.date"></b></span>
+                    <span>by <b ng-bind="::item.user"></b></span>
+                </h3>
+                <h3 ng-show="::!item.details">
+                    <span>Item created on <b ng-bind="::item.date"></b></span>
+                    <span>by <b ng-bind="::item.user"></b></span>
+                </h3>
+            </md-subheader>
+            <md-divider></md-divider>
+            <div layout="row" flex style="padding: 10px;" ng-show="::item.details">
+                <div layout="column" flex style="padding:0px;">
+                    <div layout="row" flex>
+                        <span flex="40"></span>
+                        <span flex="30"><b>New Value</b></span>
+                        <span flex="30"><b>Previous Value</b></span>
+                    </div>
+                </div>
+            </div>
+            <div layout="row" flex style="padding: 10px;" ng-show="::item.details" ng-repeat="itemDetails in item.details">
+                <div layout="column" flex style="padding:0px;">
+                    <div layout="row" flex>
+                        <span flex="40" ng-bind="::itemDetails.attribute"></span>
+                        <span flex="30" class="blueRow" ng-bind="::itemDetails.newVal"></span>
+                        <span flex="30" class="greenRow" ng-bind="::itemDetails.previousVal"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </md-list-item>
+</md-list>

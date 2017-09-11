@@ -1,0 +1,18 @@
+<div ng-repeat="(group, groupDetails) in idvm.context.data" ng-show="groupDetails.show" heading="{{group}}" is-open="idvm.context.searchResults.metadata[group].isExpanded">
+    <div layout="column">
+        <md-nav-bar md-selected-nav-item="group" nav-bar-aria-label="navigation links">
+            <md-nav-item md-nav-click="" name="{{group}}">
+                <span layout="row" layout-align="center center">
+                    <span>
+                        {{group}}
+                    </span>
+                    <i class="material-icons">keyboard_arrow_down</i>
+                </span>
+            </md-nav-item>
+        </md-nav-bar>
+        <div layout="row" layout-wrap>
+            wwwww<div ng-repeat="(name, attribute) in groupDetails.attributes" ng-show="attribute.show" flex="33">
+       </div>
+        </div>
+    </div>
+</div>

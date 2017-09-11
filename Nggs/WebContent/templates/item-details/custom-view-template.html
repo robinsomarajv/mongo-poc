@@ -1,0 +1,21 @@
+<div layout="column">
+    <div flex="100" layout="row" ng-repeat="group in idvm.context.customView.selectedView.groups">
+        <div layout="column" flex="100">
+            <div layout="row" flex layout-align="center center">
+                <h3 ng-bind="group.name"></h3>
+                <span flex></span>
+            </div>
+            <md-divider></md-divider>
+            <div layout="row" flex layout-align="default center" ng-repeat="row in group.rows" ng-click="idvm.context.customView.create.setActiveGroupRow(row)">
+                <div layout="row" flex>
+                    <span layout="row" layout-padding ng-repeat="attribute in row.attributes" flex>
+                        <md-input-container flex="{{attribute.titleWidth}}" style="padding: 0px; margin: 0px;">
+                            <input ng-model="attribute.label" ng-focus="idvm.context.customView.create.onTitleSelected(attribute)"/>
+                        </md-input-container>
+                        <span flex="{{attribute.valueWidth}}" style="height: auto; width: auto;" ng-bind="attribute.value"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

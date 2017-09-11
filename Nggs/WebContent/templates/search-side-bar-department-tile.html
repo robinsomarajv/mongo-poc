@@ -1,0 +1,26 @@
+<md-card class="md-whiteframe-3dp">
+    <md-card-content>
+        <div layout="row">
+            <md-input-container class="md-block" flex>
+                <label>Department</label>
+                <md-select ng-model="searchvm.context.sideBar.selectedTab.data.department">
+                    <md-option value="none"><em>None</em></md-option>
+                    <md-option value="Personal Care">Personal Care</md-option>
+                    <md-option value="Toys">Toys</md-option>
+                    <md-option value="Hardware">Hardware</md-option>
+                    <md-option value="Automotive">Automotive</md-option>
+                    <md-option value="Shoes">Shoes</md-option>
+                </md-select>
+            </md-input-container>
+        </div>
+    </md-card-content>
+    <md-card-actions layout="row" layout-margin layout-align="end center">
+        <md-input-container class="md-block" flex="40">
+            <label>Tile name</label>
+            <input type="text" ng-model="searchvm.context.sideBar.selectedTab.data.tileName"/>
+        </md-input-container>
+        <md-button class="md-primary md-raised" ng-click="searchvm.context.sideBar.addTile(searchvm.context.sideBar.selectedTab.data.tileName)">
+            Create Tile
+        </md-button>
+    </md-card-actions>
+</md-card>

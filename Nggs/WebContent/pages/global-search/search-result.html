@@ -1,0 +1,74 @@
+<div>
+    <md-content layout-padding>
+        <md-toolbar class="md-hue-1 md-whiteframe-5dp">
+            <div class="md-toolbar-tools">
+                <h4>
+                    <span>Search Results</span>
+                </h4>
+                <span flex></span>
+                <md-input-container class="md-block md-primary search-results" md-no-float>
+                    <input type="text" placeholder="Search" class="search-box" ng-model="srvm.context.searchResultsText"/>
+                </md-input-container>
+                <md-icon class="material-icons md-primary">search</md-icon>
+                <md-button class="md-primary" ng-show="srvm.context.showBackButton" ng-click="srvm.context.goBack()">
+                    <md-icon md-font-set="material-icons">arrow_back</md-icon>
+                    Back
+                </md-button>
+                <md-button class="md-icon-button">
+                    <md-tooltip>Item maintenance</md-tooltip>
+                    <i class="material-icons">speaker_notes</i>
+                </md-button>
+                <md-menu md-position-mode="target-right target">
+                    <md-button class="md-icon-button" ng-click="srvm.context.showSearchResultsView($mdOpenMenu, $event)">
+                        <md-tooltip>{{srvm.context.searchResults.view.name}}</md-tooltip>
+                        <md-icon class="material-icons">{{srvm.context.searchResults.view.icon}}</md-icon>
+                    </md-button>
+                    <md-menu-content width="4">
+                        <md-menu-item ng-repeat="(key, view) in srvm.context.views">
+                            <md-button ng-click="srvm.context.setSearchResultsView(view)">
+                                <md-icon class="material-icons">{{view.icon}}</md-icon>
+                                {{view.name}}
+                            </md-button>
+                        </md-menu-item>
+                    </md-menu-content>
+                </md-menu>
+            </div>
+        </md-toolbar>
+        <div layout="row" class="md-whiteframe-3dp">
+            <div ng-include="srvm.context.searchResults.view.url" flex></div>
+            <!--<div ng-if="srvm.context.view === 'grid'">
+                <md-grid-list md-cols="6" md-row-height="1:1" md-gutter="8">
+                    <md-grid-tile ng-repeat="item in srvm.context.searchResults.data" md-rowspan="1" md-colspan="3" style="background: #448aff;">
+                        <div class="" layout="row" flex style="margin: 0 0 50px 20px">
+                            <div flex="80">
+                                <h4><strong style="margin-right: 5px;">Name:</strong><span ng-bind="item.name"></span></h4>
+                                <h4><strong style="margin-right: 5px;">Description:</strong><span ng-bind="item.description"></span></h4><span></span><h4><strong>GTIN:</strong><span ng-bind="item.gtin"></span></h4>
+                                <h4><strong style="margin-right: 5px;">Brand:</strong><span ng-bind="item.brand"></span></h4><span></span><h4><strong style="margin-right: 5px;">Category:</strong><span ng-bind="item.category"></span></h4>
+                            </div>
+                            <div flex="20" layout="column">
+                                <md-icon md-font-library="material-icons" class="md-avatar-icon" layout-align="center center">phone_iphone</md-icon>
+                            </div>
+                        </div>
+                        <md-grid-tile-footer>
+                            <div layout="row" flex>
+                                <md-button class="md-secondary md-icon-button icon-color" ng-click="item.selected = true" style="color: black" ng-show="!item.selected">
+                                    <md-tooltip>View Details</md-tooltip>
+                                    <i class="material-icons">check_box_outline_blank</i>
+                                </md-button>
+                                <md-button class="md-secondary md-icon-button icon-color" ng-click="item.selected = false" style="color: black" ng-show="item.selected">
+                                    <md-tooltip>View Details</md-tooltip>
+                                    <i class="material-icons">check_box</i>
+                                </md-button>
+                                <md-button class="md-secondary md-icon-button icon-color" ng-click="srvm.context.itemDetails()" style="color: black">
+                                    <md-tooltip>View Details</md-tooltip>
+                                    <i class="material-icons">send</i>
+                                </md-button>
+                            </div>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+                </md-grid-list>
+            </div>-->
+        </div>
+    </md-content>
+</div>
+

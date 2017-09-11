@@ -1,0 +1,198 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'angular-aria@1.6.5' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of D:\WORKS\NGGS\package.json
+5 warn package.json nextgengs@1.0.0 No description
+6 warn package.json nextgengs@1.0.0 No repository field.
+7 warn package.json nextgengs@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular\package.json
+9 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular-animate\package.json
+10 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular-aria_old\package.json
+11 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular-material\package.json
+12 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular-route\package.json
+13 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular-route_old\package.json
+14 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular-sanitize\package.json
+15 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular-ui-bootstrap\package.json
+16 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\angular-ui-router\package.json
+17 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\bardjs\package.json
+18 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\bootstrap\package.json
+19 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\d3\package.json
+20 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\gulp-install\package.json
+21 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\lodash\package.json
+22 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\lodash_old\package.json
+23 verbose installManyTop reading scoped package data from D:\WORKS\NGGS\node_modules\rebuild\package.json
+24 info package.json rebuild@0.1.2 No license field.
+25 info package.json angular-material@1.0.9 No license field.
+26 info package.json d3@2.5.0 No license field.
+27 verbose readDependencies loading dependencies from D:\WORKS\NGGS\package.json
+28 silly cache add args [ 'angular-aria@1.6.5', null ]
+29 verbose cache add spec angular-aria@1.6.5
+30 silly cache add parsed spec Result {
+30 silly cache add   raw: 'angular-aria@1.6.5',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'angular-aria',
+30 silly cache add   rawSpec: '1.6.5',
+30 silly cache add   spec: '1.6.5',
+30 silly cache add   type: 'version' }
+31 silly addNamed angular-aria@1.6.5
+32 verbose addNamed "1.6.5" is a plain semver version for angular-aria
+33 silly mapToRegistry name angular-aria
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry http://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: 'angular-aria',
+36 silly mapToRegistry   scope: null,
+36 silly mapToRegistry   name: 'angular-aria',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri http://registry.npmjs.org/angular-aria
+38 verbose addNameVersion registry:http://registry.npmjs.org/angular-aria not in flight; fetching
+39 verbose request uri http://registry.npmjs.org/angular-aria
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 3:03:54 PM
+42 verbose request id d5018a784b859241
+43 verbose etag W/"595aa082-15acc"
+44 verbose lastModified Mon, 03 Jul 2017 19:52:34 GMT
+45 http request GET http://registry.npmjs.org/angular-aria
+46 http 304 http://registry.npmjs.org/angular-aria
+47 verbose headers { date: 'Wed, 19 Jul 2017 09:33:54 GMT',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   'cache-control': 'max-age=300',
+47 verbose headers   etag: 'W/"595aa082-15acc"',
+47 verbose headers   age: '0',
+47 verbose headers   connection: 'keep-alive',
+47 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+47 verbose headers   'x-cache': 'HIT',
+47 verbose headers   'x-cache-hits': '1',
+47 verbose headers   'x-timer': 'S1500456835.611490,VS0,VE646',
+47 verbose headers   vary: 'Accept-Encoding, Accept' }
+48 silly get cb [ 304,
+48 silly get   { date: 'Wed, 19 Jul 2017 09:33:54 GMT',
+48 silly get     via: '1.1 varnish',
+48 silly get     'cache-control': 'max-age=300',
+48 silly get     etag: 'W/"595aa082-15acc"',
+48 silly get     age: '0',
+48 silly get     connection: 'keep-alive',
+48 silly get     'x-served-by': 'cache-sin18023-SIN',
+48 silly get     'x-cache': 'HIT',
+48 silly get     'x-cache-hits': '1',
+48 silly get     'x-timer': 'S1500456835.611490,VS0,VE646',
+48 silly get     vary: 'Accept-Encoding, Accept' } ]
+49 verbose etag http://registry.npmjs.org/angular-aria from cache
+50 verbose get saving angular-aria to C:\Users\u46877\AppData\Roaming\npm-cache\registry.npmjs.org\angular-aria\.cache.json
+51 verbose correctMkdir C:\Users\u46877\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+52 silly cache afterAdd angular-aria@1.6.5
+53 verbose afterAdd C:\Users\u46877\AppData\Roaming\npm-cache\angular-aria\1.6.5\package\package.json not in flight; writing
+54 verbose correctMkdir C:\Users\u46877\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+55 verbose afterAdd C:\Users\u46877\AppData\Roaming\npm-cache\angular-aria\1.6.5\package\package.json written
+56 silly install resolved [ { name: 'angular-aria',
+56 silly install resolved     version: '1.6.5',
+56 silly install resolved     description: 'AngularJS module for making accessibility easy',
+56 silly install resolved     main: 'index.js',
+56 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+56 silly install resolved     repository:
+56 silly install resolved      { type: 'git',
+56 silly install resolved        url: 'git+https://github.com/angular/angular.js.git' },
+56 silly install resolved     keywords:
+56 silly install resolved      [ 'angular',
+56 silly install resolved        'framework',
+56 silly install resolved        'browser',
+56 silly install resolved        'accessibility',
+56 silly install resolved        'a11y',
+56 silly install resolved        'client-side' ],
+56 silly install resolved     author:
+56 silly install resolved      { name: 'Angular Core Team',
+56 silly install resolved        email: 'angular-core+npm@google.com' },
+56 silly install resolved     license: 'MIT',
+56 silly install resolved     bugs: { url: 'https://github.com/angular/angular.js/issues' },
+56 silly install resolved     homepage: 'http://angularjs.org',
+56 silly install resolved     jspm: { shim: [Object] },
+56 silly install resolved     gitHead: '9af10d1ba174802c58a460d3c93aef1d80725964',
+56 silly install resolved     _id: 'angular-aria@1.6.5',
+56 silly install resolved     _shasum: '37d9d35349df57934968dc7e1679d97ea96f863c',
+56 silly install resolved     _from: 'angular-aria@1.6.5',
+56 silly install resolved     _npmVersion: '3.10.10',
+56 silly install resolved     _nodeVersion: '6.11.0',
+56 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+56 silly install resolved     dist:
+56 silly install resolved      { shasum: '37d9d35349df57934968dc7e1679d97ea96f863c',
+56 silly install resolved        tarball: 'https://registry.npmjs.org/angular-aria/-/angular-aria-1.6.5.tgz' },
+56 silly install resolved     maintainers: [ [Object], [Object] ],
+56 silly install resolved     _npmOperationalInternal:
+56 silly install resolved      { host: 's3://npm-registry-packages',
+56 silly install resolved        tmp: 'tmp/angular-aria-1.6.5.tgz_1499111554382_0.2555332260672003' },
+56 silly install resolved     directories: {},
+56 silly install resolved     _resolved: 'http://registry.npmjs.org/angular-aria/-/angular-aria-1.6.5.tgz',
+56 silly install resolved     readme: 'ERROR: No README data found!' } ]
+57 info install angular-aria@1.6.5 into D:\WORKS\NGGS
+58 info installOne angular-aria@1.6.5
+59 verbose installOne of angular-aria to D:\WORKS\NGGS not in flight; installing
+60 verbose correctMkdir C:\Users\u46877\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+61 verbose lock using C:\Users\u46877\AppData\Roaming\npm-cache\_locks\angular-aria-c9af133145dbafc3.lock for D:\WORKS\NGGS\node_modules\angular-aria
+62 silly install write writing angular-aria 1.6.5 to D:\WORKS\NGGS\node_modules\angular-aria
+63 verbose unbuild node_modules\angular-aria
+64 silly gentlyRm D:\WORKS\NGGS\node_modules\angular-aria is being purged from base D:\WORKS\NGGS
+65 verbose gentlyRm don't care about contents; nuking D:\WORKS\NGGS\node_modules\angular-aria
+66 verbose tar unpack C:\Users\u46877\AppData\Roaming\npm-cache\angular-aria\1.6.5\package.tgz
+67 verbose tar unpacking to D:\WORKS\NGGS\node_modules\angular-aria
+68 silly gentlyRm D:\WORKS\NGGS\node_modules\angular-aria is being purged
+69 verbose gentlyRm don't care about contents; nuking D:\WORKS\NGGS\node_modules\angular-aria
+70 silly gunzTarPerm modes [ '777', '666' ]
+71 silly gunzTarPerm extractEntry package.json
+72 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+75 silly gunzTarPerm extractEntry angular-aria.js
+76 silly gunzTarPerm modified mode [ 'angular-aria.js', 420, 438 ]
+77 silly gunzTarPerm extractEntry angular-aria.min.js
+78 silly gunzTarPerm modified mode [ 'angular-aria.min.js', 420, 438 ]
+79 silly gunzTarPerm extractEntry index.js
+80 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+81 silly gunzTarPerm extractEntry LICENSE.md
+82 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+83 silly gunzTarPerm extractEntry angular-aria.min.js.map
+84 silly gunzTarPerm modified mode [ 'angular-aria.min.js.map', 420, 438 ]
+85 silly gunzTarPerm extractEntry bower.json
+86 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+87 verbose write writing to D:\WORKS\NGGS\node_modules\angular-aria\package.json
+88 info preinstall angular-aria@1.6.5
+89 verbose readDependencies loading dependencies from D:\WORKS\NGGS\node_modules\angular-aria\package.json
+90 verbose readDependencies loading dependencies from D:\WORKS\NGGS\node_modules\angular-aria\package.json
+91 silly install resolved []
+92 verbose about to build D:\WORKS\NGGS\node_modules\angular-aria
+93 info build D:\WORKS\NGGS\node_modules\angular-aria
+94 info linkStuff angular-aria@1.6.5
+95 silly linkStuff angular-aria@1.6.5 has D:\WORKS\NGGS\node_modules as its parent node_modules
+96 verbose linkBins angular-aria@1.6.5
+97 verbose linkMans angular-aria@1.6.5
+98 verbose rebuildBundles angular-aria@1.6.5
+99 info install angular-aria@1.6.5
+100 info postinstall angular-aria@1.6.5
+101 verbose unlock done using C:\Users\u46877\AppData\Roaming\npm-cache\_locks\angular-aria-c9af133145dbafc3.lock for D:\WORKS\NGGS\node_modules\angular-aria
+102 verbose validateInstall loading D:\WORKS\NGGS\package.json for validation
+103 verbose stack Error: The package angular-aria@1.6.5 does not satisfy its siblings' peerDependencies requirements!
+103 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+103 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+103 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+103 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+103 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+103 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+103 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+103 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+103 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+103 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+104 verbose cwd D:\WORKS\NGGS
+105 error Windows_NT 6.1.7601
+106 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "angular-aria@1.6.5"
+107 error node v4.4.7
+108 error npm  v2.15.8
+109 error code EPEERINVALID
+110 error peerinvalid The package angular-aria@1.6.5 does not satisfy its siblings' peerDependencies requirements!
+110 error peerinvalid Peer angular-material@1.0.9 wants angular-aria@>=1.3 <1.6
+111 verbose exit [ 1, true ]

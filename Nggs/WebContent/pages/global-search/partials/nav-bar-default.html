@@ -1,0 +1,87 @@
+<md-content>
+    <md-toolbar class="md-hue-2">
+        <div class="md-toolbar-tools">
+            <h3>Attribute options</h3>
+        </div>
+    </md-toolbar>
+    <md-list>
+        <md-list-item>
+            <p>Show attributes with error</p>
+            <md-switch ng-model="gsvm.context.navbar.options.showErroredAttributes" class="md-primary" ng-change="gsvm.context.getAttributesWithErrors()"></md-switch>
+        </md-list-item>
+        <md-divider></md-divider>
+        <md-list-item>
+            <p>Show empty attributes</p>
+            <md-switch ng-model="gsvm.context.navbar.options.showEmptyAttributes" class="md-primary" ng-change="gsvm.context.getAttributesWithErrors()"></md-switch>
+        </md-list-item>
+        <md-divider></md-divider>
+        <md-list-item>
+            <p>Show all required attributes</p>
+            <md-switch ng-model="gsvm.context.navbar.options.showRequiredAttributes" class="md-primary" ng-change="gsvm.context.getRequiredAttributes()"></md-switch>
+        </md-list-item>
+        <md-divider></md-divider>
+        <md-list-item>
+            <p>Show all optional attributes</p>
+            <md-switch ng-model="gsvm.context.navbar.options.showOptionalAttributes" class="md-primary" ng-change="gsvm.context.getOptionalAttributes()"></md-switch>
+        </md-list-item>
+        <md-divider></md-divider>
+        <md-list-item>
+            <p>Show all attributes</p>
+            <md-switch ng-model="gsvm.context.navbar.options.showAllAttributes" class="md-primary" ng-change="gsvm.context.unloadTemplate()"></md-switch>
+        </md-list-item>
+        <md-divider></md-divider>
+    </md-list>
+    <md-toolbar class="md-hue-2">
+        <div class="md-toolbar-tools">
+            <h3>Toggle options</h3>
+        </div>
+    </md-toolbar>
+    <md-list>
+        <md-list-item>
+            <p>Expand all Groups</p>
+            <md-switch ng-model="gsvm.context.navbar.options.expandAllGroups" class="md-primary" ng-change="gsvm.context.expandAllGroups()"></md-switch>
+        </md-list-item>
+        <md-divider></md-divider>
+    </md-list>
+    <md-toolbar class="md-hue-2">
+        <div class="md-toolbar-tools">
+            <h3>Data Completeness</h3>
+        </div>
+    </md-toolbar>
+    <md-grid-list md-cols="2" md-row-height="1:1" md-gutter="5">
+        <md-grid-tile style="background: lightgray;" md-rowspan="1" md-colspan="1" ng-repeat="(key,value) in gsvm.context.navbar.dataCompleteness">
+            <div flex layout-align="start center" style="text-align: center" layout="column">
+                <a href="" ng-click="gsvm.context.navbar.showTab(key)">
+                    <div class="c100 p{{value}} small">
+                        <span>{{value}}%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <md-grid-tile-footer flex layout-align="center center" layout="row">
+                <div>
+                    <span ng-bind="key"></span>
+                </div>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+    </md-grid-list>
+    <!--<md-card>
+        <md-card-title layout-align="center">
+            <md-card-title-text>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content layout-align="center">
+            <div class="c100 p60 small">
+                <span>General - 60%</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <span class="md-headline">General</span>
+        </md-card-content>
+    </md-card>-->
+</md-content>

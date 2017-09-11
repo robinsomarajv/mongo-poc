@@ -1,0 +1,125 @@
+<md-content layout="row" flex="noshrink" layout-padding ng-cloak>
+    <md-content flex="75">
+        <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+            <div class="md-toolbar-tools">
+                <h4>
+                    <span>Recent items created by you</span>
+                </h4>
+                <span flex></span>
+                <a href="">
+                    <md-icon class="material-icons">settings</md-icon>
+                </a>
+            </div>
+        </md-toolbar>
+        <md-content layout-padding class="md-whiteframe-2dp">
+            <md-grid-list md-cols="7" md-row-height="1:1" md-gutter="10">
+                <md-grid-tile md-rowspan="{{item.tile.rowSpan}}" md-colspan="{{item.tile.colSpan}}" ng-repeat="item in homevm.context.data.recentItems">
+                    <md-content layout="row" layout-fill layout-padding class="md-whiteframe-3dp">
+                        <div ng-include src="item.tile.template" flex="100" style="margin: 0px;padding: 0px;">
+                        </div>
+                    </md-content>
+                    <md-grid-tile-footer style="background-color: #007dc4" layout-padding>
+                        <span ng-bind="::item.name"></span>
+                    </md-grid-tile-footer>
+                </md-grid-tile>
+            </md-grid-list>
+        </md-content>
+        <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading"  style="margin-top: 5px;">
+            <div class="md-toolbar-tools">
+                <h4>
+                    <span>Favorite Searches</span>
+                </h4>
+                <span flex></span>
+                <a href="">
+                    <md-icon class="material-icons">settings</md-icon>
+                </a>
+            </div>
+        </md-toolbar>
+        <md-content layout-padding="10" class="md-whiteframe-3dp">
+            <md-chips ng-model="homevm.context.data.favoriteSearches" flex  class="md-primary" md-on-select="homevm.context.search()">
+                <md-chip-template>
+                    <div>
+                        <strong>{{$chip}}</strong>
+                    </div>
+                </md-chip-template>
+            </md-chips>
+        </md-content>
+    </md-content>
+    <md-content class="md-whiteframe-3dp" flex="25">
+        <div class="sidebar-item-padding">
+            <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+                <div class="md-toolbar-tools">
+                    <h4>
+                        <span>Login Details</span>
+                    </h4>
+                    <span flex></span>
+                    <a href="">
+                        <md-icon class="material-icons">settings</md-icon>
+                    </a>
+                </div>
+            </md-toolbar>
+            <md-content layout-padding class="md-whiteframe-2dp">
+                <div><b>Last logged in:</b><span ng-bind="homevm.context.data.loginDetails.lastLoggedIn"></span></div>
+                <div><b>Duration: </b><span ng-bind="homevm.context.data.loginDetails.duration"></span></div>
+            </md-content>
+        </div>
+        <div class="sidebar-item-padding recent-activities">
+            <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+                <div class="md-toolbar-tools">
+                    <h4>
+                        <span>Recent Activities</span>
+                    </h4>
+                    <span flex></span>
+                    <a href="">
+                        <md-icon class="material-icons">settings</md-icon>
+                    </a>
+                </div>
+            </md-toolbar>
+            <md-content class="md-whiteframe-2dp">
+                <md-list flex>
+                    <div ng-repeat="activity in homevm.context.data.recentActivities">
+                        <md-list-item>
+                            <md-icon class="material-icons recent-activities-icon">label</md-icon>
+                            <p ng-bind="activity"></p>
+                        </md-list-item>
+                        <md-divider></md-divider>
+                    </div>
+                </md-list>
+            </md-content>
+        </div>
+        <div class="sidebar-item-padding">
+            <md-toolbar class="md-hue-1 md-whiteframe-5dp toolbar heading">
+                <div class="md-toolbar-tools">
+                    <h4>
+                        <span>Data Quality - Overall Scores</span>
+                    </h4>
+                    <span flex></span>
+                    <md-menu md-position-mode="target-right target">
+                        <md-button class="md-icon-button" ng-click="homevm.context.overAllDataQuality.showDataQualitySettings($mdOpenMenu, $event)">
+                            <md-tooltip>Settings for Data Quality</md-tooltip>
+                            <md-icon class="material-icons">settings</md-icon>
+                        </md-button>
+                        <md-menu-content width="4">
+                            <md-menu-item ng-repeat="template in homevm.context.userPreference.dashboard.overAllDataQuality.view.templates">
+                                <md-button ng-click="homevm.context.overAllDataQuality.setView(template)">
+                                    <md-icon class="material-icons">{{template.icon}}</md-icon>
+                                    {{template.name}} view
+                                </md-button>
+                            </md-menu-item>
+                            <md-menu-divider></md-menu-divider>
+                            <md-menu-item>
+                                <md-button ng-click="">
+                                    <md-icon class="material-icons">settings</md-icon>
+                                    Show all Data Quality settings
+                                </md-button>
+                            </md-menu-item>
+                        </md-menu-content>
+                    </md-menu>
+                </div>
+            </md-toolbar>
+            <md-content layout-padding class="md-whiteframe-2dp">
+                <div ng-include src="homevm.context.userPreference.dashboard.overAllDataQuality.view.selectedTemplate.url"></div>
+            </md-content>
+        </div>
+    </div>
+</md-content>
