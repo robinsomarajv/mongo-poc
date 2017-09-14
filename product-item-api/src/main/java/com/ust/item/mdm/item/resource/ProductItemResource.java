@@ -8,6 +8,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,11 +26,12 @@ import com.ust.item.mdm.model.Product;
 
 @RestController
 @RequestMapping(path = "/product")
+@CrossOrigin(origins = "*")
 public class ProductItemResource {
 
 	@Autowired
 	ProductService mongoProductService;
-	
+
 	@RequestMapping(method = RequestMethod.GET)
 	public @ResponseBody Collection<Product> searchProducts(@RequestParam(name = "attrName") String attr,
 			@RequestParam(name = "attrVal") String attrVal) {
@@ -40,14 +42,13 @@ public class ProductItemResource {
 	public @ResponseBody Collection<Attribute> getProduct(@PathVariable("pid") String pid)
 			throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException {
 		return mongoProductService.getProductById(pid);
-		
+
 	}
-	
+
 	@RequestMapping(path = "/summary", method = RequestMethod.GET)
-	public @ResponseBody Collection<ItemSummary<Product>> getProductSummary(@RequestParam(name = "attrName") String attr,
-			@RequestParam(name = "attrVal") String attrVal){
+	public @ResponseBody Collection<ItemSummary<Product>> getProductSummary(
+			@RequestParam(name = "attrName") String attr, @RequestParam(name = "attrVal") String attrVal) {
 		return mongoProductService.searchProductByAnyAttributeForSummary(attr, attrVal);
 	}
-	
 
 }

@@ -92,6 +92,12 @@
 			
             $http({
                 method: 'GET',
+                headers:{
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type, X-Requested-With',
+                    'X-Random-Shit':'123123123'
+                },
                 url: 'http://localhost:8080/product/summary',
 				params: requestParam
             }).then(function(response) {
@@ -110,6 +116,12 @@
                 },$http({
                 	
                 	method: 'GET',
+                	headers:{
+                        'Access-Control-Allow-Origin': '*',
+                        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                        'Access-Control-Allow-Headers': 'Content-Type, X-Requested-With',
+                        'X-Random-Shit':'123123123'
+                    },
                     url: 'http://localhost:8080/gtItem',
     				params: requestParamTrade
                 }).then(function(response) {
@@ -119,6 +131,12 @@
                     },$http({
                     	
                     	method: 'GET',
+                    	headers:{
+                            'Access-Control-Allow-Origin': '*',
+                            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                            'Access-Control-Allow-Headers': 'Content-Type, X-Requested-With',
+                            'X-Random-Shit':'123123123'
+                        },
                         url: 'http://localhost:8080/litem',
         				params: requestParamSupply
                     }).then(function(response) {

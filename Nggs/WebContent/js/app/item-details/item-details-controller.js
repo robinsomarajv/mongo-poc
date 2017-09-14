@@ -939,7 +939,14 @@
         function getItemProductAttributes(prodID) {
             return $http({
                 method: 'GET',
-                url: 'http://localhost:8080/product/'+prodID
+                headers:{
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type, X-Requested-With',
+                    'X-Random-Shit':'123123123'
+                },
+                url: 'http://localhost:8080/product/'+prodID,
+                
             }).then(
                 function(response) {
                     return processData(response.data);
@@ -951,6 +958,12 @@
         	//var pathParam = {"tradeItemGtin": gtin,"informationProviderId":informationProviderId,"informationProviderTypeCode":informationProviderTypeCode,"recipientGln":recipientGln,"targetMarketCode":targetMarketCode};
             return $http({
                 method: 'GET',
+                headers:{
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type, X-Requested-With',
+                    'X-Random-Shit':'123123123'
+                },
                 url: 'http://localhost:8080/gtItem/'+gtin
             }).then(
                 function(response) {
@@ -961,6 +974,12 @@
         function getSupplyItemProductAttributes(gtin) {
             return $http({
                 method: 'GET',
+                headers:{
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type, X-Requested-With',
+                    'X-Random-Shit':'123123123'
+                },
                 url: 'http://localhost:8080/litem/'+gtin
             }).then(
                 function(response) {

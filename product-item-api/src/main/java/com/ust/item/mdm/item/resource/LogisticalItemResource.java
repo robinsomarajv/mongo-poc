@@ -3,6 +3,7 @@ package com.ust.item.mdm.item.resource;
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,6 +18,7 @@ import com.ust.item.mdm.model.LogisticalItem;
 
 @RestController
 @RequestMapping(path = "/litem")
+@CrossOrigin(origins = "*")
 public class LogisticalItemResource {
 
 	@Autowired
