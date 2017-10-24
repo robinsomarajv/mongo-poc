@@ -24,6 +24,8 @@ import com.ust.item.mdm.model.GlobalTradeItemId;
 @RequestMapping(path = "/gtItem")
 @CrossOrigin(origins = "*")
 public class GlobalTradeItemResource {
+	
+	ObjectMapper mapper = new ObjectMapper();
 
 	@Autowired
 	GTItemService gtItemService;
@@ -39,7 +41,7 @@ public class GlobalTradeItemResource {
 	public @ResponseBody Collection<Attribute> getTIDetails(@PathVariable("tid") String tid)
 			throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, JsonParseException, JsonMappingException, IOException {
 		
-		return gtItemService.getGtItembyId(new ObjectMapper().readValue(tid, GlobalTradeItemId.class));
+		return gtItemService.getGtItembyId(mapper.readValue(tid, GlobalTradeItemId.class));
 	}
 
 }
